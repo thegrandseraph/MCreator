@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:embossed_tablet"
+    },
+    "1": {
+      "tag": "elements_of_tantalus:etchers"
+    },
+    "2": {
+      "item": "elements_of_tantalus:embossed_tablet"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    },
+    "4": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "elements_of_tantalus:embossed_tablet"
+    },
+    "7": {
+      "item": "minecraft:gold_block"
+    },
+    "8": {
+      "item": "elements_of_tantalus:embossed_tablet"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:embossed_inscription_table",
+    "count": 1
+  }
+}

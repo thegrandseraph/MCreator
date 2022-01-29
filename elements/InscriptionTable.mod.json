@@ -101,7 +101,7 @@
     "particleToSpawn": {
       "value": "ENCHANTMENT_TABLE"
     },
-    "particleSpawningShape": "Spread",
+    "particleSpawningShape": "Tube",
     "particleSpawningRadious": 0.19999999999999998,
     "particleAmount": 3,
     "hasInventory": false,

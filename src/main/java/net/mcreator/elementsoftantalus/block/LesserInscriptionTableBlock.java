@@ -50,13 +50,10 @@ public class LesserInscriptionTableBlock extends Block {
 		int y = pos.getY();
 		int z = pos.getZ();
 		for (int l = 0; l < 3; ++l) {
-			double x0 = x + random.nextFloat();
-			double y0 = y + random.nextFloat();
-			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 0.2D;
-			double dy = (random.nextFloat() - 0.5D) * 0.2D;
-			double dz = (random.nextFloat() - 0.5D) * 0.2D;
-			world.addParticle(ParticleTypes.ENCHANT, x0, y0, z0, dx, dy, dz);
+			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
+			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.2D * 100;
+			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
+			world.addParticle(ParticleTypes.ENCHANT, x0, y0, z0, 0, 0, 0);
 		}
 	}
 }

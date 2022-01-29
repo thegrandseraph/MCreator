@@ -807,6 +807,33 @@
       "locked_code": false,
       "registry_name": "astral_inscription_table",
       "path": "~/Tools/Inscription Table"
+    },
+    {
+      "name": "CraftInscriber2",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_inscriber_2",
+      "path": "~/Tools/Inscription Table"
+    },
+    {
+      "name": "CraftInscriber3",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_inscriber_3",
+      "path": "~/Tools/Inscription Table"
+    },
+    {
+      "name": "CraftInscriber4",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_inscriber_4",
+      "path": "~/Tools/Inscription Table"
     }
   ],
   "variable_elements": [],

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:StoneTablet"
       },
       {
         "value": "TAG:elements_of_tantalus:etchers"
       },
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:StoneTablet"
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:StoneTablet"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.IRON_BLOCK"
       },
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:StoneTablet"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LesserInscriptionTable"
+      "value": "CUSTOM:InscriptionTable"
     },
-    "name": "craft_inscriber_1",
+    "name": "craft_inscriber_2",
     "namespace": "mod"
   }
 }
