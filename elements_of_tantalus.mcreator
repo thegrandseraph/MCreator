@@ -1167,6 +1167,15 @@
       "locked_code": false,
       "registry_name": "clay_3",
       "path": "~/Resources/Stone/Clay"
+    },
+    {
+      "name": "InscriptionTableGUI",
+      "type": "gui",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscription_table_gui",
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
