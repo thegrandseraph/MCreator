@@ -3,7 +3,7 @@ package net.mcreator.elementsoftantalus.world.inventory;
 
 import net.mcreator.elementsoftantalus.ElementsOfTantalusMod;
 
-public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class InscriptionGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 
@@ -17,13 +17,13 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 
 	private boolean bound = false;
 
-	public Inscriber1GUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(ElementsOfTantalusModMenus.INSCRIBER_1_GUI, id);
+	public InscriptionGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(ElementsOfTantalusModMenus.INSCRIPTION_GUI, id);
 
 		this.entity = inv.player;
 		this.world = inv.player.level;
 
-		this.internal = new ItemStackHandler(9);
+		this.internal = new ItemStackHandler(3);
 
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -64,55 +64,13 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 			}
 		}
 
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 34, 17) {
 
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 34, 44) {
 
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 35) {
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 35) {
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 97, 35) {
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 70, 17) {
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 17) {
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 70, 53) {
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 88, 53) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 88, 26) {
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -143,18 +101,18 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
 
-			if (index < 9) {
-				if (!this.moveItemStackTo(itemstack1, 9, this.slots.size(), true)) {
+			if (index < 3) {
+				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true)) {
 					return ItemStack.EMPTY;
 				}
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 9, false)) {
-				if (index < 9 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 9 + 27, this.slots.size(), true)) {
+			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
+				if (index < 3 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 9, 9 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false)) {
 						return ItemStack.EMPTY;
 					}
 				}
