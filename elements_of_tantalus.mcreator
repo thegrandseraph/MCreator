@@ -1176,6 +1176,15 @@
       "locked_code": false,
       "registry_name": "inscription_table_gui",
       "path": "~/Tools"
+    },
+    {
+      "name": "InscriptionGUI",
+      "type": "gui",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscription_gui",
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
@@ -1196,12 +1205,12 @@
       "itemGroup.tabrunes": "Tantalus Runes",
       "item.elements_of_tantalus.fire_rune": "Fire Rune",
       "item.elements_of_tantalus.embossed_tablet": "Embossed Tablet",
-      "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
       "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
+      "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
-      "item.elements_of_tantalus.water_rune": "Water Rune",
       "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
+      "item.elements_of_tantalus.water_rune": "Water Rune",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
