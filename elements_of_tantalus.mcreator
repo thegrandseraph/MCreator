@@ -1131,6 +1131,15 @@
       "locked_code": false,
       "registry_name": "red_sand_4",
       "path": "~/Resources/Stone/RedSand"
+    },
+    {
+      "name": "Clay1",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay_1",
+      "path": "~/Resources/Stone/Clay"
     }
   ],
   "variable_elements": [],
@@ -1294,6 +1303,10 @@
               },
               {
                 "name": "RedSand",
+                "children": []
+              },
+              {
+                "name": "Clay",
                 "children": []
               }
             ]
