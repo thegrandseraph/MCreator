@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "2": {
+      "tag": "elements_of_tantalus:etchers"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:lesser_sacrifice_rune",
+    "count": 1
+  }
+}

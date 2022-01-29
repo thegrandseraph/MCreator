@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "elements_of_tantalus:flimsy_etcher",
+    "elements_of_tantalus:astral_etcher",
+    "elements_of_tantalus:masterwork_etcher",
+    "elements_of_tantalus:etcher"
+  ]
+}

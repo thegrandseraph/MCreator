@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:lesser_air_rune"
+    },
+    "1": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "2": {
+      "item": "elements_of_tantalus:lesser_fire_rune"
+    },
+    "3": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "4": {
+      "item": "elements_of_tantalus:dream_spark"
+    },
+    "5": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "6": {
+      "item": "elements_of_tantalus:lesser_water_rune"
+    },
+    "7": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "8": {
+      "item": "elements_of_tantalus:lesser_sacrifice_rune"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:light_spark",
+    "count": 1
+  }
+}

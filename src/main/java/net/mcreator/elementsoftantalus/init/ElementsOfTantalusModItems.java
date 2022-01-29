@@ -1,0 +1,116 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.elementsoftantalus.init;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
+
+import net.minecraft.world.item.Item;
+
+import net.mcreator.elementsoftantalus.item.WoodenTabletItem;
+import net.mcreator.elementsoftantalus.item.WaterRuneItem;
+import net.mcreator.elementsoftantalus.item.StoneTabletItem;
+import net.mcreator.elementsoftantalus.item.SkySparkItem;
+import net.mcreator.elementsoftantalus.item.SacrificeRuneItem;
+import net.mcreator.elementsoftantalus.item.MetalSparkItem;
+import net.mcreator.elementsoftantalus.item.MasterworkEtcherItem;
+import net.mcreator.elementsoftantalus.item.LightSparkItem;
+import net.mcreator.elementsoftantalus.item.LifeSparkItem;
+import net.mcreator.elementsoftantalus.item.LesserWaterRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserSacrificeRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserFireRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserEarthRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserDestructionRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserCreationRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserAirRuneItem;
+import net.mcreator.elementsoftantalus.item.FlimsyEtcherItem;
+import net.mcreator.elementsoftantalus.item.FireRuneItem;
+import net.mcreator.elementsoftantalus.item.EtcherItem;
+import net.mcreator.elementsoftantalus.item.EnergySparkItem;
+import net.mcreator.elementsoftantalus.item.EmbossedWaterRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedTabletItem;
+import net.mcreator.elementsoftantalus.item.EmbossedSacrificeRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedFireRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedEarthRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedDestructionRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedCreationRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedAirRuneItem;
+import net.mcreator.elementsoftantalus.item.EarthRuneItem;
+import net.mcreator.elementsoftantalus.item.DreamSparkItem;
+import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
+import net.mcreator.elementsoftantalus.item.DarkSparkItem;
+import net.mcreator.elementsoftantalus.item.CreationRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralWaterRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralTabletItem;
+import net.mcreator.elementsoftantalus.item.AstralSacrificeRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralFireRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralEtcherItem;
+import net.mcreator.elementsoftantalus.item.AstralDestructionRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralCreationRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralAirRuneItem;
+import net.mcreator.elementsoftantalus.item.AstraEarthRuneItem;
+import net.mcreator.elementsoftantalus.item.AirRuneItem;
+
+import java.util.List;
+import java.util.ArrayList;
+
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public class ElementsOfTantalusModItems {
+	private static final List<Item> REGISTRY = new ArrayList<>();
+	public static final Item FLIMSY_ETCHER = register(new FlimsyEtcherItem());
+	public static final Item ETCHER = register(new EtcherItem());
+	public static final Item MASTERWORK_ETCHER = register(new MasterworkEtcherItem());
+	public static final Item ASTRAL_ETCHER = register(new AstralEtcherItem());
+	public static final Item WOODEN_TABLET = register(new WoodenTabletItem());
+	public static final Item STONE_TABLET = register(new StoneTabletItem());
+	public static final Item EMBOSSED_TABLET = register(new EmbossedTabletItem());
+	public static final Item ASTRAL_TABLET = register(new AstralTabletItem());
+	public static final Item LESSER_EARTH_RUNE = register(new LesserEarthRuneItem());
+	public static final Item LESSER_AIR_RUNE = register(new LesserAirRuneItem());
+	public static final Item LESSER_FIRE_RUNE = register(new LesserFireRuneItem());
+	public static final Item LESSER_CREATION_RUNE = register(new LesserCreationRuneItem());
+	public static final Item LESSER_DESTRUCTION_RUNE = register(new LesserDestructionRuneItem());
+	public static final Item LESSER_SACRIFICE_RUNE = register(new LesserSacrificeRuneItem());
+	public static final Item EARTH_RUNE = register(new EarthRuneItem());
+	public static final Item AIR_RUNE = register(new AirRuneItem());
+	public static final Item FIRE_RUNE = register(new FireRuneItem());
+	public static final Item WATER_RUNE = register(new WaterRuneItem());
+	public static final Item CREATION_RUNE = register(new CreationRuneItem());
+	public static final Item DESTRUCTION_RUNE = register(new DestructionRuneItem());
+	public static final Item SACRIFICE_RUNE = register(new SacrificeRuneItem());
+	public static final Item EMBOSSED_AIR_RUNE = register(new EmbossedAirRuneItem());
+	public static final Item EMBOSSED_FIRE_RUNE = register(new EmbossedFireRuneItem());
+	public static final Item EMBOSSED_EARTH_RUNE = register(new EmbossedEarthRuneItem());
+	public static final Item EMBOSSED_WATER_RUNE = register(new EmbossedWaterRuneItem());
+	public static final Item EMBOSSED_CREATION_RUNE = register(new EmbossedCreationRuneItem());
+	public static final Item EMBOSSED_DESTRUCTION_RUNE = register(new EmbossedDestructionRuneItem());
+	public static final Item EMBOSSED_SACRIFICE_RUNE = register(new EmbossedSacrificeRuneItem());
+	public static final Item ASTRAL_AIR_RUNE = register(new AstralAirRuneItem());
+	public static final Item ASTRAL_FIRE_RUNE = register(new AstralFireRuneItem());
+	public static final Item ASTRA_EARTH_RUNE = register(new AstraEarthRuneItem());
+	public static final Item ASTRAL_WATER_RUNE = register(new AstralWaterRuneItem());
+	public static final Item ASTRAL_CREATION_RUNE = register(new AstralCreationRuneItem());
+	public static final Item ASTRAL_DESTRUCTION_RUNE = register(new AstralDestructionRuneItem());
+	public static final Item ASTRAL_SACRIFICE_RUNE = register(new AstralSacrificeRuneItem());
+	public static final Item DREAM_SPARK = register(new DreamSparkItem());
+	public static final Item METAL_SPARK = register(new MetalSparkItem());
+	public static final Item ENERGY_SPARK = register(new EnergySparkItem());
+	public static final Item LIFE_SPARK = register(new LifeSparkItem());
+	public static final Item SKY_SPARK = register(new SkySparkItem());
+	public static final Item LIGHT_SPARK = register(new LightSparkItem());
+	public static final Item DARK_SPARK = register(new DarkSparkItem());
+	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
+
+	private static Item register(Item item) {
+		REGISTRY.add(item);
+		return item;
+	}
+
+	@SubscribeEvent
+	public static void registerItems(RegistryEvent.Register<Item> event) {
+		event.getRegistry().registerAll(REGISTRY.toArray(new Item[0]));
+	}
+}

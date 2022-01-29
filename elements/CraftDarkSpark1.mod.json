@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LesserDestructionRune"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:LesserFireRune"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:DreamSpark"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:LesserSacrificeRune"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkSpark"
+    },
+    "name": "craft_dark_spark_1",
+    "namespace": "mod"
+  }
+}

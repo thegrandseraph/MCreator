@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:destruction_rune"
+    },
+    "1": {
+      "item": "elements_of_tantalus:stone_tablet"
+    },
+    "2": {
+      "item": "elements_of_tantalus:water_rune"
+    },
+    "3": {
+      "item": "elements_of_tantalus:stone_tablet"
+    },
+    "4": {
+      "item": "elements_of_tantalus:dream_spark"
+    },
+    "5": {
+      "item": "elements_of_tantalus:stone_tablet"
+    },
+    "6": {
+      "item": "elements_of_tantalus:earth_rune"
+    },
+    "7": {
+      "item": "elements_of_tantalus:stone_tablet"
+    },
+    "8": {
+      "item": "elements_of_tantalus:fire_rune"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:metal_spark",
+    "count": 4
+  }
+}

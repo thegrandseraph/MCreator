@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 32,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AstralDestructionRune"
+      },
+      {
+        "value": "CUSTOM:AstralTablet"
+      },
+      {
+        "value": "CUSTOM:AstralWaterRune"
+      },
+      {
+        "value": "CUSTOM:AstralTablet"
+      },
+      {
+        "value": "CUSTOM:DreamSpark"
+      },
+      {
+        "value": "CUSTOM:AstralTablet"
+      },
+      {
+        "value": "CUSTOM:AstraEarthRune"
+      },
+      {
+        "value": "CUSTOM:AstralTablet"
+      },
+      {
+        "value": "CUSTOM:AstralFireRune"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MetalSpark"
+    },
+    "name": "craft_m_spark_4",
+    "namespace": "mod"
+  }
+}

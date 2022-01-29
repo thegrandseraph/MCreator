@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LesserAirRune"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:LesserWaterRune"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:DreamSpark"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      },
+      {
+        "value": "CUSTOM:WoodenTablet"
+      },
+      {
+        "value": "CUSTOM:LesserSacrificeRune"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SkySpark"
+    },
+    "name": "craft_sky_spark_1",
+    "namespace": "mod"
+  }
+}

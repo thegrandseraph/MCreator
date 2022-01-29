@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FireRune"
+      },
+      {
+        "value": "CUSTOM:StoneTablet"
+      },
+      {
+        "value": "CUSTOM:AirRune"
+      },
+      {
+        "value": "CUSTOM:StoneTablet"
+      },
+      {
+        "value": "CUSTOM:DreamSpark"
+      },
+      {
+        "value": "CUSTOM:StoneTablet"
+      },
+      {
+        "value": "CUSTOM:FireRune"
+      },
+      {
+        "value": "CUSTOM:StoneTablet"
+      },
+      {
+        "value": "CUSTOM:CreationRune"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnergySpark"
+    },
+    "name": "craft_e_spark_2",
+    "namespace": "mod"
+  }
+}
