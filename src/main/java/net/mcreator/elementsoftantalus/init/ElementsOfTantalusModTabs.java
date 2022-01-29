@@ -18,7 +18,7 @@ public class ElementsOfTantalusModTabs {
 		TAB_ELEMENTS_OF_TANTALUS = new CreativeModeTab("tabelements_of_tantalus") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ElementsOfTantalusModItems.MASTERWORK_ETCHER);
+				return new ItemStack(ElementsOfTantalusModItems.DREAM_SPARK);
 			}
 
 			@OnlyIn(Dist.CLIENT)
