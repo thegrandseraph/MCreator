@@ -8,7 +8,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.elementsoftantalus.item.WoodenTabletItem;
 import net.mcreator.elementsoftantalus.item.WaterRuneItem;
@@ -103,10 +106,22 @@ public class ElementsOfTantalusModItems {
 	public static final Item LIGHT_SPARK = register(new LightSparkItem());
 	public static final Item DARK_SPARK = register(new DarkSparkItem());
 	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
+	public static final Item LESSER_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.LESSER_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item EMBOSSED_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.EMBOSSED_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item ASTRAL_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.ASTRAL_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
+	}
+
+	private static Item register(Block block, CreativeModeTab tab) {
+		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent

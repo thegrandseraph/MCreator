@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elements_of_tantalus:blocks/tablet3",
+    "up": "elements_of_tantalus:blocks/inscriber3top",
+    "north": "elements_of_tantalus:blocks/inscriber3side",
+    "east": "elements_of_tantalus:blocks/inscriber3side",
+    "south": "elements_of_tantalus:blocks/inscriber3side",
+    "west": "elements_of_tantalus:blocks/inscriber3side",
+    "particle": "elements_of_tantalus:blocks/tablet3"
+  }
+}
