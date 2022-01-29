@@ -1,8 +1,20 @@
 
 package net.mcreator.elementsoftantalus.client.gui;
 
-public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMenu> {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.Minecraft;
 
+import net.mcreator.elementsoftantalus.world.inventory.Inscriber1GUIMenu;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.blaze3d.systems.RenderSystem;
+
+public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -25,7 +37,6 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -33,7 +44,6 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
@@ -61,7 +71,7 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/waterrune1.png"));
 		this.blit(ms, this.leftPos + 87, this.topPos + 16, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/tablet1.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/tablet1a.png"));
 		this.blit(ms, this.leftPos + 141, this.topPos + 34, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
@@ -73,7 +83,6 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -95,9 +104,6 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 	@Override
 	public void init() {
 		super.init();
-
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-
 	}
-
 }

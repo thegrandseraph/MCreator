@@ -1181,7 +1181,7 @@
       "name": "InscriptionGUI",
       "type": "gui",
       "sortid": 155,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "inscription_gui",
       "path": "~/GUI"
@@ -1190,7 +1190,7 @@
       "name": "InscriptionTableGUI",
       "type": "gui",
       "sortid": 154,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "inscription_table_gui",
       "path": "~/Tools"

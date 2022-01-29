@@ -198,9 +198,9 @@
       {
         "type": "image",
         "data": {
-          "image": "tablet1.png",
+          "image": "tablet1a.png",
           "use1Xscale": false,
-          "name": "tablet1.png",
+          "name": "tablet1a.png",
           "x": 267,
           "y": 71
         }
@@ -211,7 +211,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }
