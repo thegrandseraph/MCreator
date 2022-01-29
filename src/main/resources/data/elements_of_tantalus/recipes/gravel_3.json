@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elements_of_tantalus:embossed_destruction_rune"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "elements_of_tantalus:embossed_destruction_rune"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gravel",
+    "count": 8
+  }
+}

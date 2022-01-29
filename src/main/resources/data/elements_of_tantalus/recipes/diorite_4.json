@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elements_of_tantalus:sky_spark"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "elements_of_tantalus:astra_earth_rune"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 32
+  }
+}

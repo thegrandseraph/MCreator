@@ -834,6 +834,303 @@
       "locked_code": false,
       "registry_name": "craft_inscriber_4",
       "path": "~/Tools/Inscription Table"
+    },
+    {
+      "name": "CraftTablet4",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tablet_4",
+      "path": "~/Tools/Tablets"
+    },
+    {
+      "name": "Cobble1",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_1",
+      "path": "~/Resources/Stone/Cobble"
+    },
+    {
+      "name": "Cobble2",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_2",
+      "path": "~/Resources/Stone/Cobble"
+    },
+    {
+      "name": "Cobble3",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_3",
+      "path": "~/Resources/Stone/Cobble"
+    },
+    {
+      "name": "Cobble4",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_4",
+      "path": "~/Resources/Stone/Cobble"
+    },
+    {
+      "name": "Diorite1",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_1",
+      "path": "~/Resources/Stone/Diorite"
+    },
+    {
+      "name": "Diorite2",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_2",
+      "path": "~/Resources/Stone/Diorite"
+    },
+    {
+      "name": "Diorite3",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_3",
+      "path": "~/Resources/Stone/Diorite"
+    },
+    {
+      "name": "Diorite4",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_4",
+      "path": "~/Resources/Stone/Diorite"
+    },
+    {
+      "name": "Andesite1",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_1",
+      "path": "~/Resources/Stone/Andesite"
+    },
+    {
+      "name": "Andesite2",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_2",
+      "path": "~/Resources/Stone/Andesite"
+    },
+    {
+      "name": "Andesite3",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_3",
+      "path": "~/Resources/Stone/Andesite"
+    },
+    {
+      "name": "Andesite4",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_4",
+      "path": "~/Resources/Stone/Andesite"
+    },
+    {
+      "name": "Granite1",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_1",
+      "path": "~/Resources/Stone/Granite"
+    },
+    {
+      "name": "Granite2",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_2",
+      "path": "~/Resources/Stone/Granite"
+    },
+    {
+      "name": "Granite3",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_3",
+      "path": "~/Resources/Stone/Granite"
+    },
+    {
+      "name": "Granite4",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_4",
+      "path": "~/Resources/Stone/Granite"
+    },
+    {
+      "name": "MossyCobble1",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobble_1",
+      "path": "~/Resources/Stone/MossyCobble"
+    },
+    {
+      "name": "MossyCobble2",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobble_2",
+      "path": "~/Resources/Stone/MossyCobble"
+    },
+    {
+      "name": "MossyCobble3",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobble_3",
+      "path": "~/Resources/Stone/MossyCobble"
+    },
+    {
+      "name": "MossyCobble4",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobble_4",
+      "path": "~/Resources/Stone/MossyCobble"
+    },
+    {
+      "name": "Gravel1",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_1",
+      "path": "~/Resources/Stone/Gravel"
+    },
+    {
+      "name": "Gravel2",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_2",
+      "path": "~/Resources/Stone/Gravel"
+    },
+    {
+      "name": "Gravel3",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_3",
+      "path": "~/Resources/Stone/Gravel"
+    },
+    {
+      "name": "Gravel4",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_4",
+      "path": "~/Resources/Stone/Gravel"
+    },
+    {
+      "name": "Sand1",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_1",
+      "path": "~/Resources/Stone/Sand"
+    },
+    {
+      "name": "Sand2",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_2",
+      "path": "~/Resources/Stone/Sand"
+    },
+    {
+      "name": "Sand3",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_3",
+      "path": "~/Resources/Stone/Sand"
+    },
+    {
+      "name": "Sand4",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_4",
+      "path": "~/Resources/Stone/Sand"
+    },
+    {
+      "name": "RedSand1",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sand_1",
+      "path": "~/Resources/Stone/RedSand"
+    },
+    {
+      "name": "RedSand2",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sand_2",
+      "path": "~/Resources/Stone/RedSand"
+    },
+    {
+      "name": "RedSand3",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sand_3",
+      "path": "~/Resources/Stone/RedSand"
+    },
+    {
+      "name": "RedSand4",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sand_4",
+      "path": "~/Resources/Stone/RedSand"
     }
   ],
   "variable_elements": [],
@@ -966,7 +1263,40 @@
         "children": [
           {
             "name": "Stone",
-            "children": []
+            "children": [
+              {
+                "name": "Cobble",
+                "children": []
+              },
+              {
+                "name": "Diorite",
+                "children": []
+              },
+              {
+                "name": "Andesite",
+                "children": []
+              },
+              {
+                "name": "Granite",
+                "children": []
+              },
+              {
+                "name": "MossyCobble",
+                "children": []
+              },
+              {
+                "name": "Gravel",
+                "children": []
+              },
+              {
+                "name": "Sand",
+                "children": []
+              },
+              {
+                "name": "RedSand",
+                "children": []
+              }
+            ]
           }
         ]
       }

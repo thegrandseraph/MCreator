@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elements_of_tantalus:embossed_earth_rune"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "elements_of_tantalus:embossed_water_rune"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_cobblestone",
+    "count": 8
+  }
+}
