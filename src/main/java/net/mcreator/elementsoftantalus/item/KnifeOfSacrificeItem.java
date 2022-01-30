@@ -13,10 +13,10 @@ import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModTabs;
 
 import java.util.List;
 
-public class EmbossedTantalusHeartItem extends Item {
-	public EmbossedTantalusHeartItem() {
+public class KnifeOfSacrificeItem extends Item {
+	public KnifeOfSacrificeItem() {
 		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS).stacksTo(64).rarity(Rarity.COMMON));
-		setRegistryName("embossed_tantalus_heart");
+		setRegistryName("knife_of_sacrifice");
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class EmbossedTantalusHeartItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("His heart hardened a little each day."));
-		list.add(new TextComponent("Will getting what you want harden yours?"));
+		list.add(new TextComponent("Tantalus never knew self sacrifice."));
+		list.add(new TextComponent("Perhaps you can teach him."));
 	}
 }

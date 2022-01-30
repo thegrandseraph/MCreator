@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SkySpark"
+      "value": "CUSTOM:KnifeOfSacrifice"
     },
     "name": "knife_crafting",
     "namespace": "mod"

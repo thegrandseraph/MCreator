@@ -6,17 +6,16 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModTabs;
-
 import java.util.List;
 
-public class EmbossedTantalusHeartItem extends Item {
-	public EmbossedTantalusHeartItem() {
-		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS).stacksTo(64).rarity(Rarity.COMMON));
-		setRegistryName("embossed_tantalus_heart");
+public class BottleOfBloodItem extends Item {
+	public BottleOfBloodItem() {
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON));
+		setRegistryName("bottle_of_blood");
 	}
 
 	@Override
@@ -27,7 +26,6 @@ public class EmbossedTantalusHeartItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("His heart hardened a little each day."));
-		list.add(new TextComponent("Will getting what you want harden yours?"));
+		list.add(new TextComponent("Evidence of your sacrifice."));
 	}
 }
