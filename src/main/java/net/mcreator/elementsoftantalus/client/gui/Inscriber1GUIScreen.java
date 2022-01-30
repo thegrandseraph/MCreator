@@ -47,29 +47,8 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/airrune1.png"));
-		this.blit(ms, this.leftPos + 69, this.topPos + 16, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/creationrune1.png"));
-		this.blit(ms, this.leftPos + 78, this.topPos + 34, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/destruction1.png"));
-		this.blit(ms, this.leftPos + 60, this.topPos + 34, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/earthrune1.png"));
-		this.blit(ms, this.leftPos + 87, this.topPos + 52, 0, 0, 16, 16, 16, 16);
-
 		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/etcher1.png"));
 		this.blit(ms, this.leftPos + 15, this.topPos + 34, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/firerune1.png"));
-		this.blit(ms, this.leftPos + 96, this.topPos + 34, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/sacrificerune1.png"));
-		this.blit(ms, this.leftPos + 69, this.topPos + 52, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/waterrune1.png"));
-		this.blit(ms, this.leftPos + 87, this.topPos + 16, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/tablet1a.png"));
 		this.blit(ms, this.leftPos + 141, this.topPos + 34, 0, 0, 16, 16, 16, 16);
@@ -94,6 +73,8 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Lesser Inscription Table", 24, 5, -12829636);
+		this.font.draw(poseStack, "Etcher", 9, 54, -12829636);
+		this.font.draw(poseStack, "Tablet", 134, 54, -12829636);
 	}
 
 	@Override
