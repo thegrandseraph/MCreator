@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:EmbossedTablet"
       },
       {
-        "value": "TAG:elements_of_tantalus:etchers"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:EmbossedTablet"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "CUSTOM:LesserTantalusHeart"
+        "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:EmbossedTablet"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
-        "value": "CUSTOM:WoodenTablet"
+        "value": "CUSTOM:EmbossedTablet"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LesserInscriptionTable"
+      "value": "CUSTOM:EmbossedTantalusHeart"
     },
-    "name": "craft_inscriber_1",
+    "name": "craft_heart_3",
     "namespace": "mod"
   }
 }

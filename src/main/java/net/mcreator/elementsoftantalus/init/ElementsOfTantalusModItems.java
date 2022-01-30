@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.elementsoftantalus.item.WoodenTabletItem;
 import net.mcreator.elementsoftantalus.item.WaterRuneItem;
+import net.mcreator.elementsoftantalus.item.TantalusHeartItem;
 import net.mcreator.elementsoftantalus.item.StoneTabletItem;
 import net.mcreator.elementsoftantalus.item.SkySparkItem;
 import net.mcreator.elementsoftantalus.item.SacrificeRuneItem;
@@ -23,6 +24,7 @@ import net.mcreator.elementsoftantalus.item.MasterworkEtcherItem;
 import net.mcreator.elementsoftantalus.item.LightSparkItem;
 import net.mcreator.elementsoftantalus.item.LifeSparkItem;
 import net.mcreator.elementsoftantalus.item.LesserWaterRuneItem;
+import net.mcreator.elementsoftantalus.item.LesserTantalusHeartItem;
 import net.mcreator.elementsoftantalus.item.LesserSacrificeRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserFireRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserEarthRuneItem;
@@ -34,6 +36,7 @@ import net.mcreator.elementsoftantalus.item.FireRuneItem;
 import net.mcreator.elementsoftantalus.item.EtcherItem;
 import net.mcreator.elementsoftantalus.item.EnergySparkItem;
 import net.mcreator.elementsoftantalus.item.EmbossedWaterRuneItem;
+import net.mcreator.elementsoftantalus.item.EmbossedTantalusHeartItem;
 import net.mcreator.elementsoftantalus.item.EmbossedTabletItem;
 import net.mcreator.elementsoftantalus.item.EmbossedSacrificeRuneItem;
 import net.mcreator.elementsoftantalus.item.EmbossedFireRuneItem;
@@ -49,6 +52,7 @@ import net.mcreator.elementsoftantalus.item.CreationRuneItem;
 import net.mcreator.elementsoftantalus.item.AstralWaterRuneItem;
 import net.mcreator.elementsoftantalus.item.AstralTabletItem;
 import net.mcreator.elementsoftantalus.item.AstralSacrificeRuneItem;
+import net.mcreator.elementsoftantalus.item.AstralHeartItem;
 import net.mcreator.elementsoftantalus.item.AstralFireRuneItem;
 import net.mcreator.elementsoftantalus.item.AstralEtcherItem;
 import net.mcreator.elementsoftantalus.item.AstralDestructionRuneItem;
@@ -114,6 +118,10 @@ public class ElementsOfTantalusModItems {
 			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
 	public static final Item ASTRAL_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.ASTRAL_INSCRIPTION_TABLE,
 			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_TANTALUS_HEART = register(new LesserTantalusHeartItem());
+	public static final Item TANTALUS_HEART = register(new TantalusHeartItem());
+	public static final Item EMBOSSED_TANTALUS_HEART = register(new EmbossedTantalusHeartItem());
+	public static final Item ASTRAL_HEART = register(new AstralHeartItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -22,7 +22,7 @@
         "value": "Items.DIAMOND"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:AstralHeart"
       },
       {
         "value": "Items.DIAMOND"
@@ -31,7 +31,7 @@
         "value": "CUSTOM:AstralTablet"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK"
+        "value": "Blocks.QUARTZ_BLOCK#3"
       },
       {
         "value": "CUSTOM:AstralTablet"

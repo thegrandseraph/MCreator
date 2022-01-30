@@ -10,19 +10,19 @@
       "item": "elements_of_tantalus:embossed_tablet"
     },
     "1": {
-      "tag": "elements_of_tantalus:etchers"
+      "item": "minecraft:gold_block"
     },
     "2": {
       "item": "elements_of_tantalus:embossed_tablet"
     },
     "3": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:gold_block"
     },
     "4": {
-      "item": "elements_of_tantalus:embossed_tantalus_heart"
+      "item": "minecraft:obsidian"
     },
     "5": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:gold_block"
     },
     "6": {
       "item": "elements_of_tantalus:embossed_tablet"
@@ -35,7 +35,7 @@
     }
   },
   "result": {
-    "item": "elements_of_tantalus:embossed_inscription_table",
+    "item": "elements_of_tantalus:embossed_tantalus_heart",
     "count": 1
   }
 }

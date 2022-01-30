@@ -10,32 +10,32 @@
       "item": "elements_of_tantalus:astral_tablet"
     },
     "1": {
-      "tag": "elements_of_tantalus:etchers"
+      "item": "minecraft:diamond_block"
     },
     "2": {
       "item": "elements_of_tantalus:astral_tablet"
     },
     "3": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:diamond_block"
     },
     "4": {
-      "item": "elements_of_tantalus:astral_heart"
+      "item": "minecraft:nether_star"
     },
     "5": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:diamond_block"
     },
     "6": {
       "item": "elements_of_tantalus:astral_tablet"
     },
     "7": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:diamond_block"
     },
     "8": {
       "item": "elements_of_tantalus:astral_tablet"
     }
   },
   "result": {
-    "item": "elements_of_tantalus:astral_inscription_table",
+    "item": "elements_of_tantalus:astral_heart",
     "count": 1
   }
 }

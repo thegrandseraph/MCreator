@@ -10,19 +10,19 @@
       "item": "elements_of_tantalus:stone_tablet"
     },
     "1": {
-      "tag": "elements_of_tantalus:etchers"
+      "item": "minecraft:iron_block"
     },
     "2": {
       "item": "elements_of_tantalus:stone_tablet"
     },
     "3": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_block"
     },
     "4": {
-      "item": "elements_of_tantalus:tantalus_heart"
+      "item": "minecraft:stone"
     },
     "5": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_block"
     },
     "6": {
       "item": "elements_of_tantalus:stone_tablet"
@@ -35,7 +35,7 @@
     }
   },
   "result": {
-    "item": "elements_of_tantalus:inscription_table",
+    "item": "elements_of_tantalus:tantalus_heart",
     "count": 1
   }
 }

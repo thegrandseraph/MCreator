@@ -13,34 +13,34 @@
         "value": "CUSTOM:WoodenTablet"
       },
       {
-        "value": "TAG:elements_of_tantalus:etchers"
+        "value": "Blocks.SAPLING"
       },
       {
         "value": "CUSTOM:WoodenTablet"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.SAPLING"
       },
       {
-        "value": "CUSTOM:LesserTantalusHeart"
+        "value": "Blocks.LOG"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.SAPLING"
       },
       {
         "value": "CUSTOM:WoodenTablet"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SAPLING"
       },
       {
         "value": "CUSTOM:WoodenTablet"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LesserInscriptionTable"
+      "value": "CUSTOM:LesserTantalusHeart"
     },
-    "name": "craft_inscriber_1",
+    "name": "craft_heart_1",
     "namespace": "mod"
   }
 }
