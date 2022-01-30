@@ -5,6 +5,9 @@ import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -18,15 +21,15 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.elementsoftantalus.network.Inscriber1GUISlotMessage;
+import net.mcreator.elementsoftantalus.procedures.Lesser1Procedure;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModMenus;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
-import net.mcreator.elementsoftantalus.ElementsOfTantalusMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -80,23 +83,11 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
 			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(0, 0, 0);
-			}
-
-			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return (ElementsOfTantalusModItems.FLIMSY_ETCHER == stack.getItem());
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
-			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(1, 0, 0);
-			}
-
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return (ElementsOfTantalusModItems.WOODEN_TABLET == stack.getItem());
@@ -313,14 +304,20 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 		}
 	}
 
-	private void slotChanged(int slotid, int ctype, int meta) {
-		if (this.world != null && this.world.isClientSide()) {
-			ElementsOfTantalusMod.PACKET_HANDLER.sendToServer(new Inscriber1GUISlotMessage(slotid, x, y, z, ctype, meta));
-			Inscriber1GUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
-		}
-	}
-
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof Inscriber1GUIMenu) {
+			Level world = entity.level;
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+
+			Lesser1Procedure.execute(entity);
+		}
 	}
 }

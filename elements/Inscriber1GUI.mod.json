@@ -19,9 +19,6 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "onSlotChanged": {
-            "name": "Lesser1"
-          },
           "name": "Slot #0",
           "x": 141,
           "y": 71
@@ -36,9 +33,6 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "onSlotChanged": {
-            "name": "Lesser1"
-          },
           "name": "Slot #1",
           "x": 267,
           "y": 71
@@ -181,6 +175,9 @@
         }
       }
     ],
+    "onTick": {
+      "name": "Lesser1"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
