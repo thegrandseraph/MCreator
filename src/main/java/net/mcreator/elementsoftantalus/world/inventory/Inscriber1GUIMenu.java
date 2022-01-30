@@ -22,8 +22,10 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.elementsoftantalus.procedures.Lesser1Procedure;
+import net.mcreator.elementsoftantalus.network.Inscriber1GUISlotMessage;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModMenus;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
+import net.mcreator.elementsoftantalus.ElementsOfTantalusMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -95,11 +97,23 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 35) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(2, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 35) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(3, 1, 0);
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -107,11 +121,23 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 97, 35) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(4, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 70, 17) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(5, 1, 0);
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -119,17 +145,35 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 17) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(6, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 70, 53) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(7, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 88, 53) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(8, 1, 0);
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -301,6 +345,13 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
+		}
+	}
+
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			ElementsOfTantalusMod.PACKET_HANDLER.sendToServer(new Inscriber1GUISlotMessage(slotid, x, y, z, ctype, meta));
+			Inscriber1GUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 
