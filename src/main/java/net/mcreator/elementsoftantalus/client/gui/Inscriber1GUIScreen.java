@@ -93,6 +93,7 @@ public class Inscriber1GUIScreen extends AbstractContainerScreen<Inscriber1GUIMe
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, "Lesser Inscription Table", 24, 5, -12829636);
 	}
 
 	@Override

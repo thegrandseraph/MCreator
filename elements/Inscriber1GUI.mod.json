@@ -28,7 +28,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:WoodenTablet"
           },
           "id": 1,
           "disableStackInteraction": false,
@@ -204,6 +204,19 @@
           "x": 267,
           "y": 71
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lesser Inscription Table",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Lesser Inscription Table",
+          "x": 150,
+          "y": 42
+        }
       }
     ],
     "gridSettings": {
@@ -211,7 +224,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

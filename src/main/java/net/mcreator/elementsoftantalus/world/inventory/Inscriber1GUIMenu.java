@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModMenus;
+import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -78,6 +79,10 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (ElementsOfTantalusModItems.WOODEN_TABLET == stack.getItem());
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 35) {
 			@Override
