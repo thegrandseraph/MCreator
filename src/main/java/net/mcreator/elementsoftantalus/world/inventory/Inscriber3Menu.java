@@ -5,6 +5,9 @@ import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -18,13 +21,17 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.elementsoftantalus.procedures.Embossed1Procedure;
+import net.mcreator.elementsoftantalus.network.Inscriber3SlotMessage;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModMenus;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
+import net.mcreator.elementsoftantalus.ElementsOfTantalusMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -77,10 +84,6 @@ public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Ma
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 35) {
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return (ElementsOfTantalusModItems.MASTERWORK_ETCHER == stack.getItem());
-			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
 			@Override
@@ -90,11 +93,23 @@ public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Ma
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 35) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(2, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 35) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(3, 1, 0);
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -102,11 +117,23 @@ public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Ma
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 97, 35) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(4, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 70, 17) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(5, 1, 0);
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -114,17 +141,35 @@ public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Ma
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 17) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(6, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 70, 53) {
 			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(7, 1, 0);
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 88, 53) {
+			@Override
+			public void onTake(Player entity, ItemStack stack) {
+				super.onTake(entity, stack);
+				slotChanged(8, 1, 0);
+			}
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -271,7 +316,27 @@ public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Ma
 		}
 	}
 
+	private void slotChanged(int slotid, int ctype, int meta) {
+		if (this.world != null && this.world.isClientSide()) {
+			ElementsOfTantalusMod.PACKET_HANDLER.sendToServer(new Inscriber3SlotMessage(slotid, x, y, z, ctype, meta));
+			Inscriber3SlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
+		}
+	}
+
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof Inscriber3Menu) {
+			Level world = entity.level;
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+
+			Embossed1Procedure.execute(entity);
+		}
 	}
 }
