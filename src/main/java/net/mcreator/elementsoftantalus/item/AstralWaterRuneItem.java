@@ -15,7 +15,7 @@ import java.util.List;
 
 public class AstralWaterRuneItem extends Item {
 	public AstralWaterRuneItem() {
-		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_RUNES).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_RUNES).stacksTo(1).rarity(Rarity.COMMON));
 		setRegistryName("astral_water_rune");
 	}
 
