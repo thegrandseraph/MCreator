@@ -47,10 +47,10 @@ public class Inscriber2GuiScreen extends AbstractContainerScreen<Inscriber2GuiMe
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/etcher1.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/etcher2.png"));
 		this.blit(ms, this.leftPos + 15, this.topPos + 34, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/tablet1a.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/tablet2.png"));
 		this.blit(ms, this.leftPos + 141, this.topPos + 34, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
@@ -72,7 +72,7 @@ public class Inscriber2GuiScreen extends AbstractContainerScreen<Inscriber2GuiMe
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Lesser Inscription Table", 24, 5, -12829636);
+		this.font.draw(poseStack, "Inscription Table", 41, 4, -12829636);
 		this.font.draw(poseStack, "Etcher", 9, 54, -12829636);
 		this.font.draw(poseStack, "Tablet", 134, 54, -12829636);
 	}
