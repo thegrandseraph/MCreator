@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "heart4",
     "customModelName": "Normal",
-    "name": "Astral Heart",
+    "name": "Astral Heart - Unactualized",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ElementsOfTantalus"
@@ -28,7 +28,7 @@
       "Did he ever regret his actions.",
       "He will never be able to ascend as you can."
     ],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

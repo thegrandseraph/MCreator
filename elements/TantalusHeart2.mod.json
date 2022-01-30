@@ -3,31 +3,31 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "firerune3",
+    "texture": "heart2",
     "customModelName": "Normal",
-    "name": "Gilded Fire Rune",
+    "name": "Tantalus Heart - Actualized",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Runes"
+      "value": "CUSTOM:ElementsOfTantalus"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 8,
+    "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
-    "damageOnCrafting": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "A gilded rune bearing the symbol for Fire"
+      "Bears a trifle of the power of Tantalus."
     ],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

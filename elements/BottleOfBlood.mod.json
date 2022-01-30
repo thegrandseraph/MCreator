@@ -3,29 +3,29 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "firerune3",
+    "texture": "blood",
     "customModelName": "Normal",
-    "name": "Gilded Fire Rune",
+    "name": "Bottle Of Blood",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Runes"
+      "value": "MISC"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 8,
+    "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
-    "damageOnCrafting": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "A gilded rune bearing the symbol for Fire"
+      "Evidence of your sacrifice."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
