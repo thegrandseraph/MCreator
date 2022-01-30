@@ -14,7 +14,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Etcher"
           },
           "id": 0,
           "disableStackInteraction": false,
