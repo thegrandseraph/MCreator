@@ -17,7 +17,16 @@ public class Lesser1Procedure {
 		double SlotsFilled = 0;
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.FLIMSY_ETCHER) {
+				: ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.FLIMSY_ETCHER
+				|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+								.getItem() == ElementsOfTantalusModItems.ETCHER
+				|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+								.getItem() == ElementsOfTantalusModItems.MASTERWORK_ETCHER
+				|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
+								.getItem() == ElementsOfTantalusModItems.ASTRAL_ETCHER) {
 			SlotsFilled = SlotsFilled + 1;
 		}
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
