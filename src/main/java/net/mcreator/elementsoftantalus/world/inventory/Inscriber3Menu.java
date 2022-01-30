@@ -81,7 +81,7 @@ public class Inscriber3Menu extends AbstractContainerMenu implements Supplier<Ma
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (ElementsOfTantalusModItems.WOODEN_TABLET == stack.getItem());
+				return (ElementsOfTantalusModItems.EMBOSSED_TABLET == stack.getItem());
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 35) {

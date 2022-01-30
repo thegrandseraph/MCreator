@@ -28,7 +28,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:WoodenTablet"
+            "value": "CUSTOM:EmbossedTablet"
           },
           "id": 1,
           "disableStackInteraction": false,
