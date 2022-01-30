@@ -1356,21 +1356,146 @@
       "path": "~/Procedures/InscriptionTable"
     },
     {
+      "name": "OnEmbossedRightClick",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_embossed_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/EmbossedInscriptionTable"
+    },
+    {
+      "name": "EmbossedMain",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "embossed_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/EmbossedInscriptionTable"
+    },
+    {
+      "name": "Embossed1",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "embossed_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/EmbossedInscriptionTable"
+    },
+    {
+      "name": "AstralMain",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/AstralInscriptionTable"
+    },
+    {
+      "name": "OnAstralRightClick",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_astral_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/AstralInscriptionTable"
+    },
+    {
+      "name": "Astral1",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/AstralInscriptionTable"
+    },
+    {
       "name": "LesserTantalusHeart",
       "type": "item",
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_tantalus_heart",
-      "path": "~/Tools/Inscription Table/Hearts"
-    },
-    {
-      "name": "CraftHeart1",
-      "type": "recipe",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_heart_1",
       "path": "~/Tools/Inscription Table/Hearts"
     },
     {
@@ -1383,21 +1508,30 @@
       "path": "~/Tools/Inscription Table/Hearts"
     },
     {
+      "name": "CraftHeart1",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_heart_1",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "CraftHeart3",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_heart_3",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
       "name": "CraftHeart2",
       "type": "recipe",
       "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_heart_2",
-      "path": "~/Tools/Inscription Table/Hearts"
-    },
-    {
-      "name": "EmbossedTantalusHeart",
-      "type": "item",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "embossed_tantalus_heart",
       "path": "~/Tools/Inscription Table/Hearts"
     },
     {
@@ -1410,12 +1544,12 @@
       "path": "~/Tools/Inscription Table/Hearts"
     },
     {
-      "name": "CraftHeart3",
-      "type": "recipe",
-      "sortid": 168,
+      "name": "EmbossedTantalusHeart",
+      "type": "item",
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_heart_3",
+      "registry_name": "embossed_tantalus_heart",
       "path": "~/Tools/Inscription Table/Hearts"
     },
     {
@@ -1559,6 +1693,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Misc",
+            "children": []
           }
         ]
       },
@@ -1566,11 +1704,19 @@
         "name": "Procedures",
         "children": [
           {
+            "name": "AstralInscriptionTable",
+            "children": []
+          },
+          {
             "name": "LesserInscriptionTable",
             "children": []
           },
           {
             "name": "InscriptionTable",
+            "children": []
+          },
+          {
+            "name": "EmbossedInscriptionTable",
             "children": []
           }
         ]
