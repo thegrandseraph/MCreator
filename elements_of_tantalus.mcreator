@@ -1178,13 +1178,80 @@
       "path": "~/GUI"
     },
     {
-      "name": "InscriptionTableGUI",
-      "type": "gui",
-      "sortid": 154,
+      "name": "LesserMain",
+      "type": "procedure",
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inscription_table_gui",
-      "path": "~/Tools"
+      "registry_name": "lesser_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "Lesser1",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "OnLesserRightClick",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_lesser_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "LesserTableOpen",
+      "type": "tag",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_table_open",
+      "path": "~/Procedures/LesserInscriptionTable"
     }
   ],
   "variable_elements": [],
@@ -1205,12 +1272,12 @@
       "itemGroup.tabrunes": "Tantalus Runes",
       "item.elements_of_tantalus.fire_rune": "Fire Rune",
       "item.elements_of_tantalus.embossed_tablet": "Embossed Tablet",
-      "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
       "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
+      "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
-      "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
       "item.elements_of_tantalus.water_rune": "Water Rune",
+      "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
@@ -1314,7 +1381,12 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "LesserInscriptionTable",
+            "children": []
+          }
+        ]
       },
       {
         "name": "GUI",

@@ -19,6 +19,9 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Lesser1"
+          },
           "name": "Slot #0",
           "x": 141,
           "y": 71
@@ -33,6 +36,9 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Lesser1"
+          },
           "name": "Slot #1",
           "x": 267,
           "y": 71
@@ -43,7 +49,7 @@
         "data": {
           "id": 2,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #2",
           "x": 204,
           "y": 71
@@ -54,7 +60,7 @@
         "data": {
           "id": 3,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #3",
           "x": 186,
           "y": 71
@@ -65,7 +71,7 @@
         "data": {
           "id": 4,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #4",
           "x": 222,
           "y": 71
@@ -76,7 +82,7 @@
         "data": {
           "id": 5,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #5",
           "x": 195,
           "y": 53
@@ -87,7 +93,7 @@
         "data": {
           "id": 6,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #6",
           "x": 213,
           "y": 53
@@ -98,7 +104,7 @@
         "data": {
           "id": 7,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #7",
           "x": 195,
           "y": 89
@@ -109,7 +115,7 @@
         "data": {
           "id": 8,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #8",
           "x": 213,
           "y": 89
