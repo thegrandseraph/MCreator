@@ -84,6 +84,11 @@ public class Inscriber1GUIMenu extends AbstractContainerMenu implements Supplier
 				super.setChanged();
 				slotChanged(0, 0, 0);
 			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (ElementsOfTantalusModItems.FLIMSY_ETCHER == stack.getItem());
+			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 142, 35) {
 			@Override
