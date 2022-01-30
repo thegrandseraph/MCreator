@@ -15,7 +15,7 @@ import java.util.List;
 
 public class LesserAirRuneItem extends Item {
 	public LesserAirRuneItem() {
-		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_RUNES).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_RUNES).stacksTo(1).rarity(Rarity.COMMON));
 		setRegistryName("lesser_air_rune");
 	}
 

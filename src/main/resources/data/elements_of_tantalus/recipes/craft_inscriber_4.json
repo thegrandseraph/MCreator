@@ -19,7 +19,7 @@
       "item": "minecraft:diamond"
     },
     "4": {
-      "item": "minecraft:nether_star"
+      "item": "elements_of_tantalus:astral_heart"
     },
     "5": {
       "item": "minecraft:diamond"
@@ -28,7 +28,7 @@
       "item": "elements_of_tantalus:astral_tablet"
     },
     "7": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:quartz_block"
     },
     "8": {
       "item": "elements_of_tantalus:astral_tablet"

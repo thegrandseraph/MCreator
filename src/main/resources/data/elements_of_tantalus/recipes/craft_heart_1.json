@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "1": {
+      "tag": "minecraft:saplings"
+    },
+    "2": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "3": {
+      "tag": "minecraft:saplings"
+    },
+    "4": {
+      "item": "minecraft:oak_log"
+    },
+    "5": {
+      "tag": "minecraft:saplings"
+    },
+    "6": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    },
+    "7": {
+      "tag": "minecraft:saplings"
+    },
+    "8": {
+      "item": "elements_of_tantalus:wooden_tablet"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:lesser_tantalus_heart",
+    "count": 1
+  }
+}

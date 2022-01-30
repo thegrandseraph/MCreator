@@ -1356,40 +1356,6 @@
       "path": "~/Procedures/InscriptionTable"
     },
     {
-      "name": "Embossed1",
-      "type": "procedure",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "embossed_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/EmbossedInscriptionTable"
-    },
-    {
-      "name": "EmbossedMain",
-      "type": "procedure",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "embossed_main",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/EmbossedInscriptionTable"
-    },
-    {
       "name": "OnEmbossedRightClick",
       "type": "procedure",
       "sortid": 164,
@@ -1423,12 +1389,12 @@
       "path": "~/Procedures/EmbossedInscriptionTable"
     },
     {
-      "name": "Astral1",
+      "name": "EmbossedMain",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "astral_1",
+      "registry_name": "embossed_main",
       "metadata": {
         "dependencies": [
           {
@@ -1437,7 +1403,24 @@
           }
         ]
       },
-      "path": "~/Procedures/AstralInscriptionTable"
+      "path": "~/Procedures/EmbossedInscriptionTable"
+    },
+    {
+      "name": "Embossed1",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "embossed_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/EmbossedInscriptionTable"
     },
     {
       "name": "AstralMain",
@@ -1488,6 +1471,95 @@
         ]
       },
       "path": "~/Procedures/AstralInscriptionTable"
+    },
+    {
+      "name": "Astral1",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/AstralInscriptionTable"
+    },
+    {
+      "name": "LesserTantalusHeart",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_tantalus_heart",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "TantalusHeart",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalus_heart",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "CraftHeart1",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_heart_1",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "CraftHeart3",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_heart_3",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "CraftHeart2",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_heart_2",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "AstralHeart",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_heart",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "EmbossedTantalusHeart",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "embossed_tantalus_heart",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "CraftHeart4",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_heart_4",
+      "path": "~/Tools/Inscription Table/Hearts"
     }
   ],
   "variable_elements": [],
@@ -1508,12 +1580,12 @@
       "itemGroup.tabrunes": "Tantalus Runes",
       "item.elements_of_tantalus.fire_rune": "Fire Rune",
       "item.elements_of_tantalus.embossed_tablet": "Embossed Tablet",
-      "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
       "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
+      "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
-      "item.elements_of_tantalus.water_rune": "Water Rune",
       "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
+      "item.elements_of_tantalus.water_rune": "Water Rune",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
@@ -1553,7 +1625,12 @@
         "children": [
           {
             "name": "Inscription Table",
-            "children": []
+            "children": [
+              {
+                "name": "Hearts",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Tablets",
@@ -1619,6 +1696,10 @@
         "name": "Procedures",
         "children": [
           {
+            "name": "AstralInscriptionTable",
+            "children": []
+          },
+          {
             "name": "LesserInscriptionTable",
             "children": []
           },
@@ -1628,10 +1709,6 @@
           },
           {
             "name": "EmbossedInscriptionTable",
-            "children": []
-          },
-          {
-            "name": "AstralInscriptionTable",
             "children": []
           }
         ]
