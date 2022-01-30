@@ -1194,6 +1194,24 @@
       "locked_code": false,
       "registry_name": "inscriber_2_gui",
       "path": "~/GUI"
+    },
+    {
+      "name": "Inscriber3",
+      "type": "gui",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscriber_3",
+      "path": "~/GUI"
+    },
+    {
+      "name": "Inscriber4",
+      "type": "gui",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscriber_4",
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
