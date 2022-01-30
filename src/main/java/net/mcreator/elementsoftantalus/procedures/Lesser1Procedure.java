@@ -1,14 +1,6 @@
 package net.mcreator.elementsoftantalus.procedures;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
-
-import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
-
-import java.util.function.Supplier;
-import java.util.Map;
+import net.minecraftforge.eventbus.api.Event;
 
 public class Lesser1Procedure {
 	public static void execute(Entity entity) {

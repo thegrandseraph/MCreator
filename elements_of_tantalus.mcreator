@@ -1178,12 +1178,12 @@
       "path": "~/GUI"
     },
     {
-      "name": "LesserMain",
+      "name": "Lesser1",
       "type": "procedure",
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lesser_main",
+      "registry_name": "lesser_1",
       "metadata": {
         "dependencies": [
           {
@@ -1195,12 +1195,21 @@
       "path": "~/Procedures/LesserInscriptionTable"
     },
     {
-      "name": "Lesser1",
+      "name": "LesserTableOpen",
+      "type": "tag",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_table_open",
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "LesserMain",
       "type": "procedure",
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lesser_1",
+      "registry_name": "lesser_main",
       "metadata": {
         "dependencies": [
           {
@@ -1245,13 +1254,31 @@
       "path": "~/Procedures/LesserInscriptionTable"
     },
     {
-      "name": "LesserTableOpen",
-      "type": "tag",
-      "sortid": 158,
+      "name": "Inscriber4",
+      "type": "gui",
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lesser_table_open",
-      "path": "~/Procedures/LesserInscriptionTable"
+      "registry_name": "inscriber_4",
+      "path": "~/GUI"
+    },
+    {
+      "name": "Inscriber3",
+      "type": "gui",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscriber_3",
+      "path": "~/GUI"
+    },
+    {
+      "name": "Inscriber2Gui",
+      "type": "gui",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscriber_2_gui",
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
