@@ -1614,6 +1614,23 @@
       "locked_code": false,
       "registry_name": "embossed_heart_2",
       "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "SelfSacrifce",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_sacrifce",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
