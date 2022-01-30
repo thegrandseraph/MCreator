@@ -1185,6 +1185,15 @@
       "locked_code": false,
       "registry_name": "inscription_table_gui",
       "path": "~/Tools"
+    },
+    {
+      "name": "Inscriber2Gui",
+      "type": "gui",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscriber_2_gui",
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
