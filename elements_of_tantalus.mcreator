@@ -1569,6 +1569,23 @@
       "locked_code": false,
       "registry_name": "knife_crafting",
       "path": "~/Tools/Misc"
+    },
+    {
+      "name": "SelfSacrifce",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_sacrifce",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
