@@ -1178,21 +1178,88 @@
       "path": "~/GUI"
     },
     {
-      "name": "InscriptionTableGUI",
-      "type": "gui",
-      "sortid": 154,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "inscription_table_gui",
-      "path": "~/Tools"
-    },
-    {
-      "name": "Inscriber2Gui",
-      "type": "gui",
+      "name": "Lesser1",
+      "type": "procedure",
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inscriber_2_gui",
+      "registry_name": "lesser_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "LesserTableOpen",
+      "type": "tag",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_table_open",
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "LesserMain",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "OnLesserRightClick",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_lesser_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/LesserInscriptionTable"
+    },
+    {
+      "name": "Inscriber4",
+      "type": "gui",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inscriber_4",
       "path": "~/GUI"
     },
     {
@@ -1205,12 +1272,12 @@
       "path": "~/GUI"
     },
     {
-      "name": "Inscriber4",
+      "name": "Inscriber2Gui",
       "type": "gui",
-      "sortid": 157,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "inscriber_4",
+      "registry_name": "inscriber_2_gui",
       "path": "~/GUI"
     }
   ],
@@ -1341,7 +1408,12 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "LesserInscriptionTable",
+            "children": []
+          }
+        ]
       },
       {
         "name": "GUI",
