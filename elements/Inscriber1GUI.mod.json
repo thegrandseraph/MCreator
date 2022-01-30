@@ -20,7 +20,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "OnSlotContentsChange"
+            "name": "Lesser1"
           },
           "name": "Slot #0",
           "x": 141,
@@ -37,7 +37,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "OnSlotContentsChange"
+            "name": "Lesser1"
           },
           "name": "Slot #1",
           "x": 267,

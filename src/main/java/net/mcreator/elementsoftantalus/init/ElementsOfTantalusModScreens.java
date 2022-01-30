@@ -14,6 +14,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber4Screen;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber3Screen;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber2GuiScreen;
+import net.mcreator.elementsoftantalus.client.gui.Inscriber1GUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ElementsOfTantalusModScreens {

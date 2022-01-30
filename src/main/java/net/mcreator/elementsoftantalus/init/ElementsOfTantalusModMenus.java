@@ -15,6 +15,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber4Menu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber3Menu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber2GuiMenu;
+import net.mcreator.elementsoftantalus.world.inventory.Inscriber1GUIMenu;
 
 import java.util.List;
 import java.util.ArrayList;

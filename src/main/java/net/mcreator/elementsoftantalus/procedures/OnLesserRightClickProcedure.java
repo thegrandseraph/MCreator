@@ -14,6 +14,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.elementsoftantalus.world.inventory.Inscriber1GUIMenu;
+
 import io.netty.buffer.Unpooled;
 
 public class OnLesserRightClickProcedure {
