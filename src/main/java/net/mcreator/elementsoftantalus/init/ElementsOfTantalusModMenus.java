@@ -13,7 +13,6 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.elementsoftantalus.world.inventory.InscriptionTableGUIMenu;
-import net.mcreator.elementsoftantalus.world.inventory.InscriptionGUIMenu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber1GUIMenu;
 
 import java.util.List;
@@ -26,8 +25,6 @@ public class ElementsOfTantalusModMenus {
 			(id, inv, extraData) -> new Inscriber1GUIMenu(id, inv, extraData));
 	public static final MenuType<InscriptionTableGUIMenu> INSCRIPTION_TABLE_GUI = register("inscription_table_gui",
 			(id, inv, extraData) -> new InscriptionTableGUIMenu(id, inv, extraData));
-	public static final MenuType<InscriptionGUIMenu> INSCRIPTION_GUI = register("inscription_gui",
-			(id, inv, extraData) -> new InscriptionGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

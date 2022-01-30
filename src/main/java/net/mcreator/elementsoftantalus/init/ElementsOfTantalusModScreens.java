@@ -12,7 +12,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.elementsoftantalus.client.gui.InscriptionTableGUIScreen;
-import net.mcreator.elementsoftantalus.client.gui.InscriptionGUIScreen;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber1GUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -22,7 +21,6 @@ public class ElementsOfTantalusModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_1_GUI, Inscriber1GUIScreen::new);
 			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIPTION_TABLE_GUI, InscriptionTableGUIScreen::new);
-			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIPTION_GUI, InscriptionGUIScreen::new);
 		});
 	}
 }
