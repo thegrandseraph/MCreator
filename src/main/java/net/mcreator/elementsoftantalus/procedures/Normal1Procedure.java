@@ -10,17 +10,14 @@ import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
 import java.util.function.Supplier;
 import java.util.Map;
 
-public class Lesser1Procedure {
+public class Normal1Procedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		double SlotsFilled = 0;
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.FLIMSY_ETCHER
-				|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
-						&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-								.getItem() == ElementsOfTantalusModItems.ETCHER
+				: ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.ETCHER
 				|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get()instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
 								.getItem() == ElementsOfTantalusModItems.MASTERWORK_ETCHER
@@ -31,11 +28,11 @@ public class Lesser1Procedure {
 		}
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get()instanceof Map _slt
 				? ((Slot) _slt.get(1)).getItem()
-				: ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.WOODEN_TABLET) {
+				: ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.STONE_TABLET) {
 			SlotsFilled = SlotsFilled + 1;
 		}
 		if (SlotsFilled == 2) {
-			LesserMainProcedure.execute(entity);
+			NormalMainProcedure.execute(entity);
 		} else if (SlotsFilled < 2) {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get()instanceof Map _slots) {
 				((Slot) _slots.get(2)).set(ItemStack.EMPTY);

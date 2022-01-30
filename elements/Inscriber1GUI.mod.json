@@ -14,7 +14,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:FlimsyEtcher"
+            "value": ""
           },
           "id": 0,
           "disableStackInteraction": false,

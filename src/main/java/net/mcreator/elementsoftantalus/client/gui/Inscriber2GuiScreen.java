@@ -73,7 +73,7 @@ public class Inscriber2GuiScreen extends AbstractContainerScreen<Inscriber2GuiMe
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Inscription Table", 41, 4, -12829636);
-		this.font.draw(poseStack, "Etcher", 9, 54, -12829636);
+		this.font.draw(poseStack, "Etcher", 7, 54, -12829636);
 		this.font.draw(poseStack, "Tablet", 134, 54, -12829636);
 	}
 

@@ -1286,7 +1286,74 @@
           }
         ]
       },
-      "path": "~/Procedures/LesserInscriptionTable"
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Normal1",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/InscriptionTable"
+    },
+    {
+      "name": "NormalMain",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/InscriptionTable"
+    },
+    {
+      "name": "OnNormalRightClick",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_normal_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/InscriptionTable"
     }
   ],
   "variable_elements": [],
@@ -1307,12 +1374,12 @@
       "itemGroup.tabrunes": "Tantalus Runes",
       "item.elements_of_tantalus.fire_rune": "Fire Rune",
       "item.elements_of_tantalus.embossed_tablet": "Embossed Tablet",
-      "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
       "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
+      "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
-      "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
       "item.elements_of_tantalus.water_rune": "Water Rune",
+      "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
@@ -1419,6 +1486,10 @@
         "children": [
           {
             "name": "LesserInscriptionTable",
+            "children": []
+          },
+          {
+            "name": "InscriptionTable",
             "children": []
           }
         ]
