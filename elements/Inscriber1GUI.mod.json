@@ -1,0 +1,230 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:WoodenTablet"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 267,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 195,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 213,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "airrune1.png",
+          "use1Xscale": false,
+          "name": "airrune1.png",
+          "x": 195,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "creationrune1.png",
+          "use1Xscale": false,
+          "name": "creationrune1.png",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "destruction1.png",
+          "use1Xscale": false,
+          "name": "destruction1.png",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "earthrune1.png",
+          "use1Xscale": false,
+          "name": "earthrune1.png",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "etcher1.png",
+          "use1Xscale": false,
+          "name": "etcher1.png",
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "firerune1.png",
+          "use1Xscale": false,
+          "name": "firerune1.png",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sacrificerune1.png",
+          "use1Xscale": false,
+          "name": "sacrificerune1.png",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "waterrune1.png",
+          "use1Xscale": false,
+          "name": "waterrune1.png",
+          "x": 213,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tablet1a.png",
+          "use1Xscale": false,
+          "name": "tablet1a.png",
+          "x": 267,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lesser Inscription Table",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Lesser Inscription Table",
+          "x": 150,
+          "y": 42
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
