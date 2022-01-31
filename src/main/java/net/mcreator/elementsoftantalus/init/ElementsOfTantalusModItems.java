@@ -47,6 +47,11 @@ import net.mcreator.elementsoftantalus.item.EmbossedEarthRuneItem;
 import net.mcreator.elementsoftantalus.item.EmbossedDestructionRuneItem;
 import net.mcreator.elementsoftantalus.item.EmbossedCreationRuneItem;
 import net.mcreator.elementsoftantalus.item.EmbossedAirRuneItem;
+import net.mcreator.elementsoftantalus.item.EffigyOfTantalusItem;
+import net.mcreator.elementsoftantalus.item.Effigy4Item;
+import net.mcreator.elementsoftantalus.item.Effigy3Item;
+import net.mcreator.elementsoftantalus.item.Effigy2Item;
+import net.mcreator.elementsoftantalus.item.Effigy1Item;
 import net.mcreator.elementsoftantalus.item.EarthRuneItem;
 import net.mcreator.elementsoftantalus.item.DreamSparkItem;
 import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
@@ -80,12 +85,36 @@ public class ElementsOfTantalusModItems {
 	public static final Item STONE_TABLET = register(new StoneTabletItem());
 	public static final Item EMBOSSED_TABLET = register(new EmbossedTabletItem());
 	public static final Item ASTRAL_TABLET = register(new AstralTabletItem());
+	public static final Item DREAM_SPARK = register(new DreamSparkItem());
+	public static final Item METAL_SPARK = register(new MetalSparkItem());
+	public static final Item ENERGY_SPARK = register(new EnergySparkItem());
+	public static final Item LIFE_SPARK = register(new LifeSparkItem());
+	public static final Item SKY_SPARK = register(new SkySparkItem());
+	public static final Item LIGHT_SPARK = register(new LightSparkItem());
+	public static final Item DARK_SPARK = register(new DarkSparkItem());
+	public static final Item LESSER_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.LESSER_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item EMBOSSED_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.EMBOSSED_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item ASTRAL_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.ASTRAL_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_TANTALUS_HEART = register(new LesserTantalusHeartItem());
+	public static final Item TANTALUS_HEART = register(new TantalusHeartItem());
+	public static final Item EMBOSSED_TANTALUS_HEART = register(new EmbossedTantalusHeartItem());
+	public static final Item ASTRAL_HEART = register(new AstralHeartItem());
+	public static final Item KNIFE_OF_SACRIFICE = register(new KnifeOfSacrificeItem());
+	public static final Item ASTRAL_HEART_2 = register(new AstralHeart2Item());
+	public static final Item TANTALUS_HEART_2 = register(new TantalusHeart2Item());
+	public static final Item EMBOSSED_HEART_2 = register(new EmbossedHeart2Item());
 	public static final Item LESSER_EARTH_RUNE = register(new LesserEarthRuneItem());
 	public static final Item LESSER_AIR_RUNE = register(new LesserAirRuneItem());
 	public static final Item LESSER_FIRE_RUNE = register(new LesserFireRuneItem());
 	public static final Item LESSER_CREATION_RUNE = register(new LesserCreationRuneItem());
 	public static final Item LESSER_DESTRUCTION_RUNE = register(new LesserDestructionRuneItem());
 	public static final Item LESSER_SACRIFICE_RUNE = register(new LesserSacrificeRuneItem());
+	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
 	public static final Item EARTH_RUNE = register(new EarthRuneItem());
 	public static final Item AIR_RUNE = register(new AirRuneItem());
 	public static final Item FIRE_RUNE = register(new FireRuneItem());
@@ -107,33 +136,14 @@ public class ElementsOfTantalusModItems {
 	public static final Item ASTRAL_CREATION_RUNE = register(new AstralCreationRuneItem());
 	public static final Item ASTRAL_DESTRUCTION_RUNE = register(new AstralDestructionRuneItem());
 	public static final Item ASTRAL_SACRIFICE_RUNE = register(new AstralSacrificeRuneItem());
-	public static final Item DREAM_SPARK = register(new DreamSparkItem());
-	public static final Item METAL_SPARK = register(new MetalSparkItem());
-	public static final Item ENERGY_SPARK = register(new EnergySparkItem());
-	public static final Item LIFE_SPARK = register(new LifeSparkItem());
-	public static final Item SKY_SPARK = register(new SkySparkItem());
-	public static final Item LIGHT_SPARK = register(new LightSparkItem());
-	public static final Item DARK_SPARK = register(new DarkSparkItem());
-	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
-	public static final Item LESSER_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.LESSER_INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item EMBOSSED_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.EMBOSSED_INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item ASTRAL_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.ASTRAL_INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item LESSER_TANTALUS_HEART = register(new LesserTantalusHeartItem());
-	public static final Item TANTALUS_HEART = register(new TantalusHeartItem());
-	public static final Item EMBOSSED_TANTALUS_HEART = register(new EmbossedTantalusHeartItem());
-	public static final Item ASTRAL_HEART = register(new AstralHeartItem());
-	public static final Item KNIFE_OF_SACRIFICE = register(new KnifeOfSacrificeItem());
-	public static final Item BOTTLE_OF_BLOOD = register(new BottleOfBloodItem());
-	public static final Item ASTRAL_HEART_2 = register(new AstralHeart2Item());
-	public static final Item TANTALUS_HEART_2 = register(new TantalusHeart2Item());
-	public static final Item EMBOSSED_HEART_2 = register(new EmbossedHeart2Item());
 	public static final Item LESSER_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_WATER_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item BOTTLE_OF_BLOOD = register(new BottleOfBloodItem());
+	public static final Item EFFIGY_OF_TANTALUS = register(new EffigyOfTantalusItem());
+	public static final Item EFFIGY_1 = register(new Effigy1Item());
+	public static final Item EFFIGY_2 = register(new Effigy2Item());
+	public static final Item EFFIGY_3 = register(new Effigy3Item());
+	public static final Item EFFIGY_4 = register(new Effigy4Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

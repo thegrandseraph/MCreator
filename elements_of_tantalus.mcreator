@@ -3,7 +3,7 @@
     {
       "name": "ElementsOfTantalus",
       "type": "tab",
-      "sortid": 1,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elements_of_tantalus"
@@ -11,7 +11,7 @@
     {
       "name": "FlimsyEtcher",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flimsy_etcher",
@@ -20,7 +20,7 @@
     {
       "name": "CraftEtcher1",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_etcher_1",
@@ -29,7 +29,7 @@
     {
       "name": "Etcher",
       "type": "item",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "etcher",
@@ -38,7 +38,7 @@
     {
       "name": "CraftEtcher2",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_etcher_2",
@@ -47,7 +47,7 @@
     {
       "name": "MasterworkEtcher",
       "type": "item",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "masterwork_etcher",
@@ -56,7 +56,7 @@
     {
       "name": "CraftEtcher3",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_etcher_3",
@@ -65,7 +65,7 @@
     {
       "name": "AstralEtcher",
       "type": "item",
-      "sortid": 8,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_etcher",
@@ -74,7 +74,7 @@
     {
       "name": "CraftEtcher4",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_etcher_4",
@@ -83,7 +83,7 @@
     {
       "name": "WoodenTablet",
       "type": "item",
-      "sortid": 10,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_tablet",
@@ -92,7 +92,7 @@
     {
       "name": "CraftTablet1",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_tablet_1",
@@ -101,7 +101,7 @@
     {
       "name": "Etchers",
       "type": "tag",
-      "sortid": 12,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "etchers",
@@ -110,7 +110,7 @@
     {
       "name": "StoneTablet",
       "type": "item",
-      "sortid": 13,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_tablet",
@@ -119,7 +119,7 @@
     {
       "name": "EmbossedTablet",
       "type": "item",
-      "sortid": 14,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_tablet",
@@ -128,7 +128,7 @@
     {
       "name": "AstralTablet",
       "type": "item",
-      "sortid": 15,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_tablet",
@@ -137,7 +137,7 @@
     {
       "name": "CraftTablet2",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_tablet_2",
@@ -146,7 +146,7 @@
     {
       "name": "CraftTablet3",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_tablet_3",
@@ -155,7 +155,7 @@
     {
       "name": "Runes",
       "type": "tab",
-      "sortid": 18,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runes"
@@ -163,7 +163,7 @@
     {
       "name": "LesserEarthRune",
       "type": "item",
-      "sortid": 19,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_earth_rune",
@@ -172,7 +172,7 @@
     {
       "name": "LesserAirRune",
       "type": "item",
-      "sortid": 21,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_air_rune",
@@ -181,7 +181,7 @@
     {
       "name": "LesserFireRune",
       "type": "item",
-      "sortid": 23,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_fire_rune",
@@ -190,7 +190,7 @@
     {
       "name": "LesserCreationRune",
       "type": "item",
-      "sortid": 27,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_creation_rune",
@@ -199,7 +199,7 @@
     {
       "name": "LesserDestructionRune",
       "type": "item",
-      "sortid": 29,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_destruction_rune",
@@ -208,7 +208,7 @@
     {
       "name": "LesserSacrificeRune",
       "type": "item",
-      "sortid": 31,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_sacrifice_rune",
@@ -217,7 +217,7 @@
     {
       "name": "EarthRune",
       "type": "item",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earth_rune",
@@ -226,7 +226,7 @@
     {
       "name": "AirRune",
       "type": "item",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air_rune",
@@ -244,7 +244,7 @@
     {
       "name": "WaterRune",
       "type": "item",
-      "sortid": 39,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_rune",
@@ -253,7 +253,7 @@
     {
       "name": "CreationRune",
       "type": "item",
-      "sortid": 41,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creation_rune",
@@ -262,7 +262,7 @@
     {
       "name": "DestructionRune",
       "type": "item",
-      "sortid": 43,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "destruction_rune",
@@ -271,7 +271,7 @@
     {
       "name": "SacrificeRune",
       "type": "item",
-      "sortid": 46,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sacrifice_rune",
@@ -280,7 +280,7 @@
     {
       "name": "EmbossedAirRune",
       "type": "item",
-      "sortid": 47,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_air_rune",
@@ -289,7 +289,7 @@
     {
       "name": "EmbossedFireRune",
       "type": "item",
-      "sortid": 48,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_fire_rune",
@@ -298,7 +298,7 @@
     {
       "name": "EmbossedEarthRune",
       "type": "item",
-      "sortid": 49,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_earth_rune",
@@ -307,7 +307,7 @@
     {
       "name": "EmbossedWaterRune",
       "type": "item",
-      "sortid": 50,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_water_rune",
@@ -316,7 +316,7 @@
     {
       "name": "EmbossedCreationRune",
       "type": "item",
-      "sortid": 51,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_creation_rune",
@@ -325,7 +325,7 @@
     {
       "name": "EmbossedDestructionRune",
       "type": "item",
-      "sortid": 52,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_destruction_rune",
@@ -334,7 +334,7 @@
     {
       "name": "EmbossedSacrificeRune",
       "type": "item",
-      "sortid": 53,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_sacrifice_rune",
@@ -343,7 +343,7 @@
     {
       "name": "AstralAirRune",
       "type": "item",
-      "sortid": 54,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_air_rune",
@@ -352,7 +352,7 @@
     {
       "name": "AstralFireRune",
       "type": "item",
-      "sortid": 55,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_fire_rune",
@@ -361,7 +361,7 @@
     {
       "name": "AstraEarthRune",
       "type": "item",
-      "sortid": 56,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astra_earth_rune",
@@ -370,7 +370,7 @@
     {
       "name": "AstralWaterRune",
       "type": "item",
-      "sortid": 57,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_water_rune",
@@ -379,7 +379,7 @@
     {
       "name": "AstralCreationRune",
       "type": "item",
-      "sortid": 58,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_creation_rune",
@@ -388,7 +388,7 @@
     {
       "name": "AstralDestructionRune",
       "type": "item",
-      "sortid": 59,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_destruction_rune",
@@ -397,7 +397,7 @@
     {
       "name": "AstralSacrificeRune",
       "type": "item",
-      "sortid": 60,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_sacrifice_rune",
@@ -406,7 +406,7 @@
     {
       "name": "DreamSpark",
       "type": "item",
-      "sortid": 61,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_spark",
@@ -415,7 +415,7 @@
     {
       "name": "MetalSpark",
       "type": "item",
-      "sortid": 62,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_spark",
@@ -424,7 +424,7 @@
     {
       "name": "EnergySpark",
       "type": "item",
-      "sortid": 63,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "energy_spark",
@@ -433,7 +433,7 @@
     {
       "name": "LifeSpark",
       "type": "item",
-      "sortid": 64,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_spark",
@@ -442,7 +442,7 @@
     {
       "name": "SkySpark",
       "type": "item",
-      "sortid": 65,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sky_spark",
@@ -451,7 +451,7 @@
     {
       "name": "LightSpark",
       "type": "item",
-      "sortid": 66,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_spark",
@@ -460,7 +460,7 @@
     {
       "name": "DarkSpark",
       "type": "item",
-      "sortid": 67,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_spark",
@@ -757,7 +757,7 @@
     {
       "name": "LesserWaterRune",
       "type": "item",
-      "sortid": 107,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_water_rune",
@@ -766,7 +766,7 @@
     {
       "name": "LesserInscriptionTable",
       "type": "block",
-      "sortid": 108,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_inscription_table",
@@ -775,7 +775,7 @@
     {
       "name": "CraftInscriber1",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_inscriber_1",
@@ -784,7 +784,7 @@
     {
       "name": "EmbossedInscriptionTable",
       "type": "block",
-      "sortid": 111,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_inscription_table",
@@ -793,7 +793,7 @@
     {
       "name": "InscriptionTable",
       "type": "block",
-      "sortid": 112,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inscription_table",
@@ -802,7 +802,7 @@
     {
       "name": "AstralInscriptionTable",
       "type": "block",
-      "sortid": 112,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_inscription_table",
@@ -811,7 +811,7 @@
     {
       "name": "CraftInscriber2",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_inscriber_2",
@@ -820,7 +820,7 @@
     {
       "name": "CraftInscriber3",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_inscriber_3",
@@ -829,7 +829,7 @@
     {
       "name": "CraftInscriber4",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_inscriber_4",
@@ -838,7 +838,7 @@
     {
       "name": "CraftTablet4",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_tablet_4",
@@ -847,7 +847,7 @@
     {
       "name": "Cobble1",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_1",
@@ -856,7 +856,7 @@
     {
       "name": "Cobble2",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_2",
@@ -865,7 +865,7 @@
     {
       "name": "Cobble3",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_3",
@@ -874,7 +874,7 @@
     {
       "name": "Cobble4",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_4",
@@ -883,7 +883,7 @@
     {
       "name": "Diorite1",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diorite_1",
@@ -892,7 +892,7 @@
     {
       "name": "Diorite2",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diorite_2",
@@ -901,7 +901,7 @@
     {
       "name": "Diorite3",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diorite_3",
@@ -910,7 +910,7 @@
     {
       "name": "Diorite4",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diorite_4",
@@ -919,7 +919,7 @@
     {
       "name": "Andesite1",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "andesite_1",
@@ -928,7 +928,7 @@
     {
       "name": "Andesite2",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "andesite_2",
@@ -937,7 +937,7 @@
     {
       "name": "Andesite3",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "andesite_3",
@@ -946,7 +946,7 @@
     {
       "name": "Andesite4",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "andesite_4",
@@ -955,7 +955,7 @@
     {
       "name": "Granite1",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "granite_1",
@@ -964,7 +964,7 @@
     {
       "name": "Granite2",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "granite_2",
@@ -973,7 +973,7 @@
     {
       "name": "Granite3",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "granite_3",
@@ -982,7 +982,7 @@
     {
       "name": "Granite4",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "granite_4",
@@ -991,7 +991,7 @@
     {
       "name": "MossyCobble1",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_cobble_1",
@@ -1000,7 +1000,7 @@
     {
       "name": "MossyCobble2",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_cobble_2",
@@ -1009,7 +1009,7 @@
     {
       "name": "MossyCobble3",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_cobble_3",
@@ -1018,7 +1018,7 @@
     {
       "name": "MossyCobble4",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_cobble_4",
@@ -1027,7 +1027,7 @@
     {
       "name": "Gravel1",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravel_1",
@@ -1036,7 +1036,7 @@
     {
       "name": "Gravel2",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravel_2",
@@ -1045,7 +1045,7 @@
     {
       "name": "Gravel3",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravel_3",
@@ -1054,7 +1054,7 @@
     {
       "name": "Gravel4",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gravel_4",
@@ -1063,7 +1063,7 @@
     {
       "name": "Sand1",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_1",
@@ -1072,7 +1072,7 @@
     {
       "name": "Sand2",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_2",
@@ -1081,7 +1081,7 @@
     {
       "name": "Sand3",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_3",
@@ -1090,7 +1090,7 @@
     {
       "name": "Sand4",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sand_4",
@@ -1099,7 +1099,7 @@
     {
       "name": "RedSand1",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_sand_1",
@@ -1108,7 +1108,7 @@
     {
       "name": "RedSand2",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_sand_2",
@@ -1117,7 +1117,7 @@
     {
       "name": "RedSand3",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_sand_3",
@@ -1126,7 +1126,7 @@
     {
       "name": "RedSand4",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_sand_4",
@@ -1135,7 +1135,7 @@
     {
       "name": "Clay1",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_1",
@@ -1144,7 +1144,7 @@
     {
       "name": "Clay2",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_2",
@@ -1153,7 +1153,7 @@
     {
       "name": "Clay4",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_4",
@@ -1162,7 +1162,7 @@
     {
       "name": "Clay3",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clay_3",
@@ -1171,7 +1171,7 @@
     {
       "name": "Inscriber1GUI",
       "type": "gui",
-      "sortid": 154,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inscriber_1_gui",
@@ -1180,7 +1180,7 @@
     {
       "name": "Lesser1",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_1",
@@ -1197,7 +1197,7 @@
     {
       "name": "LesserMain",
       "type": "procedure",
-      "sortid": 155,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_main",
@@ -1214,7 +1214,7 @@
     {
       "name": "OnLesserRightClick",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_lesser_right_click",
@@ -1247,7 +1247,7 @@
     {
       "name": "Inscriber4",
       "type": "gui",
-      "sortid": 157,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inscriber_4",
@@ -1256,7 +1256,7 @@
     {
       "name": "Inscriber3",
       "type": "gui",
-      "sortid": 156,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inscriber_3",
@@ -1265,7 +1265,7 @@
     {
       "name": "Inscriber2Gui",
       "type": "gui",
-      "sortid": 155,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inscriber_2_gui",
@@ -1274,7 +1274,7 @@
     {
       "name": "EtcherDamageAndTabletRemoval",
       "type": "procedure",
-      "sortid": 158,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "etcher_damage_and_tablet_removal",
@@ -1291,7 +1291,7 @@
     {
       "name": "Normal1",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "normal_1",
@@ -1308,7 +1308,7 @@
     {
       "name": "NormalMain",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "normal_main",
@@ -1325,7 +1325,7 @@
     {
       "name": "OnNormalRightClick",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_normal_right_click",
@@ -1358,7 +1358,7 @@
     {
       "name": "OnEmbossedRightClick",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_embossed_right_click",
@@ -1391,7 +1391,7 @@
     {
       "name": "EmbossedMain",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_main",
@@ -1408,7 +1408,7 @@
     {
       "name": "Embossed1",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_1",
@@ -1425,7 +1425,7 @@
     {
       "name": "AstralMain",
       "type": "procedure",
-      "sortid": 166,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_main",
@@ -1442,7 +1442,7 @@
     {
       "name": "OnAstralRightClick",
       "type": "procedure",
-      "sortid": 167,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_astral_right_click",
@@ -1475,7 +1475,7 @@
     {
       "name": "Astral1",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_1",
@@ -1492,7 +1492,7 @@
     {
       "name": "LesserTantalusHeart",
       "type": "item",
-      "sortid": 162,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_tantalus_heart",
@@ -1501,7 +1501,7 @@
     {
       "name": "TantalusHeart",
       "type": "item",
-      "sortid": 164,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tantalus_heart",
@@ -1510,7 +1510,7 @@
     {
       "name": "CraftHeart1",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_heart_1",
@@ -1519,7 +1519,7 @@
     {
       "name": "CraftHeart3",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_heart_3",
@@ -1528,7 +1528,7 @@
     {
       "name": "CraftHeart2",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_heart_2",
@@ -1537,7 +1537,7 @@
     {
       "name": "AstralHeart",
       "type": "item",
-      "sortid": 167,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_heart",
@@ -1546,7 +1546,7 @@
     {
       "name": "EmbossedTantalusHeart",
       "type": "item",
-      "sortid": 166,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_tantalus_heart",
@@ -1555,7 +1555,7 @@
     {
       "name": "CraftHeart4",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_heart_4",
@@ -1564,7 +1564,7 @@
     {
       "name": "KnifeCrafting",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife_crafting",
@@ -1573,7 +1573,7 @@
     {
       "name": "KnifeOfSacrifice",
       "type": "item",
-      "sortid": 171,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife_of_sacrifice",
@@ -1582,7 +1582,7 @@
     {
       "name": "BottleOfBlood",
       "type": "item",
-      "sortid": 172,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bottle_of_blood",
@@ -1591,7 +1591,7 @@
     {
       "name": "AstralHeart2",
       "type": "item",
-      "sortid": 173,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astral_heart_2",
@@ -1600,7 +1600,7 @@
     {
       "name": "TantalusHeart2",
       "type": "item",
-      "sortid": 174,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tantalus_heart_2",
@@ -1609,7 +1609,7 @@
     {
       "name": "EmbossedHeart2",
       "type": "item",
-      "sortid": 175,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "embossed_heart_2",
@@ -1618,7 +1618,7 @@
     {
       "name": "SelfSacrifce",
       "type": "procedure",
-      "sortid": 171,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "self_sacrifce",
@@ -1639,11 +1639,56 @@
     {
       "name": "LesserWaterRuneBlock",
       "type": "block",
-      "sortid": 176,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_water_rune_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "EffigyOfTantalus",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_of_tantalus",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy1",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_1",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy2",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_2",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy3",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_3",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy4",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_4",
+      "path": "~/Tools/Misc"
     }
   ],
   "variable_elements": [],
@@ -1656,8 +1701,8 @@
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.metal_spark": "Metal Spark",
-      "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
       "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
+      "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
       "item.elements_of_tantalus.embossed_earth_rune": "Gilded Earth Rune",
@@ -1665,15 +1710,18 @@
       "item.elements_of_tantalus.life_spark": "Life Spark",
       "item.elements_of_tantalus.dream_spark": "Dream Spark",
       "itemGroup.tabrunes": "Tantalus Runes",
-      "item.elements_of_tantalus.embossed_tablet": "Gilded Tablet",
       "item.elements_of_tantalus.fire_rune": "Fire Rune",
-      "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
+      "item.elements_of_tantalus.embossed_tablet": "Gilded Tablet",
       "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
+      "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
       "item.elements_of_tantalus.astral_heart": "Astral Heart - Unactualized",
+      "item.elements_of_tantalus.effigy_3": "Effigy Of Tantalus Tier III",
       "item.elements_of_tantalus.water_rune": "Water Rune",
       "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
+      "item.elements_of_tantalus.effigy_2": "Effigy Of Tantalus Tier II",
+      "item.elements_of_tantalus.effigy_4": "Effigy Of Tantalus Tier IV",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
@@ -1684,6 +1732,7 @@
       "item.elements_of_tantalus.creation_rune": "Creation Rune",
       "item.elements_of_tantalus.energy_spark": "Energy Spark",
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
+      "item.elements_of_tantalus.effigy_1": "Effigy Of Tantalus Tier I",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
       "item.elements_of_tantalus.lesser_fire_rune": "Lesser Fire Rune",
       "item.elements_of_tantalus.lesser_tantalus_heart": "Lesser Tantalus Heart",
@@ -1700,6 +1749,7 @@
       "item.elements_of_tantalus.embossed_sacrifice_rune": "Gilded Sacrifice Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
+      "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
       "item.elements_of_tantalus.etcher": "Etcher",
