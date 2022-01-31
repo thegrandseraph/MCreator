@@ -23,10 +23,10 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-public class LesserWaterRuneBlockBlock extends Block {
-	public LesserWaterRuneBlockBlock() {
+public class LesserFireRuneBlockBlock extends Block {
+	public LesserFireRuneBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("lesser_water_rune_block");
+		setRegistryName("lesser_fire_rune_block");
 	}
 
 	@Override
@@ -57,11 +57,11 @@ public class LesserWaterRuneBlockBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 50; ++l) {
+		for (int l = 0; l < 30; ++l) {
 			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
 			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.2D * 100;
 			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
-			world.addParticle(ParticleTypes.SPLASH, x0, y0, z0, 0, 0, 0);
+			world.addParticle(ParticleTypes.SMALL_FLAME, x0, y0, z0, 0, 0, 0);
 		}
 	}
 }

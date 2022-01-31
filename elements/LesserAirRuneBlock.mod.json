@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "inscriber1bottom",
-    "textureTop": "waterrune1",
-    "textureLeft": "waterrune1",
-    "textureFront": "waterrune1",
-    "textureRight": "waterrune1",
-    "textureBack": "waterrune1",
+    "textureTop": "airrune1",
+    "textureLeft": "airrune1",
+    "textureFront": "airrune1",
+    "textureRight": "airrune1",
+    "textureBack": "airrune1",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Lesser Water Rune",
+    "name": "Lesser Air Rune",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Runes"
+      "value": "CUSTOM:ElementsOfTantalus"
     },
     "destroyTool": "axe",
     "customDrop": {
@@ -99,11 +99,11 @@
     "breakHarvestLevel": 0,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "WATER_SPLASH"
+      "value": "CLOUD"
     },
     "particleSpawningShape": "Tube",
     "particleSpawningRadious": 0.2,
-    "particleAmount": 50,
+    "particleAmount": 30,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
