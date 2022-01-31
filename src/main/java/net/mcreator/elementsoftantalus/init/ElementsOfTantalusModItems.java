@@ -51,7 +51,6 @@ import net.mcreator.elementsoftantalus.item.EffigyOfTantalusItem;
 import net.mcreator.elementsoftantalus.item.Effigy4Item;
 import net.mcreator.elementsoftantalus.item.Effigy3Item;
 import net.mcreator.elementsoftantalus.item.Effigy2Item;
-import net.mcreator.elementsoftantalus.item.Effigy1Item;
 import net.mcreator.elementsoftantalus.item.EarthRuneItem;
 import net.mcreator.elementsoftantalus.item.DreamSparkItem;
 import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
@@ -140,7 +139,6 @@ public class ElementsOfTantalusModItems {
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item BOTTLE_OF_BLOOD = register(new BottleOfBloodItem());
 	public static final Item EFFIGY_OF_TANTALUS = register(new EffigyOfTantalusItem());
-	public static final Item EFFIGY_1 = register(new Effigy1Item());
 	public static final Item EFFIGY_2 = register(new Effigy2Item());
 	public static final Item EFFIGY_3 = register(new Effigy3Item());
 	public static final Item EFFIGY_4 = register(new Effigy4Item());
