@@ -132,6 +132,8 @@ public class ElementsOfTantalusModItems {
 	public static final Item ASTRAL_HEART_2 = register(new AstralHeart2Item());
 	public static final Item TANTALUS_HEART_2 = register(new TantalusHeart2Item());
 	public static final Item EMBOSSED_HEART_2 = register(new EmbossedHeart2Item());
+	public static final Item LESSER_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_WATER_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

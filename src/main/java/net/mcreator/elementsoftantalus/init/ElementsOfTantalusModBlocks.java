@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.elementsoftantalus.block.LesserWaterRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserInscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.InscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.EmbossedInscriptionTableBlock;
@@ -27,6 +28,7 @@ public class ElementsOfTantalusModBlocks {
 	public static final Block EMBOSSED_INSCRIPTION_TABLE = register(new EmbossedInscriptionTableBlock());
 	public static final Block INSCRIPTION_TABLE = register(new InscriptionTableBlock());
 	public static final Block ASTRAL_INSCRIPTION_TABLE = register(new AstralInscriptionTableBlock());
+	public static final Block LESSER_WATER_RUNE_BLOCK = register(new LesserWaterRuneBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

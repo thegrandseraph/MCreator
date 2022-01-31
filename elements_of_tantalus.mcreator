@@ -1627,14 +1627,19 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "LesserWaterRuneBlock",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_water_rune_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
     }
   ],
   "variable_elements": [],
@@ -1770,6 +1775,10 @@
               },
               {
                 "name": "Tier1",
+                "children": []
+              },
+              {
+                "name": "Teir1 Blocks",
                 "children": []
               }
             ]
