@@ -1716,6 +1716,51 @@
       "locked_code": false,
       "registry_name": "lesser_air_rune_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "BaseEffigy",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_effigy",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy1",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_1",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy2",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_2",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy3",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_3",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy4",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_4",
+      "path": "~/Tools/Misc"
     }
   ],
   "variable_elements": [],
@@ -1728,8 +1773,8 @@
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.metal_spark": "Metal Spark",
-      "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
+      "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
       "item.elements_of_tantalus.embossed_earth_rune": "Gilded Earth Rune",

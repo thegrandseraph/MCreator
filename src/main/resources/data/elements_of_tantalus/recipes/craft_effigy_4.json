@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:astral_heart"
+    },
+    "1": {
+      "item": "elements_of_tantalus:effigy_of_tantalus"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:effigy_4",
+    "count": 1
+  }
+}
