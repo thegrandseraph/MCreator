@@ -1,15 +1,6 @@
 package net.mcreator.elementsoftantalus.procedures;
 
-import net.minecraftforge.items.ItemHandlerHelper;
-
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-
-import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
+import net.minecraftforge.eventbus.api.Event;
 
 public class SelfSacrifceProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
