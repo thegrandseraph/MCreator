@@ -1646,21 +1646,21 @@
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
-      "name": "LesserFireRuneBlock",
-      "type": "block",
-      "sortid": 177,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lesser_fire_rune_block",
-      "path": "~/Tools/Runes/Teir1 Blocks"
-    },
-    {
       "name": "LesserEarthRuneBlock",
       "type": "block",
       "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lesser_earth_rune_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "LesserFireRuneBlock",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_fire_rune_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
@@ -1671,6 +1671,51 @@
       "locked_code": false,
       "registry_name": "lesser_air_rune_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "Effigy1",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_1",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "EffigyOfTantalus",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_of_tantalus",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy4",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_4",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy2",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_2",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Effigy3",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_3",
+      "path": "~/Tools/Misc"
     }
   ],
   "variable_elements": [],

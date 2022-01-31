@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "effigy",
+    "customModelName": "Normal",
+    "name": "Effigy Of Tantalus Tier III",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:ElementsOfTantalus"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "A carefully crafted form for the dead king to inhabit.",
+      "Are you sure this is a good idea?",
+      "Contains a gilded heart."
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}
