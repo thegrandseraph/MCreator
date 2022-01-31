@@ -1627,6 +1627,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
@@ -1703,6 +1707,7 @@
       "item.elements_of_tantalus.light_spark": "Light Spark",
       "item.elements_of_tantalus.tantalus_heart": "Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.embossed_creation_rune": "Gilded Creation Rune",
+      "block.elements_of_tantalus.lesser_water_rune_block": "Lesser Water Rune",
       "item.elements_of_tantalus.sacrifice_rune": "Sacrifice Rune"
     }
   },
