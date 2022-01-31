@@ -1582,6 +1582,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
@@ -1631,6 +1635,15 @@
       "locked_code": false,
       "registry_name": "tantalus_heart_2",
       "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "LesserWaterRuneBlock",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_water_rune_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
     }
   ],
   "variable_elements": [],
@@ -1694,6 +1707,7 @@
       "item.elements_of_tantalus.light_spark": "Light Spark",
       "item.elements_of_tantalus.tantalus_heart": "Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.embossed_creation_rune": "Gilded Creation Rune",
+      "block.elements_of_tantalus.lesser_water_rune_block": "Lesser Water Rune",
       "item.elements_of_tantalus.sacrifice_rune": "Sacrifice Rune"
     }
   },
@@ -1766,6 +1780,10 @@
               },
               {
                 "name": "Tier1",
+                "children": []
+              },
+              {
+                "name": "Teir1 Blocks",
                 "children": []
               }
             ]

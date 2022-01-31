@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "elements_of_tantalus:blocks/firerune1",
+    "particle": "elements_of_tantalus:blocks/firerune1"
+  }
+}
