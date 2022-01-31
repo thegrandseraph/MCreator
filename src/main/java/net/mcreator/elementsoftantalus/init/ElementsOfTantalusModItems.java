@@ -144,6 +144,12 @@ public class ElementsOfTantalusModItems {
 	public static final Item EFFIGY_2 = register(new Effigy2Item());
 	public static final Item EFFIGY_3 = register(new Effigy3Item());
 	public static final Item EFFIGY_4 = register(new Effigy4Item());
+	public static final Item LESSER_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_FIRE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_EARTH_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_AIR_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

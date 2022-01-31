@@ -14,6 +14,9 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.elementsoftantalus.block.LesserWaterRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserInscriptionTableBlock;
+import net.mcreator.elementsoftantalus.block.LesserFireRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserEarthRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserAirRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.InscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.EmbossedInscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.AstralInscriptionTableBlock;
@@ -29,6 +32,9 @@ public class ElementsOfTantalusModBlocks {
 	public static final Block INSCRIPTION_TABLE = register(new InscriptionTableBlock());
 	public static final Block ASTRAL_INSCRIPTION_TABLE = register(new AstralInscriptionTableBlock());
 	public static final Block LESSER_WATER_RUNE_BLOCK = register(new LesserWaterRuneBlockBlock());
+	public static final Block LESSER_FIRE_RUNE_BLOCK = register(new LesserFireRuneBlockBlock());
+	public static final Block LESSER_EARTH_RUNE_BLOCK = register(new LesserEarthRuneBlockBlock());
+	public static final Block LESSER_AIR_RUNE_BLOCK = register(new LesserAirRuneBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

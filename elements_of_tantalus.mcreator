@@ -1689,6 +1689,33 @@
       "locked_code": false,
       "registry_name": "effigy_4",
       "path": "~/Tools/Misc"
+    },
+    {
+      "name": "LesserEarthRuneBlock",
+      "type": "block",
+      "sortid": 178,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "lesser_earth_rune_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "LesserFireRuneBlock",
+      "type": "block",
+      "sortid": 177,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "lesser_fire_rune_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "LesserAirRuneBlock",
+      "type": "block",
+      "sortid": 178,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "lesser_air_rune_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
     }
   ],
   "variable_elements": [],
@@ -1717,11 +1744,8 @@
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
       "item.elements_of_tantalus.astral_heart": "Astral Heart - Unactualized",
-      "item.elements_of_tantalus.effigy_3": "Effigy Of Tantalus Tier III",
       "item.elements_of_tantalus.water_rune": "Water Rune",
       "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
-      "item.elements_of_tantalus.effigy_2": "Effigy Of Tantalus Tier II",
-      "item.elements_of_tantalus.effigy_4": "Effigy Of Tantalus Tier IV",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
@@ -1732,7 +1756,6 @@
       "item.elements_of_tantalus.creation_rune": "Creation Rune",
       "item.elements_of_tantalus.energy_spark": "Energy Spark",
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
-      "item.elements_of_tantalus.effigy_1": "Effigy Of Tantalus Tier I",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
       "item.elements_of_tantalus.lesser_fire_rune": "Lesser Fire Rune",
       "item.elements_of_tantalus.lesser_tantalus_heart": "Lesser Tantalus Heart",
@@ -1749,7 +1772,6 @@
       "item.elements_of_tantalus.embossed_sacrifice_rune": "Gilded Sacrifice Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
-      "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
       "item.elements_of_tantalus.etcher": "Etcher",
