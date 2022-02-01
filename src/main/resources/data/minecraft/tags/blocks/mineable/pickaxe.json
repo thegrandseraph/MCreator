@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "elements_of_tantalus:water_rune_block",
+    "elements_of_tantalus:earth_rune_block",
+    "elements_of_tantalus:fire_rune_block",
+    "elements_of_tantalus:air_rune_block",
+    "elements_of_tantalus:sacrifice_rune_block",
+    "elements_of_tantalus:destruction_rune_block",
+    "elements_of_tantalus:creation_rune_block",
+    "elements_of_tantalus:binding_rune_block",
+    "elements_of_tantalus:gilded_water_rune_block",
+    "elements_of_tantalus:gilded_earth_rune_block",
+    "elements_of_tantalus:gilded_fire_rune_block",
+    "elements_of_tantalus:gilded_air_rune_block",
+    "elements_of_tantalus:gilded_sacrifce_rune_block",
+    "elements_of_tantalus:gilded_destruction_rune_block",
+    "elements_of_tantalus:gilded_creation_rune_block",
+    "elements_of_tantalus:gilded_binding_rune_block",
+    "elements_of_tantalus:astral_water_rune_block",
+    "elements_of_tantalus:astral_earth_rune_block",
+    "elements_of_tantalus:astral_fire_rune_block",
+    "elements_of_tantalus:astral_air_rune_block",
+    "elements_of_tantalus:astral_sacrifice_rune_block",
+    "elements_of_tantalus:astral_destruction_rune_block",
+    "elements_of_tantalus:astral_creation_rune_block",
+    "elements_of_tantalus:astral_binding_rune_block"
+  ]
+}

@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ElementsOfTantalus"
+      "value": "CUSTOM:Runes"
     },
     "destroyTool": "axe",
     "customDrop": {
@@ -103,7 +103,7 @@
     },
     "particleSpawningShape": "Tube",
     "particleSpawningRadious": 0.2,
-    "particleAmount": 304,
+    "particleAmount": 30,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

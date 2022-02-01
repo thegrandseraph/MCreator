@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elements_of_tantalus:blocks/inscriber2bottom",
+    "up": "elements_of_tantalus:blocks/waterrune2",
+    "north": "elements_of_tantalus:blocks/waterrune2",
+    "east": "elements_of_tantalus:blocks/waterrune2",
+    "south": "elements_of_tantalus:blocks/waterrune2",
+    "west": "elements_of_tantalus:blocks/waterrune2",
+    "particle": "elements_of_tantalus:blocks/inscriber2bottom"
+  }
+}

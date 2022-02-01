@@ -143,19 +143,57 @@ public class ElementsOfTantalusModItems {
 	public static final Item LESSER_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_WATER_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_FIRE_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_EARTH_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item LESSER_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_AIR_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item LESSER_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_SACRIFICE_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_DESTRUCTION_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_CREATION_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.WATER_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.EARTH_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.FIRE_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.SACRIFICE_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.DESTRUCTION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.CREATION_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.BINDING_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_WATER_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_EARTH_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_FIRE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_SACRIFCE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_SACRIFCE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_DESTRUCTION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_CREATION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_BINDING_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_WATER_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_EARTH_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_FIRE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_SACRIFICE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_DESTRUCTION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_CREATION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_BINDING_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

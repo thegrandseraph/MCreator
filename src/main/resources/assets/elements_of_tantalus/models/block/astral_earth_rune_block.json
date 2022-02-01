@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elements_of_tantalus:blocks/tablet4",
+    "up": "elements_of_tantalus:blocks/earthrune4",
+    "north": "elements_of_tantalus:blocks/earthrune4",
+    "east": "elements_of_tantalus:blocks/earthrune4",
+    "south": "elements_of_tantalus:blocks/earthrune4",
+    "west": "elements_of_tantalus:blocks/earthrune4",
+    "particle": "elements_of_tantalus:blocks/tablet4"
+  }
+}

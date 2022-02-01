@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ElementsOfTantalus"
+      "value": "CUSTOM:Runes"
     },
     "destroyTool": "axe",
     "customDrop": {

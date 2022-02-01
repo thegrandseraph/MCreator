@@ -1743,6 +1743,222 @@
       "locked_code": false,
       "registry_name": "lesser_binding_rune_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "WaterRuneBlock",
+      "type": "block",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "EarthRuneBlock",
+      "type": "block",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "FireRuneBlock",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "AirRuneBlock",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "SacrificeRuneBlock",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacrifice_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "DestructionRuneBlock",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destruction_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "CreationRuneBlock",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creation_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "BindingRuneBlock",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binding_rune_block",
+      "path": "~/Tools/Runes/Teir2 Blocks"
+    },
+    {
+      "name": "GildedWaterRuneBlock",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_water_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedEarthRuneBlock",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_earth_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedFireRuneBlock",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_fire_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedAirRuneBlock",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_air_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedSacrifceRuneBlock",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_sacrifce_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedDestructionRuneBlock",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_destruction_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedCreationRuneBlock",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_creation_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "GildedBindingRuneBlock",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_binding_rune_block",
+      "path": "~/Tools/Runes/Teir3 Blocks"
+    },
+    {
+      "name": "AstralWaterRuneBlock",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_water_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralEarthRuneBlock",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_earth_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralFireRuneBlock",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_fire_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralAirRuneBlock",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_air_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralSacrificeRuneBlock",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sacrifice_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralDestructionRuneBlock",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_destruction_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralCreationRuneBlock",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_creation_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "AstralBindingRuneBlock",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_binding_rune_block",
+      "path": "~/Tools/Runes/Teir4 Blocks"
     }
   ],
   "variable_elements": [],
@@ -1752,15 +1968,22 @@
       "item.elements_of_tantalus.astral_sacrifice_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_heart_2": "Astral Heart - Actualized",
       "item.elements_of_tantalus.wooden_tablet": "Wooden Tablet",
+      "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
+      "block.elements_of_tantalus.gilded_air_rune_block": "Gilded Air Rune",
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
+      "block.elements_of_tantalus.astral_creation_rune_block": "Gilded Creation Rune",
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.metal_spark": "Metal Spark",
-      "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
       "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
+      "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
+      "block.elements_of_tantalus.gilded_earth_rune_block": "Gilded Earth Rune",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
+      "block.elements_of_tantalus.gilded_fire_rune_block": "Gilded Fire Rune",
       "item.elements_of_tantalus.embossed_earth_rune": "Gilded Earth Rune",
       "item.elements_of_tantalus.dark_spark": "Dark Spark",
+      "block.elements_of_tantalus.air_rune_block": "Air Rune",
+      "block.elements_of_tantalus.water_rune_block": "Water Rune",
       "item.elements_of_tantalus.life_spark": "Life Spark",
       "item.elements_of_tantalus.dream_spark": "Dream Spark",
       "itemGroup.tabrunes": "Tantalus Runes",
@@ -1779,17 +2002,25 @@
       "block.elements_of_tantalus.lesser_creation_rune_block": "Lesser Creation Rune",
       "item.elements_of_tantalus.effigy_4": "Effigy Of Tantalus Tier IV",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
+      "block.elements_of_tantalus.destruction_rune_block": "Destruction Rune",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
+      "block.elements_of_tantalus.astral_fire_rune_block": "Astral Fire Rune",
+      "block.elements_of_tantalus.sacrifice_rune_block": "Sacrifice Rune",
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
       "block.elements_of_tantalus.astral_inscription_table": "Astral Inscription Table",
       "block.elements_of_tantalus.lesser_sacrifice_rune_block": "Lesser Sacrifice Rune",
       "item.elements_of_tantalus.astral_air_rune": "Astral Air Rune",
+      "block.elements_of_tantalus.gilded_binding_rune_block": "Gilded Binding Rune",
       "item.elements_of_tantalus.embossed_water_rune": "Gilded Water Rune",
+      "block.elements_of_tantalus.creation_rune_block": "Creation Rune",
       "item.elements_of_tantalus.lesser_air_rune": "Lesser Air Rune",
+      "block.elements_of_tantalus.fire_rune_block": "Fire Rune",
       "item.elements_of_tantalus.creation_rune": "Creation Rune",
       "item.elements_of_tantalus.energy_spark": "Energy Spark",
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
+      "block.elements_of_tantalus.gilded_creation_rune_block": "Gilded Creation Rune",
+      "block.elements_of_tantalus.astral_water_rune_block": "Astral Water Rune",
       "item.elements_of_tantalus.lesser_fire_rune": "Lesser Fire Rune",
       "item.elements_of_tantalus.lesser_tantalus_heart": "Lesser Tantalus Heart",
       "block.elements_of_tantalus.lesser_destruction_rune_block": "Lesser Destruction Rune",
@@ -1797,6 +2028,7 @@
       "item.elements_of_tantalus.astral_water_rune": "Astral Water Rune",
       "block.elements_of_tantalus.lesser_air_rune_block": "Lesser Air Rune",
       "item.elements_of_tantalus.bottle_of_blood": "Bottle Of Blood",
+      "block.elements_of_tantalus.astral_destruction_rune_block": "Gilded Destruction Rune",
       "item.elements_of_tantalus.astral_destruction_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_fire_rune": "Astral Fire Rune",
       "block.elements_of_tantalus.lesser_fire_rune_block": "Lesser Fire Rune",
@@ -1804,20 +2036,28 @@
       "item.elements_of_tantalus.astral_etcher": "Astral Etcher",
       "item.elements_of_tantalus.embossed_air_rune": "Gilded Air Rune",
       "item.elements_of_tantalus.embossed_fire_rune": "Gilded Fire Rune",
+      "block.elements_of_tantalus.gilded_water_rune_block": "Gilded Water Rune",
       "item.elements_of_tantalus.flimsy_etcher": "Flimsy Etcher",
       "item.elements_of_tantalus.embossed_sacrifice_rune": "Gilded Sacrifice Rune",
+      "block.elements_of_tantalus.astral_earth_rune_block": "Astral Earth Rune",
+      "block.elements_of_tantalus.astral_binding_rune_block": "Gilded Binding Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
+      "block.elements_of_tantalus.astral_sacrifice_rune_block": "Gilded Sacrifice Rune",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
       "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
+      "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
       "item.elements_of_tantalus.etcher": "Etcher",
       "block.elements_of_tantalus.lesser_inscription_table": "Lesser Inscription Table",
       "block.elements_of_tantalus.lesser_binding_rune_block": "Lesser Binding Rune",
+      "block.elements_of_tantalus.astral_air_rune_block": "Astral Air Rune",
       "item.elements_of_tantalus.light_spark": "Light Spark",
       "item.elements_of_tantalus.tantalus_heart": "Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.embossed_creation_rune": "Gilded Creation Rune",
       "block.elements_of_tantalus.lesser_water_rune_block": "Lesser Water Rune",
+      "block.elements_of_tantalus.gilded_sacrifce_rune_block": "Gilded Sacrifice Rune",
+      "block.elements_of_tantalus.gilded_destruction_rune_block": "Gilded Destruction Rune",
       "item.elements_of_tantalus.sacrifice_rune": "Sacrifice Rune"
     }
   },
@@ -1894,6 +2134,18 @@
               },
               {
                 "name": "Teir1 Blocks",
+                "children": []
+              },
+              {
+                "name": "Teir2 Blocks",
+                "children": []
+              },
+              {
+                "name": "Teir3 Blocks",
+                "children": []
+              },
+              {
+                "name": "Teir4 Blocks",
                 "children": []
               }
             ]
