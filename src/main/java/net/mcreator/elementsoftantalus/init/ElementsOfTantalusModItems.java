@@ -51,7 +51,6 @@ import net.mcreator.elementsoftantalus.item.EffigyOfTantalusItem;
 import net.mcreator.elementsoftantalus.item.Effigy4Item;
 import net.mcreator.elementsoftantalus.item.Effigy3Item;
 import net.mcreator.elementsoftantalus.item.Effigy2Item;
-import net.mcreator.elementsoftantalus.item.Effigy1Item;
 import net.mcreator.elementsoftantalus.item.EarthRuneItem;
 import net.mcreator.elementsoftantalus.item.DreamSparkItem;
 import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
@@ -131,7 +130,6 @@ public class ElementsOfTantalusModItems {
 	public static final Item LESSER_TANTALUS_HEART = register(new LesserTantalusHeartItem());
 	public static final Item TANTALUS_HEART = register(new TantalusHeartItem());
 	public static final Item EFFIGY_OF_TANTALUS = register(new EffigyOfTantalusItem());
-	public static final Item EFFIGY_1 = register(new Effigy1Item());
 	public static final Item EMBOSSED_TANTALUS_HEART = register(new EmbossedTantalusHeartItem());
 	public static final Item EFFIGY_2 = register(new Effigy2Item());
 	public static final Item ASTRAL_HEART = register(new AstralHeartItem());

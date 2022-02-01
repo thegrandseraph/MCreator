@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elements_of_tantalus:tantalus_heart"
+    },
+    {
+      "item": "elements_of_tantalus:effigy_of_tantalus"
+    }
+  ],
+  "result": {
+    "item": "elements_of_tantalus:effigy_2",
+    "count": 1
+  }
+}
