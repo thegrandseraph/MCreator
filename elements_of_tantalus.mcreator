@@ -1673,15 +1673,6 @@
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
-      "name": "Effigy1",
-      "type": "item",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "effigy_1",
-      "path": "~/Tools/Misc"
-    },
-    {
       "name": "EffigyOfTantalus",
       "type": "item",
       "sortid": 164,
@@ -1764,8 +1755,8 @@
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.metal_spark": "Metal Spark",
-      "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
+      "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
       "item.elements_of_tantalus.embossed_earth_rune": "Gilded Earth Rune",
@@ -1798,7 +1789,6 @@
       "item.elements_of_tantalus.creation_rune": "Creation Rune",
       "item.elements_of_tantalus.energy_spark": "Energy Spark",
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
-      "item.elements_of_tantalus.effigy_1": "Effigy Of Tantalus Tier I",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
       "item.elements_of_tantalus.lesser_fire_rune": "Lesser Fire Rune",
       "item.elements_of_tantalus.lesser_tantalus_heart": "Lesser Tantalus Heart",
