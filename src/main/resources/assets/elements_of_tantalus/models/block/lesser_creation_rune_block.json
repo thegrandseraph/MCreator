@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elements_of_tantalus:blocks/inscriber1bottom",
+    "up": "elements_of_tantalus:blocks/creationrune1",
+    "north": "elements_of_tantalus:blocks/creationrune1",
+    "east": "elements_of_tantalus:blocks/creationrune1",
+    "south": "elements_of_tantalus:blocks/creationrune1",
+    "west": "elements_of_tantalus:blocks/creationrune1",
+    "particle": "elements_of_tantalus:blocks/inscriber1bottom"
+  }
+}

@@ -150,6 +150,14 @@ public class ElementsOfTantalusModItems {
 			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
 	public static final Item LESSER_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_AIR_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_SACRIFICE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_DESTRUCTION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_CREATION_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

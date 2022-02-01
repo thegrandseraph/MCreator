@@ -13,9 +13,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.elementsoftantalus.block.LesserWaterRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserSacrificeRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserInscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.LesserFireRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserEarthRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserDestructionRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserCreationRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserBindingRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserAirRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.InscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.EmbossedInscriptionTableBlock;
@@ -35,6 +39,10 @@ public class ElementsOfTantalusModBlocks {
 	public static final Block LESSER_FIRE_RUNE_BLOCK = register(new LesserFireRuneBlockBlock());
 	public static final Block LESSER_EARTH_RUNE_BLOCK = register(new LesserEarthRuneBlockBlock());
 	public static final Block LESSER_AIR_RUNE_BLOCK = register(new LesserAirRuneBlockBlock());
+	public static final Block LESSER_SACRIFICE_RUNE_BLOCK = register(new LesserSacrificeRuneBlockBlock());
+	public static final Block LESSER_DESTRUCTION_RUNE_BLOCK = register(new LesserDestructionRuneBlockBlock());
+	public static final Block LESSER_CREATION_RUNE_BLOCK = register(new LesserCreationRuneBlockBlock());
+	public static final Block LESSER_BINDING_RUNE_BLOCK = register(new LesserBindingRuneBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

@@ -23,10 +23,10 @@ import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-public class LesserEarthRuneBlockBlock extends Block {
-	public LesserEarthRuneBlockBlock() {
+public class LesserSacrificeRuneBlockBlock extends Block {
+	public LesserSacrificeRuneBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("lesser_earth_rune_block");
+		setRegistryName("lesser_sacrifice_rune_block");
 	}
 
 	@Override
@@ -61,7 +61,7 @@ public class LesserEarthRuneBlockBlock extends Block {
 			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
 			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.2D * 100;
 			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
-			world.addParticle(ParticleTypes.MYCELIUM, x0, y0, z0, 0, 0, 0);
+			world.addParticle(ParticleTypes.ANGRY_VILLAGER, x0, y0, z0, 0, 0, 0);
 		}
 	}
 }
