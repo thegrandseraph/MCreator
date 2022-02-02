@@ -33,6 +33,7 @@ import net.mcreator.elementsoftantalus.item.LesserDestructionRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserCreationRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserAirRuneItem;
 import net.mcreator.elementsoftantalus.item.KnifeOfSacrificeItem;
+import net.mcreator.elementsoftantalus.item.Guidebook1Item;
 import net.mcreator.elementsoftantalus.item.FlimsyEtcherItem;
 import net.mcreator.elementsoftantalus.item.FireRuneItem;
 import net.mcreator.elementsoftantalus.item.EtcherItem;
@@ -195,6 +196,7 @@ public class ElementsOfTantalusModItems {
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item ASTRAL_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GUIDEBOOK_1 = register(new Guidebook1Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

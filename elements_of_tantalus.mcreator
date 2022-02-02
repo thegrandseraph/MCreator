@@ -1959,6 +1959,33 @@
       "locked_code": false,
       "registry_name": "astral_binding_rune_block",
       "path": "~/Tools/Runes/Teir4 Blocks"
+    },
+    {
+      "name": "Guidebook1",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_1",
+      "path": "~/Guidebook"
+    },
+    {
+      "name": "Guidebook1Pg1",
+      "type": "gui",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_1_pg_1",
+      "path": "~/Guidebook"
+    },
+    {
+      "name": "GuidebookPg2",
+      "type": "gui",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_pg_2",
+      "path": "~/Guidebook"
     }
   ],
   "variable_elements": [],
@@ -1967,9 +1994,9 @@
     "en_us": {
       "item.elements_of_tantalus.astral_sacrifice_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_heart_2": "Astral Heart - Actualized",
-      "block.elements_of_tantalus.gilded_air_rune_block": "Gilded Air Rune",
-      "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
       "item.elements_of_tantalus.wooden_tablet": "Wooden Tablet",
+      "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
+      "block.elements_of_tantalus.gilded_air_rune_block": "Gilded Air Rune",
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
       "block.elements_of_tantalus.astral_creation_rune_block": "Gilded Creation Rune",
       "item.elements_of_tantalus.air_rune": "Air Rune",
@@ -2009,6 +2036,7 @@
       "item.elements_of_tantalus.lesser_sacrifice_rune": "Lesser Sacrifice Rune",
       "block.elements_of_tantalus.astral_inscription_table": "Astral Inscription Table",
       "block.elements_of_tantalus.lesser_sacrifice_rune_block": "Lesser Sacrifice Rune",
+      "item.elements_of_tantalus.guidebook_1": "Elements of Tantalus V1",
       "item.elements_of_tantalus.astral_air_rune": "Astral Air Rune",
       "block.elements_of_tantalus.gilded_binding_rune_block": "Gilded Binding Rune",
       "item.elements_of_tantalus.embossed_water_rune": "Gilded Water Rune",
@@ -2226,6 +2254,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Guidebook",
+        "children": []
       }
     ]
   },
