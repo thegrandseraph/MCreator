@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "elements_of_tantalus:blocks/tablet3",
-    "up": "elements_of_tantalus:blocks/sacrificerune3",
-    "north": "elements_of_tantalus:blocks/sacrificerune3",
-    "east": "elements_of_tantalus:blocks/sacrificerune3",
-    "south": "elements_of_tantalus:blocks/sacrificerune3",
-    "west": "elements_of_tantalus:blocks/sacrificerune3",
-    "particle": "elements_of_tantalus:blocks/tablet3"
+    "down": "elements_of_tantalus:blocks/tablet4",
+    "up": "elements_of_tantalus:blocks/sacrificerune4",
+    "north": "elements_of_tantalus:blocks/sacrificerune4",
+    "east": "elements_of_tantalus:blocks/sacrificerune4",
+    "south": "elements_of_tantalus:blocks/sacrificerune4",
+    "west": "elements_of_tantalus:blocks/sacrificerune4",
+    "particle": "elements_of_tantalus:blocks/tablet4"
   }
 }

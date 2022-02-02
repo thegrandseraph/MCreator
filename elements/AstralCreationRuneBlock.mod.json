@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "tablet3",
-    "textureTop": "creationrune3",
-    "textureLeft": "creationrune3",
-    "textureFront": "creationrune3",
-    "textureRight": "creationrune3",
-    "textureBack": "creationrune3",
+    "texture": "tablet4",
+    "textureTop": "creationrune4",
+    "textureLeft": "creationrune4",
+    "textureFront": "creationrune4",
+    "textureRight": "creationrune4",
+    "textureBack": "creationrune4",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Gilded Creation Rune",
+    "name": "Astral Creation Rune",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 20.0,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "AMETHYST"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "AMETHYST_BLOCK"
     },
     "breakSound": {
       "value": ""
@@ -103,7 +103,7 @@
     },
     "particleSpawningShape": "Tube",
     "particleSpawningRadious": 0.2,
-    "particleAmount": 70,
+    "particleAmount": 90,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
