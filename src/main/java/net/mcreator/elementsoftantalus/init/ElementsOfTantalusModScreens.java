@@ -15,8 +15,11 @@ import net.mcreator.elementsoftantalus.client.gui.Inscriber4Screen;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber3Screen;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber2GuiScreen;
 import net.mcreator.elementsoftantalus.client.gui.Inscriber1GUIScreen;
+import net.mcreator.elementsoftantalus.client.gui.GuidebookPg5Screen;
+import net.mcreator.elementsoftantalus.client.gui.GuidebookPg3Screen;
 import net.mcreator.elementsoftantalus.client.gui.GuidebookPg2Screen;
 import net.mcreator.elementsoftantalus.client.gui.Guidebook1Pg1Screen;
+import net.mcreator.elementsoftantalus.client.gui.GuidbookPg4Screen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ElementsOfTantalusModScreens {
@@ -29,6 +32,9 @@ public class ElementsOfTantalusModScreens {
 			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_4, Inscriber4Screen::new);
 			MenuScreens.register(ElementsOfTantalusModMenus.GUIDEBOOK_1_PG_1, Guidebook1Pg1Screen::new);
 			MenuScreens.register(ElementsOfTantalusModMenus.GUIDEBOOK_PG_2, GuidebookPg2Screen::new);
+			MenuScreens.register(ElementsOfTantalusModMenus.GUIDEBOOK_PG_3, GuidebookPg3Screen::new);
+			MenuScreens.register(ElementsOfTantalusModMenus.GUIDBOOK_PG_4, GuidbookPg4Screen::new);
+			MenuScreens.register(ElementsOfTantalusModMenus.GUIDEBOOK_PG_5, GuidebookPg5Screen::new);
 		});
 	}
 }

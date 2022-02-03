@@ -16,8 +16,11 @@ import net.mcreator.elementsoftantalus.world.inventory.Inscriber4Menu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber3Menu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber2GuiMenu;
 import net.mcreator.elementsoftantalus.world.inventory.Inscriber1GUIMenu;
+import net.mcreator.elementsoftantalus.world.inventory.GuidebookPg5Menu;
+import net.mcreator.elementsoftantalus.world.inventory.GuidebookPg3Menu;
 import net.mcreator.elementsoftantalus.world.inventory.GuidebookPg2Menu;
 import net.mcreator.elementsoftantalus.world.inventory.Guidebook1Pg1Menu;
+import net.mcreator.elementsoftantalus.world.inventory.GuidbookPg4Menu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -37,6 +40,12 @@ public class ElementsOfTantalusModMenus {
 			(id, inv, extraData) -> new Guidebook1Pg1Menu(id, inv, extraData));
 	public static final MenuType<GuidebookPg2Menu> GUIDEBOOK_PG_2 = register("guidebook_pg_2",
 			(id, inv, extraData) -> new GuidebookPg2Menu(id, inv, extraData));
+	public static final MenuType<GuidebookPg3Menu> GUIDEBOOK_PG_3 = register("guidebook_pg_3",
+			(id, inv, extraData) -> new GuidebookPg3Menu(id, inv, extraData));
+	public static final MenuType<GuidbookPg4Menu> GUIDBOOK_PG_4 = register("guidbook_pg_4",
+			(id, inv, extraData) -> new GuidbookPg4Menu(id, inv, extraData));
+	public static final MenuType<GuidebookPg5Menu> GUIDEBOOK_PG_5 = register("guidebook_pg_5",
+			(id, inv, extraData) -> new GuidebookPg5Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

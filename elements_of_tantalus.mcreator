@@ -1986,6 +1986,33 @@
       "locked_code": false,
       "registry_name": "guidebook_pg_2",
       "path": "~/Guidebook"
+    },
+    {
+      "name": "GuidebookPg3",
+      "type": "gui",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_pg_3",
+      "path": "~/Guidebook"
+    },
+    {
+      "name": "GuidbookPg4",
+      "type": "gui",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidbook_pg_4",
+      "path": "~/Guidebook"
+    },
+    {
+      "name": "GuidebookPg5",
+      "type": "gui",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_pg_5",
+      "path": "~/Guidebook"
     }
   ],
   "variable_elements": [],

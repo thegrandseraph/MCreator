@@ -1,0 +1,144 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "4. Summon Tantalus...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4. Summon Tantalus...",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Set up your rune blocks as such",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Set up your rune blocks as such",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bindingrune1.png",
+          "use1Xscale": false,
+          "name": "bindingrune1.png",
+          "x": 204,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "airrune1.png",
+          "use1Xscale": false,
+          "name": "airrune1.png",
+          "x": 204,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "earthrune1.png",
+          "use1Xscale": false,
+          "name": "earthrune1.png",
+          "x": 204,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "firerune1.png",
+          "use1Xscale": false,
+          "name": "firerune1.png",
+          "x": 186,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "waterrune1.png",
+          "use1Xscale": false,
+          "name": "waterrune1.png",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "creationrune1.png",
+          "use1Xscale": false,
+          "name": "creationrune1.png",
+          "x": 186,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "destructionrune1.png",
+          "use1Xscale": false,
+          "name": "destructionrune1.png",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Now just right click the center",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Now just right click the center",
+          "x": 132,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with your crafted effigy",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "with your crafted effigy",
+          "x": 150,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
