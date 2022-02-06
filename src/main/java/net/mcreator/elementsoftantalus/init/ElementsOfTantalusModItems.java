@@ -57,6 +57,7 @@ import net.mcreator.elementsoftantalus.item.DreamSparkItem;
 import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
 import net.mcreator.elementsoftantalus.item.DarkSparkItem;
 import net.mcreator.elementsoftantalus.item.CreationRuneItem;
+import net.mcreator.elementsoftantalus.item.CorruptEffigy1Item;
 import net.mcreator.elementsoftantalus.item.BottleOfBloodItem;
 import net.mcreator.elementsoftantalus.item.AstralWaterRuneItem;
 import net.mcreator.elementsoftantalus.item.AstralTabletItem;
@@ -196,6 +197,7 @@ public class ElementsOfTantalusModItems {
 	public static final Item ASTRAL_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item GUIDEBOOK_1 = register(new Guidebook1Item());
+	public static final Item CORRUPT_EFFIGY_1 = register(new CorruptEffigy1Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
