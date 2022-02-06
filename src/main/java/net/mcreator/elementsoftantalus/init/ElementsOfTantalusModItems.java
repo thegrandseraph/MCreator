@@ -33,6 +33,7 @@ import net.mcreator.elementsoftantalus.item.LesserDestructionRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserCreationRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserAirRuneItem;
 import net.mcreator.elementsoftantalus.item.KnifeOfSacrificeItem;
+import net.mcreator.elementsoftantalus.item.Guidebook1Item;
 import net.mcreator.elementsoftantalus.item.FlimsyEtcherItem;
 import net.mcreator.elementsoftantalus.item.FireRuneItem;
 import net.mcreator.elementsoftantalus.item.EtcherItem;
@@ -51,11 +52,13 @@ import net.mcreator.elementsoftantalus.item.EffigyOfTantalusItem;
 import net.mcreator.elementsoftantalus.item.Effigy4Item;
 import net.mcreator.elementsoftantalus.item.Effigy3Item;
 import net.mcreator.elementsoftantalus.item.Effigy2Item;
+import net.mcreator.elementsoftantalus.item.Effigy1Item;
 import net.mcreator.elementsoftantalus.item.EarthRuneItem;
 import net.mcreator.elementsoftantalus.item.DreamSparkItem;
 import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
 import net.mcreator.elementsoftantalus.item.DarkSparkItem;
 import net.mcreator.elementsoftantalus.item.CreationRuneItem;
+import net.mcreator.elementsoftantalus.item.CorruptEffigy1Item;
 import net.mcreator.elementsoftantalus.item.BottleOfBloodItem;
 import net.mcreator.elementsoftantalus.item.AstralWaterRuneItem;
 import net.mcreator.elementsoftantalus.item.AstralTabletItem;
@@ -84,37 +87,9 @@ public class ElementsOfTantalusModItems {
 	public static final Item STONE_TABLET = register(new StoneTabletItem());
 	public static final Item EMBOSSED_TABLET = register(new EmbossedTabletItem());
 	public static final Item ASTRAL_TABLET = register(new AstralTabletItem());
-	public static final Item DREAM_SPARK = register(new DreamSparkItem());
-	public static final Item METAL_SPARK = register(new MetalSparkItem());
-	public static final Item ENERGY_SPARK = register(new EnergySparkItem());
-	public static final Item LIFE_SPARK = register(new LifeSparkItem());
-	public static final Item SKY_SPARK = register(new SkySparkItem());
-	public static final Item LIGHT_SPARK = register(new LightSparkItem());
-	public static final Item DARK_SPARK = register(new DarkSparkItem());
-	public static final Item LESSER_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.LESSER_INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item EMBOSSED_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.EMBOSSED_INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item ASTRAL_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.ASTRAL_INSCRIPTION_TABLE,
-			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
-	public static final Item LESSER_TANTALUS_HEART = register(new LesserTantalusHeartItem());
-	public static final Item TANTALUS_HEART = register(new TantalusHeartItem());
-	public static final Item EMBOSSED_TANTALUS_HEART = register(new EmbossedTantalusHeartItem());
-	public static final Item ASTRAL_HEART = register(new AstralHeartItem());
-	public static final Item TANTALUS_HEART_2 = register(new TantalusHeart2Item());
-	public static final Item EMBOSSED_HEART_2 = register(new EmbossedHeart2Item());
-	public static final Item ASTRAL_HEART_2 = register(new AstralHeart2Item());
-	public static final Item EFFIGY_OF_TANTALUS = register(new EffigyOfTantalusItem());
-	public static final Item EFFIGY_2 = register(new Effigy2Item());
-	public static final Item EFFIGY_3 = register(new Effigy3Item());
-	public static final Item EFFIGY_4 = register(new Effigy4Item());
-	public static final Item KNIFE_OF_SACRIFICE = register(new KnifeOfSacrificeItem());
 	public static final Item LESSER_EARTH_RUNE = register(new LesserEarthRuneItem());
 	public static final Item LESSER_AIR_RUNE = register(new LesserAirRuneItem());
 	public static final Item LESSER_FIRE_RUNE = register(new LesserFireRuneItem());
-	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
 	public static final Item LESSER_CREATION_RUNE = register(new LesserCreationRuneItem());
 	public static final Item LESSER_DESTRUCTION_RUNE = register(new LesserDestructionRuneItem());
 	public static final Item LESSER_SACRIFICE_RUNE = register(new LesserSacrificeRuneItem());
@@ -125,75 +100,106 @@ public class ElementsOfTantalusModItems {
 	public static final Item CREATION_RUNE = register(new CreationRuneItem());
 	public static final Item DESTRUCTION_RUNE = register(new DestructionRuneItem());
 	public static final Item SACRIFICE_RUNE = register(new SacrificeRuneItem());
-	public static final Item EMBOSSED_EARTH_RUNE = register(new EmbossedEarthRuneItem());
 	public static final Item EMBOSSED_AIR_RUNE = register(new EmbossedAirRuneItem());
 	public static final Item EMBOSSED_FIRE_RUNE = register(new EmbossedFireRuneItem());
+	public static final Item EMBOSSED_EARTH_RUNE = register(new EmbossedEarthRuneItem());
 	public static final Item EMBOSSED_WATER_RUNE = register(new EmbossedWaterRuneItem());
 	public static final Item EMBOSSED_CREATION_RUNE = register(new EmbossedCreationRuneItem());
 	public static final Item EMBOSSED_DESTRUCTION_RUNE = register(new EmbossedDestructionRuneItem());
 	public static final Item EMBOSSED_SACRIFICE_RUNE = register(new EmbossedSacrificeRuneItem());
-	public static final Item ASTRA_EARTH_RUNE = register(new AstraEarthRuneItem());
 	public static final Item ASTRAL_AIR_RUNE = register(new AstralAirRuneItem());
 	public static final Item ASTRAL_FIRE_RUNE = register(new AstralFireRuneItem());
+	public static final Item ASTRA_EARTH_RUNE = register(new AstraEarthRuneItem());
 	public static final Item ASTRAL_WATER_RUNE = register(new AstralWaterRuneItem());
 	public static final Item ASTRAL_CREATION_RUNE = register(new AstralCreationRuneItem());
 	public static final Item ASTRAL_DESTRUCTION_RUNE = register(new AstralDestructionRuneItem());
 	public static final Item ASTRAL_SACRIFICE_RUNE = register(new AstralSacrificeRuneItem());
+	public static final Item DREAM_SPARK = register(new DreamSparkItem());
+	public static final Item METAL_SPARK = register(new MetalSparkItem());
+	public static final Item ENERGY_SPARK = register(new EnergySparkItem());
+	public static final Item LIFE_SPARK = register(new LifeSparkItem());
+	public static final Item SKY_SPARK = register(new SkySparkItem());
+	public static final Item LIGHT_SPARK = register(new LightSparkItem());
+	public static final Item DARK_SPARK = register(new DarkSparkItem());
+	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
+	public static final Item LESSER_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.LESSER_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item EMBOSSED_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.EMBOSSED_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item ASTRAL_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.ASTRAL_INSCRIPTION_TABLE,
+			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
+	public static final Item LESSER_TANTALUS_HEART = register(new LesserTantalusHeartItem());
+	public static final Item TANTALUS_HEART = register(new TantalusHeartItem());
+	public static final Item EFFIGY_OF_TANTALUS = register(new EffigyOfTantalusItem());
+	public static final Item EMBOSSED_TANTALUS_HEART = register(new EmbossedTantalusHeartItem());
+	public static final Item EFFIGY_2 = register(new Effigy2Item());
+	public static final Item ASTRAL_HEART = register(new AstralHeartItem());
+	public static final Item EFFIGY_3 = register(new Effigy3Item());
+	public static final Item EFFIGY_4 = register(new Effigy4Item());
+	public static final Item KNIFE_OF_SACRIFICE = register(new KnifeOfSacrificeItem());
+	public static final Item BOTTLE_OF_BLOOD = register(new BottleOfBloodItem());
+	public static final Item ASTRAL_HEART_2 = register(new AstralHeart2Item());
+	public static final Item TANTALUS_HEART_2 = register(new TantalusHeart2Item());
+	public static final Item EMBOSSED_HEART_2 = register(new EmbossedHeart2Item());
+	public static final Item LESSER_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_WATER_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item LESSER_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_FIRE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_EARTH_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item LESSER_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_FIRE_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item LESSER_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_WATER_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item LESSER_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_CREATION_RUNE_BLOCK,
+	public static final Item LESSER_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_SACRIFICE_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_DESTRUCTION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item LESSER_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_SACRIFICE_RUNE_BLOCK,
+	public static final Item LESSER_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_CREATION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.EARTH_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.FIRE_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.WATER_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.CREATION_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.EARTH_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.FIRE_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.SACRIFICE_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.DESTRUCTION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.SACRIFICE_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.CREATION_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.BINDING_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item GILDED_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_EARTH_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item GILDED_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item GILDED_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_FIRE_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item GILDED_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_WATER_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item GILDED_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_CREATION_RUNE_BLOCK,
+	public static final Item GILDED_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_EARTH_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_FIRE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item GILDED_SACRIFCE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_SACRIFCE_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item GILDED_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_DESTRUCTION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item GILDED_SACRIFCE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_SACRIFCE_RUNE_BLOCK,
+	public static final Item GILDED_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_CREATION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item GILDED_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.GILDED_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item ASTRAL_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_EARTH_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item ASTRAL_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item ASTRAL_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_FIRE_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item ASTRAL_WATER_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_WATER_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item ASTRAL_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_CREATION_RUNE_BLOCK,
+	public static final Item ASTRAL_EARTH_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_EARTH_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_FIRE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_FIRE_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_AIR_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_AIR_RUNE_BLOCK, ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item ASTRAL_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_SACRIFICE_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item ASTRAL_DESTRUCTION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_DESTRUCTION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item ASTRAL_SACRIFICE_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_SACRIFICE_RUNE_BLOCK,
+	public static final Item ASTRAL_CREATION_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_CREATION_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item ASTRAL_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.ASTRAL_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
-	public static final Item BOTTLE_OF_BLOOD = register(new BottleOfBloodItem());
+	public static final Item GUIDEBOOK_1 = register(new Guidebook1Item());
+	public static final Item CORRUPT_EFFIGY_1 = register(new CorruptEffigy1Item());
+	public static final Item EFFIGY_1 = register(new Effigy1Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

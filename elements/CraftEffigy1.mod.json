@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:AstralHeart"
+        "value": "CUSTOM:LesserTantalusHeart"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Effigy4"
+        "value": "CUSTOM:EffigyOfTantalus"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Effigy4"
+      "value": "CUSTOM:Effigy1"
     },
-    "name": "craft_effigy_4",
+    "name": "craft_effigy_1",
     "namespace": "mod"
   }
 }

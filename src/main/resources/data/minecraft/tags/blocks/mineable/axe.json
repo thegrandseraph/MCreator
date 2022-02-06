@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
+    "elements_of_tantalus:lesser_binding_rune_block",
+    "elements_of_tantalus:lesser_water_rune_block",
+    "elements_of_tantalus:lesser_fire_rune_block",
     "elements_of_tantalus:lesser_earth_rune_block",
     "elements_of_tantalus:lesser_air_rune_block",
-    "elements_of_tantalus:lesser_fire_rune_block",
-    "elements_of_tantalus:lesser_water_rune_block",
-    "elements_of_tantalus:lesser_creation_rune_block",
-    "elements_of_tantalus:lesser_destruction_rune_block",
     "elements_of_tantalus:lesser_sacrifice_rune_block",
-    "elements_of_tantalus:lesser_binding_rune_block"
+    "elements_of_tantalus:lesser_destruction_rune_block",
+    "elements_of_tantalus:lesser_creation_rune_block"
   ]
 }

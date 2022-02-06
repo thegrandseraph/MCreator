@@ -1,0 +1,129 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "3. Prepare an effigy...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "3. Prepare an effigy...",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Craft a simple effigy",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Craft a simple effigy",
+          "x": 158,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "effigy.png",
+          "use1Xscale": false,
+          "name": "effigy.png",
+          "x": 203,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "And the tier of heart you need",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "And the tier of heart you need",
+          "x": 135,
+          "y": 103
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "heart1.png",
+          "use1Xscale": false,
+          "name": "heart1.png",
+          "x": 204,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Then combine in a craft table",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Then combine in a craft table",
+          "x": 137,
+          "y": 142
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You will get a tiered effigy",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You will get a tiered effigy",
+          "x": 141,
+          "y": 156
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 30,
+          "height": 20,
+          "name": ">",
+          "x": 258,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 132,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
