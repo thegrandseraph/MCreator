@@ -22,9 +22,9 @@ public class ElementsOfTantalusModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_1_GUI, Inscriber1GUIScreen::new);
-			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_2_GUI, Inscriber2GuiScreen::new);
-			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_3, Inscriber3Screen::new);
 			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_4, Inscriber4Screen::new);
+			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_3, Inscriber3Screen::new);
+			MenuScreens.register(ElementsOfTantalusModMenus.INSCRIBER_2_GUI, Inscriber2GuiScreen::new);
 		});
 	}
 }
