@@ -1,10 +1,19 @@
 
 package net.mcreator.elementsoftantalus.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModTabs;
+
+import java.util.List;
 
 public class Guidebook1Item extends Item {
-
 	public Guidebook1Item() {
 		super(new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS).stacksTo(64).rarity(Rarity.COMMON));
 		setRegistryName("guidebook_1");
@@ -20,5 +29,4 @@ public class Guidebook1Item extends Item {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("A guide to basice runecraft."));
 	}
-
 }

@@ -1961,46 +1961,13 @@
       "path": "~/Tools/Runes/Teir4 Blocks"
     },
     {
-      "name": "BeginSummon",
-      "type": "procedure",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "begin_summon",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/SummonLesserTantalus"
-    },
-    {
       "name": "GuidebookPg2",
       "type": "gui",
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidebook_pg_2",
-      "path": "~/Guidebook"
+      "path": "~/Book"
     },
     {
       "name": "GuidebookPg3",
@@ -2009,7 +1976,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidebook_pg_3",
-      "path": "~/Guidebook"
+      "path": "~/Book"
     },
     {
       "name": "CraftEffigy",
@@ -2051,7 +2018,7 @@
           }
         ]
       },
-      "path": "~/Procedures/LesserSummoning"
+      "path": "~/Procedures/SummonLesserTantalus"
     },
     {
       "name": "CorruptEffigy1",
@@ -2069,7 +2036,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidebook_1",
-      "path": "~/Guidebook"
+      "path": "~/Book"
     },
     {
       "name": "GuidebookPg5",
@@ -2078,7 +2045,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidebook_pg_5",
-      "path": "~/Guidebook"
+      "path": "~/Book"
     },
     {
       "name": "Effigy1",
@@ -2096,7 +2063,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidbook_pg_4",
-      "path": "~/Guidebook"
+      "path": "~/Book"
     },
     {
       "name": "CraftEffigy1",
@@ -2132,7 +2099,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guidebook_1_pg_1",
-      "path": "~/Guidebook"
+      "path": "~/Book"
     },
     {
       "name": "CraftEffigy4",
@@ -2162,7 +2129,7 @@
       "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
       "item.elements_of_tantalus.wooden_tablet": "Wooden Tablet",
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
-      "block.elements_of_tantalus.astral_creation_rune_block": "Gilded Creation Rune",
+      "block.elements_of_tantalus.astral_creation_rune_block": "Astral Creation Rune",
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "block.elements_of_tantalus.gilded_earth_rune_block": "Gilded Earth Rune",
@@ -2193,14 +2160,14 @@
       "block.elements_of_tantalus.lesser_air_rune_block": "Lesser Air Rune",
       "item.elements_of_tantalus.corrupt_effigy_1": "!@#%\u0026#!@)(%",
       "item.elements_of_tantalus.bottle_of_blood": "Bottle Of Blood",
-      "block.elements_of_tantalus.astral_destruction_rune_block": "Gilded Destruction Rune",
+      "block.elements_of_tantalus.astral_destruction_rune_block": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_destruction_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_fire_rune": "Astral Fire Rune",
       "block.elements_of_tantalus.lesser_fire_rune_block": "Lesser Fire Rune",
       "item.elements_of_tantalus.embossed_destruction_rune": "Gilded Distruction Rune",
       "item.elements_of_tantalus.astral_etcher": "Astral Etcher",
       "item.elements_of_tantalus.flimsy_etcher": "Flimsy Etcher",
-      "block.elements_of_tantalus.astral_sacrifice_rune_block": "Gilded Sacrifice Rune",
+      "block.elements_of_tantalus.astral_sacrifice_rune_block": "Astral Sacrifice Rune",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
       "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
@@ -2242,7 +2209,7 @@
       "block.elements_of_tantalus.gilded_water_rune_block": "Gilded Water Rune",
       "item.elements_of_tantalus.embossed_sacrifice_rune": "Gilded Sacrifice Rune",
       "block.elements_of_tantalus.astral_earth_rune_block": "Astral Earth Rune",
-      "block.elements_of_tantalus.astral_binding_rune_block": "Gilded Binding Rune",
+      "block.elements_of_tantalus.astral_binding_rune_block": "Astral Binding Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
       "block.elements_of_tantalus.lesser_binding_rune_block": "Lesser Binding Rune",
@@ -2428,6 +2395,10 @@
       },
       {
         "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Book",
         "children": []
       }
     ]
