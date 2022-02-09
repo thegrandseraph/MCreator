@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "tablet3",
-    "textureTop": "destructionrune3",
-    "textureLeft": "destructionrune3",
-    "textureFront": "destructionrune3",
-    "textureRight": "destructionrune3",
-    "textureBack": "destructionrune3",
+    "texture": "tablet4",
+    "textureTop": "destructionrune4",
+    "textureLeft": "destructionrune4",
+    "textureFront": "destructionrune4",
+    "textureRight": "destructionrune4",
+    "textureBack": "destructionrune4",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Gilded Destruction Rune",
+    "name": "Astral Destruction Rune",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 20.0,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "AMETHYST"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "AMETHYST_BLOCK"
     },
     "breakSound": {
       "value": ""
@@ -103,7 +103,7 @@
     },
     "particleSpawningShape": "Tube",
     "particleSpawningRadious": 0.2,
-    "particleAmount": 70,
+    "particleAmount": 90,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

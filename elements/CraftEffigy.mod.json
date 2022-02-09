@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:AstralHeart"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "CUSTOM:Effigy4"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Blocks.STONE#0"
       },
       {
         "value": ""
+      },
+      {
+        "value": "Blocks.STONE#0"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Effigy4"
+      "value": "CUSTOM:EffigyOfTantalus"
     },
-    "name": "craft_effigy_4",
+    "name": "craft_effigy",
     "namespace": "mod"
   }
 }

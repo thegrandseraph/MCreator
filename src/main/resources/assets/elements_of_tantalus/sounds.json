@@ -1,0 +1,12 @@
+{
+  "bosssummon": {
+    "category": "neutral",
+    "subtitle": "subtitles.bosssummon",
+    "sounds": [
+      {
+        "name": "elements_of_tantalus:boss_intro_2",
+        "stream": false
+      }
+    ]
+  }
+}

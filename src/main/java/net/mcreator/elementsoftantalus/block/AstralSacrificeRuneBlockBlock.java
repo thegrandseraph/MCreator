@@ -25,7 +25,7 @@ import java.util.Collections;
 
 public class AstralSacrificeRuneBlockBlock extends Block {
 	public AstralSacrificeRuneBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 20f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.AMETHYST).sound(SoundType.AMETHYST).strength(1f, 20f).requiresCorrectToolForDrops());
 		setRegistryName("astral_sacrifice_rune_block");
 	}
 
@@ -57,7 +57,7 @@ public class AstralSacrificeRuneBlockBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 70; ++l) {
+		for (int l = 0; l < 90; ++l) {
 			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.2D;
 			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.2D * 100;
 			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.2D;

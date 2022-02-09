@@ -2015,15 +2015,6 @@
       "path": "~/Guidebook"
     },
     {
-      "name": "LesserTantalusHeart2",
-      "type": "item",
-      "sortid": 213,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lesser_tantalus_heart_2",
-      "path": "~/Tools/Inscription Table/Hearts"
-    },
-    {
       "name": "Testarmor",
       "type": "armor",
       "sortid": 214,
@@ -2036,15 +2027,128 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "LesserTantalusHeart2",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_tantalus_heart_2",
+      "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "Effigy1",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effigy_1",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "Summon",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/SummonLesserTantalus"
+    },
+    {
+      "name": "CraftEffigy1",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_1",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy3",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_3",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CorruptEffigy1",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_effigy_1",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy2",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_2",
+      "path": "~/Tools/Misc"
+    },
+    {
+      "name": "CraftEffigy4",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_effigy_4",
+      "path": "~/Tools/Misc"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "bosssummon",
+      "files": [
+        "boss_intro_2"
+      ],
+      "category": "neutral",
+      "subtitle": "coolness"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.elements_of_tantalus.astral_sacrifice_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_heart_2": "Astral Heart - Actualized",
-      "item.elements_of_tantalus.testarmor_helmet": "Testarmor Helmet",
       "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
       "item.elements_of_tantalus.wooden_tablet": "Wooden Tablet",
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
@@ -2052,7 +2156,6 @@
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "block.elements_of_tantalus.gilded_earth_rune_block": "Gilded Earth Rune",
-      "item.elements_of_tantalus.testarmor_chestplate": "Testarmor Body",
       "block.elements_of_tantalus.gilded_fire_rune_block": "Gilded Fire Rune",
       "item.elements_of_tantalus.embossed_earth_rune": "Gilded Earth Rune",
       "item.elements_of_tantalus.dark_spark": "Dark Spark",
@@ -2089,15 +2192,14 @@
       "block.elements_of_tantalus.astral_sacrifice_rune_block": "Gilded Sacrifice Rune",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
       "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
-      "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
+      "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
       "item.elements_of_tantalus.etcher": "Etcher",
       "block.elements_of_tantalus.lesser_inscription_table": "Lesser Inscription Table",
       "block.elements_of_tantalus.gilded_air_rune_block": "Gilded Air Rune",
       "item.elements_of_tantalus.metal_spark": "Metal Spark",
       "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
-      "item.elements_of_tantalus.lesser_tantalus_heart_2": "Lesser Tantalus Heart - Actualized",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
       "block.elements_of_tantalus.air_rune_block": "Air Rune",
       "item.elements_of_tantalus.life_spark": "Life Spark",
@@ -2114,7 +2216,6 @@
       "item.elements_of_tantalus.effigy_4": "Effigy Of Tantalus Tier IV",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "block.elements_of_tantalus.destruction_rune_block": "Destruction Rune",
-      "item.elements_of_tantalus.testarmor_leggings": "Testarmor Leggings",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "block.elements_of_tantalus.lesser_sacrifice_rune_block": "Lesser Sacrifice Rune",
       "item.elements_of_tantalus.astral_air_rune": "Astral Air Rune",
@@ -2124,7 +2225,6 @@
       "item.elements_of_tantalus.energy_spark": "Energy Spark",
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
-      "item.elements_of_tantalus.testarmor_boots": "Testarmor Boots",
       "item.elements_of_tantalus.embossed_air_rune": "Gilded Air Rune",
       "item.elements_of_tantalus.embossed_fire_rune": "Gilded Fire Rune",
       "block.elements_of_tantalus.gilded_water_rune_block": "Gilded Water Rune",
@@ -2133,7 +2233,6 @@
       "block.elements_of_tantalus.astral_binding_rune_block": "Gilded Binding Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
-      "block.elements_of_tantalus.lesser_binding_rune_block": "Lesser Binding Rune",
       "block.elements_of_tantalus.astral_air_rune_block": "Astral Air Rune",
       "item.elements_of_tantalus.light_spark": "Light Spark",
       "item.elements_of_tantalus.tantalus_heart": "Tantalus Heart - Unactualized",
@@ -2166,6 +2265,14 @@
           {
             "name": "Runes",
             "children": [
+              {
+                "name": "Teir2 Blocks",
+                "children": []
+              },
+              {
+                "name": "Teir3 Blocks",
+                "children": []
+              },
               {
                 "name": "Sparks",
                 "children": [
@@ -2220,14 +2327,6 @@
                 "children": []
               },
               {
-                "name": "Teir2 Blocks",
-                "children": []
-              },
-              {
-                "name": "Teir3 Blocks",
-                "children": []
-              },
-              {
                 "name": "Teir4 Blocks",
                 "children": []
               }
@@ -2238,6 +2337,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Book",
+        "children": []
       },
       {
         "name": "Procedures",
@@ -2257,8 +2360,16 @@
           {
             "name": "EmbossedInscriptionTable",
             "children": []
+          },
+          {
+            "name": "SummonLesserTantalus",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
       },
       {
         "name": "GUI",
@@ -2309,10 +2420,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "Guidebook",
-        "children": []
       }
     ]
   },

@@ -54,11 +54,13 @@ import net.mcreator.elementsoftantalus.item.EffigyOfTantalusItem;
 import net.mcreator.elementsoftantalus.item.Effigy4Item;
 import net.mcreator.elementsoftantalus.item.Effigy3Item;
 import net.mcreator.elementsoftantalus.item.Effigy2Item;
+import net.mcreator.elementsoftantalus.item.Effigy1Item;
 import net.mcreator.elementsoftantalus.item.EarthRuneItem;
 import net.mcreator.elementsoftantalus.item.DreamSparkItem;
 import net.mcreator.elementsoftantalus.item.DestructionRuneItem;
 import net.mcreator.elementsoftantalus.item.DarkSparkItem;
 import net.mcreator.elementsoftantalus.item.CreationRuneItem;
+import net.mcreator.elementsoftantalus.item.CorruptEffigy1Item;
 import net.mcreator.elementsoftantalus.item.BottleOfBloodItem;
 import net.mcreator.elementsoftantalus.item.AstralWaterRuneItem;
 import net.mcreator.elementsoftantalus.item.AstralTabletItem;
@@ -199,10 +201,12 @@ public class ElementsOfTantalusModItems {
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item GUIDEBOOK_1 = register(new Guidebook1Item());
 	public static final Item LESSER_TANTALUS_HEART_2 = register(new LesserTantalusHeart2Item());
+	public static final Item CORRUPT_EFFIGY_1 = register(new CorruptEffigy1Item());
 	public static final Item TESTARMOR_HELMET = register(new TestarmorItem.Helmet());
 	public static final Item TESTARMOR_CHESTPLATE = register(new TestarmorItem.Chestplate());
 	public static final Item TESTARMOR_LEGGINGS = register(new TestarmorItem.Leggings());
 	public static final Item TESTARMOR_BOOTS = register(new TestarmorItem.Boots());
+	public static final Item EFFIGY_1 = register(new Effigy1Item());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
