@@ -21,6 +21,7 @@ import net.mcreator.elementsoftantalus.block.LesserFireRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserEarthRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserDestructionRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserCreationRuneBlockBlock;
+import net.mcreator.elementsoftantalus.block.LesserBindingRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.LesserAirRuneBlockBlock;
 import net.mcreator.elementsoftantalus.block.InscriptionTableBlock;
 import net.mcreator.elementsoftantalus.block.GildedWaterRuneBlockBlock;

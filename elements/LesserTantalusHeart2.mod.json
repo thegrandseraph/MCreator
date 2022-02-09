@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "heart1",
     "customModelName": "Normal",
-    "name": "Lesser Tantalus Heart",
+    "name": "Lesser Tantalus Heart - Actualized",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ElementsOfTantalus"
@@ -25,10 +25,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "A totem of tortured greed.",
-      "Perhaps you can put it to better use than its owner?"
+      "A sliver of power has taken root inside."
     ],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

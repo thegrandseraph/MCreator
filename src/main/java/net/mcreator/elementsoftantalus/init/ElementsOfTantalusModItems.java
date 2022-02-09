@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.elementsoftantalus.item.WoodenTabletItem;
 import net.mcreator.elementsoftantalus.item.WaterRuneItem;
+import net.mcreator.elementsoftantalus.item.TestarmorItem;
 import net.mcreator.elementsoftantalus.item.TantalusHeartItem;
 import net.mcreator.elementsoftantalus.item.TantalusHeart2Item;
 import net.mcreator.elementsoftantalus.item.StoneTabletItem;
@@ -26,6 +27,7 @@ import net.mcreator.elementsoftantalus.item.LightSparkItem;
 import net.mcreator.elementsoftantalus.item.LifeSparkItem;
 import net.mcreator.elementsoftantalus.item.LesserWaterRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserTantalusHeartItem;
+import net.mcreator.elementsoftantalus.item.LesserTantalusHeart2Item;
 import net.mcreator.elementsoftantalus.item.LesserSacrificeRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserFireRuneItem;
 import net.mcreator.elementsoftantalus.item.LesserEarthRuneItem;
@@ -197,6 +199,11 @@ public class ElementsOfTantalusModItems {
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item GUIDEBOOK_1 = register(new Guidebook1Item());
 	public static final Item CORRUPT_EFFIGY_1 = register(new CorruptEffigy1Item());
+	public static final Item LESSER_TANTALUS_HEART_2 = register(new LesserTantalusHeart2Item());
+	public static final Item TESTARMOR_HELMET = register(new TestarmorItem.Helmet());
+	public static final Item TESTARMOR_CHESTPLATE = register(new TestarmorItem.Chestplate());
+	public static final Item TESTARMOR_LEGGINGS = register(new TestarmorItem.Leggings());
+	public static final Item TESTARMOR_BOOTS = register(new TestarmorItem.Boots());
 	public static final Item EFFIGY_1 = register(new Effigy1Item());
 	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);

@@ -25,11 +25,6 @@ public class LesserTantalusHeartItem extends Item {
 	}
 
 	@Override
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
-	}
-
-	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("A totem of tortured greed."));

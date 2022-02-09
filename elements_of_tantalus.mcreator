@@ -2109,6 +2109,29 @@
       "locked_code": false,
       "registry_name": "lesser_binding_rune_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "Testarmor",
+      "type": "armor",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LesserTantalusHeart2",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesser_tantalus_heart_2",
+      "path": "~/Tools/Inscription Table/Hearts"
     }
   ],
   "variable_elements": [],
@@ -2212,6 +2235,7 @@
       "block.elements_of_tantalus.astral_binding_rune_block": "Astral Binding Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
+      "block.elements_of_tantalus.lesser_binding_rune_block": "Lesser Binding Rune",
       "block.elements_of_tantalus.astral_air_rune_block": "Astral Air Rune",
       "item.elements_of_tantalus.light_spark": "Light Spark",
       "item.elements_of_tantalus.tantalus_heart": "Tantalus Heart - Unactualized",
@@ -2244,6 +2268,14 @@
           {
             "name": "Runes",
             "children": [
+              {
+                "name": "Teir2 Blocks",
+                "children": []
+              },
+              {
+                "name": "Teir3 Blocks",
+                "children": []
+              },
               {
                 "name": "Sparks",
                 "children": [
@@ -2298,14 +2330,6 @@
                 "children": []
               },
               {
-                "name": "Teir2 Blocks",
-                "children": []
-              },
-              {
-                "name": "Teir3 Blocks",
-                "children": []
-              },
-              {
                 "name": "Teir4 Blocks",
                 "children": []
               }
@@ -2316,6 +2340,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Book",
+        "children": []
       },
       {
         "name": "Procedures",
@@ -2341,6 +2369,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
       },
       {
         "name": "GUI",
@@ -2391,14 +2423,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "Advancements",
-        "children": []
-      },
-      {
-        "name": "Book",
-        "children": []
       }
     ]
   },
