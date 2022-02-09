@@ -2132,6 +2132,14 @@
       "locked_code": false,
       "registry_name": "lesser_tantalus_heart_2",
       "path": "~/Tools/Inscription Table/Hearts"
+    },
+    {
+      "name": "TestA",
+      "type": "tag",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_a"
     }
   ],
   "variable_elements": [],
@@ -2195,8 +2203,8 @@
       "block.elements_of_tantalus.astral_sacrifice_rune_block": "Astral Sacrifice Rune",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
       "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
-      "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
+      "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
       "item.elements_of_tantalus.etcher": "Etcher",
       "block.elements_of_tantalus.lesser_inscription_table": "Lesser Inscription Table",
       "block.elements_of_tantalus.gilded_air_rune_block": "Gilded Air Rune",
