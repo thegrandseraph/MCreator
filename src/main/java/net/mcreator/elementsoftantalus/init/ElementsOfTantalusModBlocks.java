@@ -54,7 +54,6 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ElementsOfTantalusModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block LESSER_BINDING_RUNE_BLOCK = register(new LesserBindingRuneBlockBlock());
 	public static final Block LESSER_INSCRIPTION_TABLE = register(new LesserInscriptionTableBlock());
 	public static final Block EMBOSSED_INSCRIPTION_TABLE = register(new EmbossedInscriptionTableBlock());
 	public static final Block INSCRIPTION_TABLE = register(new InscriptionTableBlock());
@@ -90,6 +89,7 @@ public class ElementsOfTantalusModBlocks {
 	public static final Block ASTRAL_DESTRUCTION_RUNE_BLOCK = register(new AstralDestructionRuneBlockBlock());
 	public static final Block ASTRAL_CREATION_RUNE_BLOCK = register(new AstralCreationRuneBlockBlock());
 	public static final Block ASTRAL_BINDING_RUNE_BLOCK = register(new AstralBindingRuneBlockBlock());
+	public static final Block LESSER_BINDING_RUNE_BLOCK = register(new LesserBindingRuneBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

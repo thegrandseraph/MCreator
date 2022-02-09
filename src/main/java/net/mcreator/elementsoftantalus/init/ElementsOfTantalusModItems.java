@@ -121,8 +121,6 @@ public class ElementsOfTantalusModItems {
 	public static final Item SKY_SPARK = register(new SkySparkItem());
 	public static final Item LIGHT_SPARK = register(new LightSparkItem());
 	public static final Item DARK_SPARK = register(new DarkSparkItem());
-	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
-			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_WATER_RUNE = register(new LesserWaterRuneItem());
 	public static final Item LESSER_INSCRIPTION_TABLE = register(ElementsOfTantalusModBlocks.LESSER_INSCRIPTION_TABLE,
 			ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS);
@@ -200,6 +198,8 @@ public class ElementsOfTantalusModItems {
 	public static final Item GUIDEBOOK_1 = register(new Guidebook1Item());
 	public static final Item CORRUPT_EFFIGY_1 = register(new CorruptEffigy1Item());
 	public static final Item EFFIGY_1 = register(new Effigy1Item());
+	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
+			ElementsOfTantalusModTabs.TAB_RUNES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
