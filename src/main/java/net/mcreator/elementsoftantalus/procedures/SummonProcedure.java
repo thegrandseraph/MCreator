@@ -115,6 +115,11 @@ public class SummonProcedure {
 					}
 
 					private void run() {
+						if (world instanceof ServerLevel _level)
+							_level.getServer().getCommands().performCommand(
+									new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0.5), (y + 3), (z + 0.5)), Vec2.ZERO, _level, 4, "",
+											new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
+									"summon minecraft:lightning_bolt ~0.5 ~3 ~0.5");
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new Cow(EntityType.COW, _level);
 							entityToSpawn.moveTo((x + 0.5), (y + 1), (z + 0.5), world.getRandom().nextFloat() * 360F, 0);
@@ -125,7 +130,7 @@ public class SummonProcedure {
 						}
 						MinecraftForge.EVENT_BUS.unregister(this);
 					}
-				}.start(world, 500);
+				}.start(world, 440);
 			}
 		}
 	}
