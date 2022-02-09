@@ -1966,8 +1966,7 @@
       "sortid": 207,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guidebook_1",
-      "path": "~/Guidebook"
+      "registry_name": "guidebook_1"
     },
     {
       "name": "Guidebook1Pg1",
@@ -1975,8 +1974,7 @@
       "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guidebook_1_pg_1",
-      "path": "~/Guidebook"
+      "registry_name": "guidebook_1_pg_1"
     },
     {
       "name": "GuidebookPg2",
@@ -1984,8 +1982,7 @@
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guidebook_pg_2",
-      "path": "~/Guidebook"
+      "registry_name": "guidebook_pg_2"
     },
     {
       "name": "GuidebookPg3",
@@ -1993,8 +1990,7 @@
       "sortid": 210,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guidebook_pg_3",
-      "path": "~/Guidebook"
+      "registry_name": "guidebook_pg_3"
     },
     {
       "name": "GuidbookPg4",
@@ -2002,8 +1998,7 @@
       "sortid": 211,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guidbook_pg_4",
-      "path": "~/Guidebook"
+      "registry_name": "guidbook_pg_4"
     },
     {
       "name": "GuidebookPg5",
@@ -2011,8 +2006,7 @@
       "sortid": 212,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guidebook_pg_5",
-      "path": "~/Guidebook"
+      "registry_name": "guidebook_pg_5"
     },
     {
       "name": "Testarmor",
@@ -2149,13 +2143,15 @@
     "en_us": {
       "item.elements_of_tantalus.astral_sacrifice_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_heart_2": "Astral Heart - Actualized",
-      "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
+      "item.elements_of_tantalus.testarmor_helmet": "Testarmor Helmet",
       "item.elements_of_tantalus.wooden_tablet": "Wooden Tablet",
+      "block.elements_of_tantalus.binding_rune_block": "Binding Rune",
+      "block.elements_of_tantalus.astral_creation_rune_block": "Astral Creation Rune",
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
-      "block.elements_of_tantalus.astral_creation_rune_block": "Gilded Creation Rune",
       "item.elements_of_tantalus.air_rune": "Air Rune",
       "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "block.elements_of_tantalus.gilded_earth_rune_block": "Gilded Earth Rune",
+      "item.elements_of_tantalus.testarmor_chestplate": "Testarmor Body",
       "block.elements_of_tantalus.gilded_fire_rune_block": "Gilded Fire Rune",
       "item.elements_of_tantalus.embossed_earth_rune": "Gilded Earth Rune",
       "item.elements_of_tantalus.dark_spark": "Dark Spark",
@@ -2181,25 +2177,27 @@
       "item.elements_of_tantalus.astra_earth_rune": "Astral Earth Rune",
       "item.elements_of_tantalus.astral_water_rune": "Astral Water Rune",
       "block.elements_of_tantalus.lesser_air_rune_block": "Lesser Air Rune",
+      "item.elements_of_tantalus.corrupt_effigy_1": "!@#%\u0026#!@)(%",
       "item.elements_of_tantalus.bottle_of_blood": "Bottle Of Blood",
-      "block.elements_of_tantalus.astral_destruction_rune_block": "Gilded Destruction Rune",
+      "block.elements_of_tantalus.astral_destruction_rune_block": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_destruction_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_fire_rune": "Astral Fire Rune",
       "block.elements_of_tantalus.lesser_fire_rune_block": "Lesser Fire Rune",
       "item.elements_of_tantalus.embossed_destruction_rune": "Gilded Distruction Rune",
       "item.elements_of_tantalus.astral_etcher": "Astral Etcher",
       "item.elements_of_tantalus.flimsy_etcher": "Flimsy Etcher",
-      "block.elements_of_tantalus.astral_sacrifice_rune_block": "Gilded Sacrifice Rune",
+      "block.elements_of_tantalus.astral_sacrifice_rune_block": "Astral Sacrifice Rune",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
       "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
-      "itemGroup.tabelements_of_tantalus": "Tantalus Core",
       "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
+      "itemGroup.tabelements_of_tantalus": "Tantalus Core",
       "item.elements_of_tantalus.etcher": "Etcher",
       "block.elements_of_tantalus.lesser_inscription_table": "Lesser Inscription Table",
       "block.elements_of_tantalus.gilded_air_rune_block": "Gilded Air Rune",
       "item.elements_of_tantalus.metal_spark": "Metal Spark",
       "item.elements_of_tantalus.embossed_heart_2": "Gilded Tantalus Heart - Actualized",
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
+      "item.elements_of_tantalus.lesser_tantalus_heart_2": "Lesser Tantalus Heart - Actualized",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
       "block.elements_of_tantalus.air_rune_block": "Air Rune",
       "item.elements_of_tantalus.life_spark": "Life Spark",
@@ -2216,6 +2214,7 @@
       "item.elements_of_tantalus.effigy_4": "Effigy Of Tantalus Tier IV",
       "item.elements_of_tantalus.lesser_destruction_rune": "Lesser Destruction Rune",
       "block.elements_of_tantalus.destruction_rune_block": "Destruction Rune",
+      "item.elements_of_tantalus.testarmor_leggings": "Testarmor Leggings",
       "item.elements_of_tantalus.destruction_rune": "Destruction Rune",
       "block.elements_of_tantalus.lesser_sacrifice_rune_block": "Lesser Sacrifice Rune",
       "item.elements_of_tantalus.astral_air_rune": "Astral Air Rune",
@@ -2224,15 +2223,18 @@
       "item.elements_of_tantalus.creation_rune": "Creation Rune",
       "item.elements_of_tantalus.energy_spark": "Energy Spark",
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
+      "item.elements_of_tantalus.effigy_1": "Effigy Of Tantalus Tier I",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
+      "item.elements_of_tantalus.testarmor_boots": "Testarmor Boots",
       "item.elements_of_tantalus.embossed_air_rune": "Gilded Air Rune",
       "item.elements_of_tantalus.embossed_fire_rune": "Gilded Fire Rune",
       "block.elements_of_tantalus.gilded_water_rune_block": "Gilded Water Rune",
       "item.elements_of_tantalus.embossed_sacrifice_rune": "Gilded Sacrifice Rune",
       "block.elements_of_tantalus.astral_earth_rune_block": "Astral Earth Rune",
-      "block.elements_of_tantalus.astral_binding_rune_block": "Gilded Binding Rune",
+      "block.elements_of_tantalus.astral_binding_rune_block": "Astral Binding Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
+      "block.elements_of_tantalus.lesser_binding_rune_block": "Lesser Binding Rune",
       "block.elements_of_tantalus.astral_air_rune_block": "Astral Air Rune",
       "item.elements_of_tantalus.light_spark": "Light Spark",
       "item.elements_of_tantalus.tantalus_heart": "Tantalus Heart - Unactualized",
