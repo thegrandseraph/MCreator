@@ -63,61 +63,37 @@ public class SummonProcedure {
 								SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
-				new Object() {
-					private int ticks = 0;
-					private float waitTicks;
-					private LevelAccessor world;
+				for (int index0 = 0; index0 < (int) (30); index0++) {
+					new Object() {
+						private int ticks = 0;
+						private float waitTicks;
+						private LevelAccessor world;
 
-					public void start(LevelAccessor world, int waitTicks) {
-						this.waitTicks = waitTicks;
-						MinecraftForge.EVENT_BUS.register(this);
-						this.world = world;
-					}
-
-					@SubscribeEvent
-					public void tick(TickEvent.ServerTickEvent event) {
-						if (event.phase == TickEvent.Phase.END) {
-							this.ticks += 1;
-							if (this.ticks >= this.waitTicks)
-								run();
+						public void start(LevelAccessor world, int waitTicks) {
+							this.waitTicks = waitTicks;
+							MinecraftForge.EVENT_BUS.register(this);
+							this.world = world;
 						}
-					}
 
-					private void run() {
-						for (int index0 = 0; index0 < (int) (30); index0++) {
-							new Object() {
-								private int ticks = 0;
-								private float waitTicks;
-								private LevelAccessor world;
-
-								public void start(LevelAccessor world, int waitTicks) {
-									this.waitTicks = waitTicks;
-									MinecraftForge.EVENT_BUS.register(this);
-									this.world = world;
-								}
-
-								@SubscribeEvent
-								public void tick(TickEvent.ServerTickEvent event) {
-									if (event.phase == TickEvent.Phase.END) {
-										this.ticks += 1;
-										if (this.ticks >= this.waitTicks)
-											run();
-									}
-								}
-
-								private void run() {
-									if (world instanceof ServerLevel _level)
-										_level.getServer().getCommands().performCommand(
-												new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0.5), (y + 1), (z + 0.5)), Vec2.ZERO, _level,
-														4, "", new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
-												"particle minecraft:dust 0 0 0 5 ~0.5 ~1 ~0.5 0.50 0.50 0.50 0 50 normal");
-									MinecraftForge.EVENT_BUS.unregister(this);
-								}
-							}.start(world, 10);
+						@SubscribeEvent
+						public void tick(TickEvent.ServerTickEvent event) {
+							if (event.phase == TickEvent.Phase.END) {
+								this.ticks += 1;
+								if (this.ticks >= this.waitTicks)
+									run();
+							}
 						}
-						MinecraftForge.EVENT_BUS.unregister(this);
-					}
-				}.start(world, 200);
+
+						private void run() {
+							if (world instanceof ServerLevel _level)
+								_level.getServer().getCommands().performCommand(
+										new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0.5), (y + 1), (z + 0.5)), Vec2.ZERO, _level, 4, "",
+												new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
+										"particle minecraft:dust 0 0 0 5 ~0.5 ~1 ~0.5 0.50 0.50 0.50 0 50 normal");
+							MinecraftForge.EVENT_BUS.unregister(this);
+						}
+					}.start(world, 10);
+				}
 				new Object() {
 					private int ticks = 0;
 					private float waitTicks;
