@@ -2134,6 +2134,14 @@
       "path": "~/Tools/Inscription Table/Hearts"
     },
     {
+      "name": "TestA",
+      "type": "tag",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_a"
+    },
+    {
       "name": "TestB",
       "type": "item",
       "sortid": 223,
