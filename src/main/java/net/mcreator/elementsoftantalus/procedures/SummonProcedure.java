@@ -33,8 +33,7 @@ public class SummonProcedure {
 		if (entity == null)
 			return;
 		double previousRecipe = 0;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getItem() == ElementsOfTantalusModItems.EFFIGY_OF_TANTALUS) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ElementsOfTantalusModItems.EFFIGY_1) {
 			if ((world.getBlockState(new BlockPos((int) (x + 1), (int) (y + 0), (int) (z + 3))))
 					.getBlock() == ElementsOfTantalusModBlocks.LESSER_DESTRUCTION_RUNE_BLOCK
 					&& (world.getBlockState(new BlockPos((int) (x - 1), (int) (y + 0), (int) (z - 3))))
@@ -63,37 +62,61 @@ public class SummonProcedure {
 								SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
-				for (int index0 = 0; index0 < (int) (30); index0++) {
-					new Object() {
-						private int ticks = 0;
-						private float waitTicks;
-						private LevelAccessor world;
+				new Object() {
+					private int ticks = 0;
+					private float waitTicks;
+					private LevelAccessor world;
 
-						public void start(LevelAccessor world, int waitTicks) {
-							this.waitTicks = waitTicks;
-							MinecraftForge.EVENT_BUS.register(this);
-							this.world = world;
-						}
+					public void start(LevelAccessor world, int waitTicks) {
+						this.waitTicks = waitTicks;
+						MinecraftForge.EVENT_BUS.register(this);
+						this.world = world;
+					}
 
-						@SubscribeEvent
-						public void tick(TickEvent.ServerTickEvent event) {
-							if (event.phase == TickEvent.Phase.END) {
-								this.ticks += 1;
-								if (this.ticks >= this.waitTicks)
-									run();
-							}
+					@SubscribeEvent
+					public void tick(TickEvent.ServerTickEvent event) {
+						if (event.phase == TickEvent.Phase.END) {
+							this.ticks += 1;
+							if (this.ticks >= this.waitTicks)
+								run();
 						}
+					}
 
-						private void run() {
-							if (world instanceof ServerLevel _level)
-								_level.getServer().getCommands().performCommand(
-										new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0.5), (y + 1), (z + 0.5)), Vec2.ZERO, _level, 4, "",
-												new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
-										"particle minecraft:dust 0 0 0 5 ~0.5 ~1 ~0.5 0.50 0.50 0.50 0 50 normal");
-							MinecraftForge.EVENT_BUS.unregister(this);
+					private void run() {
+						for (int index0 = 0; index0 < (int) (30); index0++) {
+							new Object() {
+								private int ticks = 0;
+								private float waitTicks;
+								private LevelAccessor world;
+
+								public void start(LevelAccessor world, int waitTicks) {
+									this.waitTicks = waitTicks;
+									MinecraftForge.EVENT_BUS.register(this);
+									this.world = world;
+								}
+
+								@SubscribeEvent
+								public void tick(TickEvent.ServerTickEvent event) {
+									if (event.phase == TickEvent.Phase.END) {
+										this.ticks += 1;
+										if (this.ticks >= this.waitTicks)
+											run();
+									}
+								}
+
+								private void run() {
+									if (world instanceof ServerLevel _level)
+										_level.getServer().getCommands().performCommand(
+												new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0), (y + 1), (z + 0)), Vec2.ZERO, _level, 4,
+														"", new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
+												"particle minecraft:dust 0 0 0 5 ~0.5 ~1 ~0.5 0.50 0.50 0.50 0 50 normal");
+									MinecraftForge.EVENT_BUS.unregister(this);
+								}
+							}.start(world, 10);
 						}
-					}.start(world, 10);
-				}
+						MinecraftForge.EVENT_BUS.unregister(this);
+					}
+				}.start(world, 200);
 				new Object() {
 					private int ticks = 0;
 					private float waitTicks;
@@ -117,7 +140,7 @@ public class SummonProcedure {
 					private void run() {
 						if (world instanceof ServerLevel _level)
 							_level.getServer().getCommands().performCommand(
-									new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0.5), (y + 3), (z + 0.5)), Vec2.ZERO, _level, 4, "",
+									new CommandSourceStack(CommandSource.NULL, new Vec3((x + 0), (y + 3), (z + 0)), Vec2.ZERO, _level, 4, "",
 											new TextComponent(""), _level.getServer(), null).withSuppressedOutput(),
 									"summon minecraft:lightning_bolt ~0.5 ~3 ~0.5");
 						if (world instanceof ServerLevel _level) {
@@ -130,7 +153,7 @@ public class SummonProcedure {
 						}
 						MinecraftForge.EVENT_BUS.unregister(this);
 					}
-				}.start(world, 440);
+				}.start(world, 260);
 			}
 		}
 	}
