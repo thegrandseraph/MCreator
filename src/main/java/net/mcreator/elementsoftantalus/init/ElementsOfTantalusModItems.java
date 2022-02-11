@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -207,6 +208,8 @@ public class ElementsOfTantalusModItems {
 	public static final Item EFFIGY_1 = register(new Effigy1Item());
 	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
+	public static final Item LESSER_SHADE_OF_TANTALUS = register(new SpawnEggItem(ElementsOfTantalusModEntities.LESSER_SHADE_OF_TANTALUS, -16777216,
+			-1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)).setRegistryName("lesser_shade_of_tantalus_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
