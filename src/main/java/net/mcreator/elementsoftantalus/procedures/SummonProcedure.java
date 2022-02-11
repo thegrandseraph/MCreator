@@ -10,6 +10,7 @@ import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.animal.Cow;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
@@ -50,6 +51,11 @@ public class SummonProcedure {
 							.getBlock() == ElementsOfTantalusModBlocks.LESSER_WATER_RUNE_BLOCK
 					&& (world.getBlockState(new BlockPos((int) (x - 3), (int) (y + 0), (int) (z + 1))))
 							.getBlock() == ElementsOfTantalusModBlocks.LESSER_EARTH_RUNE_BLOCK) {
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(ElementsOfTantalusModItems.EFFIGY_1);
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
+							_player.inventoryMenu.getCraftSlots());
+				}
 				if (world.isClientSide())
 					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(ElementsOfTantalusModItems.CORRUPT_EFFIGY_1));
 				if (world instanceof Level _level) {
