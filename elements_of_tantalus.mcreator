@@ -2132,14 +2132,6 @@
       "locked_code": false,
       "registry_name": "lesser_tantalus_heart_2",
       "path": "~/Tools/Inscription Table/Hearts"
-    },
-    {
-      "name": "TestA",
-      "type": "tag",
-      "sortid": 223,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_a"
     }
   ],
   "variable_elements": [],

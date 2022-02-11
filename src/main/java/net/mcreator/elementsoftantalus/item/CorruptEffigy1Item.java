@@ -21,4 +21,9 @@ public class CorruptEffigy1Item extends Item {
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 		return 0F;
 	}
+
+	@Override
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
+	}
 }
