@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Along the gilded path",
-    "achievementDescription": "Create a heart more powerful than his original.",
+    "achievementDescription": "Craft a heart as beautiful as it is hollow.",
     "achievementIcon": {
       "value": "CUSTOM:EmbossedTantalusHeart"
     },

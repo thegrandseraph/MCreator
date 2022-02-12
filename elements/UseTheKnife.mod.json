@@ -3,9 +3,9 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "A contract of blood",
-    "achievementDescription": "Emulate tantules an bind your soul.",
+    "achievementDescription": "Bind the fallen king in a contract of blood.",
     "achievementIcon": {
-      "value": "CUSTOM:KnifeOfSacrifice"
+      "value": "CUSTOM:Effigy2"
     },
     "background": "Default",
     "disableDisplay": false,

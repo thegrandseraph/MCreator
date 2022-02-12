@@ -2197,15 +2197,6 @@
       "path": "~/Advancements"
     },
     {
-      "name": "KillNormal",
-      "type": "achievement",
-      "sortid": 230,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kill_normal",
-      "path": "~/Advancements"
-    },
-    {
       "name": "KillGilded",
       "type": "achievement",
       "sortid": 231,
@@ -2221,6 +2212,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill_astral",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "KillNormal",
+      "type": "achievement",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_normal",
       "path": "~/Advancements"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "elements_of_tantalus:knife_of_sacrifice"
+      "item": "elements_of_tantalus:effigy_2"
     },
     "title": {
       "translate": "advancements.use_the_knife.title"
@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "elements_of_tantalus:deleted_mod_element"
+  "parent": "elements_of_tantalus:getting_started"
 }
