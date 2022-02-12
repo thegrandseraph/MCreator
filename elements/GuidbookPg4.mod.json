@@ -33,77 +33,7 @@
           },
           "name": "Set up your rune blocks as such",
           "x": 132,
-          "y": 80
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "bindingrune1.png",
-          "use1Xscale": false,
-          "name": "bindingrune1.png",
-          "x": 204,
-          "y": 116
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "airrune1.png",
-          "use1Xscale": false,
-          "name": "airrune1.png",
-          "x": 204,
-          "y": 98
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "earthrune1.png",
-          "use1Xscale": false,
-          "name": "earthrune1.png",
-          "x": 204,
-          "y": 134
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "firerune1.png",
-          "use1Xscale": false,
-          "name": "firerune1.png",
-          "x": 186,
-          "y": 116
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "waterrune1.png",
-          "use1Xscale": false,
-          "name": "waterrune1.png",
-          "x": 222,
-          "y": 116
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "creationrune1.png",
-          "use1Xscale": false,
-          "name": "creationrune1.png",
-          "x": 186,
-          "y": 98
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "destructionrune1.png",
-          "use1Xscale": false,
-          "name": "destructionrune1.png",
-          "x": 222,
-          "y": 134
+          "y": 53
         }
       },
       {
@@ -116,7 +46,7 @@
           },
           "name": "Now just right click the center",
           "x": 132,
-          "y": 152
+          "y": 170
         }
       },
       {
@@ -129,7 +59,17 @@
           },
           "name": "with your crafted effigy",
           "x": 150,
-          "y": 161
+          "y": 179
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ritual.png",
+          "use1Xscale": false,
+          "name": "ritual.png",
+          "x": 159,
+          "y": 62
         }
       }
     ],
@@ -138,7 +78,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }
