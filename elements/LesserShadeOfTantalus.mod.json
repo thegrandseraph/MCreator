@@ -5,8 +5,8 @@
     "mobName": "Lesser Shade Of Tantalus",
     "mobLabel": "",
     "mobModelName": "Modelsteve",
-    "mobModelTexture": "63d4d1e7879aabfe28dd8f409b6e2fdc0fad6324.png",
-    "mobModelGlowTexture": "",
+    "mobModelTexture": "tantalusblank.png",
+    "mobModelGlowTexture": "63d4d1e7879aabfe28dd8f409b6e2fdc0fad6324.png",
     "modelWidth": 1.0,
     "modelHeight": 2.0,
     "modelShadowSize": 0.75,
@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ElementsOfTantalus"
     },
     "isBoss": true,
     "bossBarColor": "PURPLE",
@@ -91,7 +91,7 @@
     "stepSound": {
       "value": ""
     },
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "SOUL"
     },

@@ -24,14 +24,12 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
@@ -201,20 +199,6 @@ public class LesserShadeOfTantalusEntity extends Monster {
 	public void aiStep() {
 		super.aiStep();
 		this.setNoGravity(true);
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-		Level world = this.level;
-		for (int l = 0; l < 5; ++l) {
-			double x0 = x + random.nextFloat();
-			double y0 = y + random.nextFloat();
-			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 1.499999998509884D;
-			double dy = (random.nextFloat() - 0.5D) * 1.499999998509884D;
-			double dz = (random.nextFloat() - 0.5D) * 1.499999998509884D;
-			world.addParticle(ParticleTypes.SOUL, x0, y0, z0, dx, dy, dz);
-		}
 	}
 
 	public static void init() {
