@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "elements_of_tantalus:corrupt_effigy_1"
+    },
+    "title": {
+      "translate": "advancements.kill_normal.title"
+    },
+    "description": {
+      "translate": "advancements.kill_normal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_normal": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "elements_of_tantalus:mediocre_runes"
+}
