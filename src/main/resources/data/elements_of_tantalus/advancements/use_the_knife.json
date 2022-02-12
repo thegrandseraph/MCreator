@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "elements_of_tantalus:deleted_mod_element"
+  "parent": "elements_of_tantalus:getting_started"
 }

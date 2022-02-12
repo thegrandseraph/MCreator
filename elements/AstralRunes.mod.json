@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Across the finish line",
-    "achievementDescription": "Walk farther than any other.",
+    "achievementDescription": "Learn the language of the gods.",
     "achievementIcon": {
       "value": "CUSTOM:AstralHeart"
     },

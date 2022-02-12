@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Walking in the dead kings footsteps.",
-    "achievementDescription": "Start walking on tantaluses path.",
+    "achievementDescription": "Scratch some runes of power into wood.",
     "achievementIcon": {
       "value": "CUSTOM:LesserTantalusHeart"
     },

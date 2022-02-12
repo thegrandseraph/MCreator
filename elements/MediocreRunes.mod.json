@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Down the path to power",
-    "achievementDescription": "Travel farther down the path of the dead king.",
+    "achievementDescription": "The path to power is paved with stone and steel.",
     "achievementIcon": {
       "value": "CUSTOM:TantalusHeart"
     },
