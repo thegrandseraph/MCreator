@@ -47,26 +47,8 @@ public class GuidbookPg4Screen extends AbstractContainerScreen<GuidbookPg4Menu> 
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/bindingrune1.png"));
-		this.blit(ms, this.leftPos + 78, this.topPos + 79, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/airrune1.png"));
-		this.blit(ms, this.leftPos + 78, this.topPos + 61, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/earthrune1.png"));
-		this.blit(ms, this.leftPos + 78, this.topPos + 97, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/firerune1.png"));
-		this.blit(ms, this.leftPos + 60, this.topPos + 79, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/waterrune1.png"));
-		this.blit(ms, this.leftPos + 96, this.topPos + 79, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/creationrune1.png"));
-		this.blit(ms, this.leftPos + 60, this.topPos + 61, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/destructionrune1.png"));
-		this.blit(ms, this.leftPos + 96, this.topPos + 97, 0, 0, 16, 16, 16, 16);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("elements_of_tantalus:textures/ritual.png"));
+		this.blit(ms, this.leftPos + 33, this.topPos + 25, 0, 0, 108, 106, 108, 106);
 
 		RenderSystem.disableBlend();
 	}
@@ -88,9 +70,9 @@ public class GuidbookPg4Screen extends AbstractContainerScreen<GuidbookPg4Menu> 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "4. Summon Tantalus...", 6, 7, -12829636);
-		this.font.draw(poseStack, "Set up your rune blocks as such", 6, 43, -12829636);
-		this.font.draw(poseStack, "Now just right click the center", 6, 115, -12829636);
-		this.font.draw(poseStack, "with your crafted effigy", 24, 124, -12829636);
+		this.font.draw(poseStack, "Set up your rune blocks as such", 6, 16, -12829636);
+		this.font.draw(poseStack, "Now just right click the center", 6, 133, -12829636);
+		this.font.draw(poseStack, "with your crafted effigy", 24, 142, -12829636);
 	}
 
 	@Override
