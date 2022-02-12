@@ -1873,30 +1873,12 @@
       "path": "~/Advancements"
     },
     {
-      "name": "CraftAir1Block",
+      "name": "CraftCreate1Block",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_air_1_block",
-      "path": "~/Tools/Runes/Teir1 Blocks"
-    },
-    {
-      "name": "CraftWater1Block",
-      "type": "recipe",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_water_1_block",
-      "path": "~/Tools/Runes/Teir1 Blocks"
-    },
-    {
-      "name": "CraftEarth1Block",
-      "type": "recipe",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_earth_1_block",
+      "registry_name": "craft_create_1_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
@@ -1909,21 +1891,12 @@
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
-      "name": "CraftCreate1Block",
+      "name": "CraftEarth1Block",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_create_1_block",
-      "path": "~/Tools/Runes/Teir1 Blocks"
-    },
-    {
-      "name": "CraftDestroy1Block",
-      "type": "recipe",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft_destroy_1_block",
+      "registry_name": "craft_earth_1_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
@@ -1936,6 +1909,15 @@
       "path": "~/Tools/Runes/Teir1 Blocks"
     },
     {
+      "name": "CraftAir1Block",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_air_1_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
       "name": "CraftBind1Block",
       "type": "recipe",
       "sortid": 237,
@@ -1943,6 +1925,51 @@
       "locked_code": false,
       "registry_name": "craft_bind_1_block",
       "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "CraftDestroy1Block",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_destroy_1_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "CraftWater1Block",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_water_1_block",
+      "path": "~/Tools/Runes/Teir1 Blocks"
+    },
+    {
+      "name": "KillGilded",
+      "type": "achievement",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_gilded",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "KillAstral",
+      "type": "achievement",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_astral",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "KillNormal",
+      "type": "achievement",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_normal",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1966,7 +1993,6 @@
       "block.elements_of_tantalus.inscription_table": "Inscription Table",
       "block.elements_of_tantalus.astral_creation_rune_block": "Astral Creation Rune",
       "item.elements_of_tantalus.air_rune": "Air Rune",
-      "advancements.use_the_knife.title": "A contract of blood",
       "item.elements_of_tantalus.astral_tablet": "Astral Tablet",
       "block.elements_of_tantalus.gilded_earth_rune_block": "Gilded Earth Rune",
       "item.elements_of_tantalus.testarmor_chestplate": "Testarmor Body",
@@ -1978,8 +2004,6 @@
       "itemGroup.tabrunes": "Tantalus Runes",
       "item.elements_of_tantalus.masterwork_etcher": "Masterwork Etcher",
       "block.elements_of_tantalus.lesser_earth_rune_block": "Lesser Earth Rune",
-      "advancements.mediocre_runes.title": "Down the path to power",
-      "advancements.gilded_runes.descr": "Craft a heart as beautiful as it is hollow.",
       "item.elements_of_tantalus.lesser_creation_rune": "Lesser Creation Rune",
       "block.elements_of_tantalus.astral_fire_rune_block": "Astral Fire Rune",
       "block.elements_of_tantalus.sacrifice_rune_block": "Sacrifice Rune",
@@ -1990,7 +2014,6 @@
       "item.elements_of_tantalus.embossed_water_rune": "Gilded Water Rune",
       "item.elements_of_tantalus.lesser_air_rune": "Lesser Air Rune",
       "block.elements_of_tantalus.fire_rune_block": "Fire Rune",
-      "advancements.astral_runes.title": "Across the finish line",
       "block.elements_of_tantalus.gilded_creation_rune_block": "Gilded Creation Rune",
       "block.elements_of_tantalus.astral_water_rune_block": "Astral Water Rune",
       "item.elements_of_tantalus.lesser_fire_rune": "Lesser Fire Rune",
@@ -2005,14 +2028,12 @@
       "item.elements_of_tantalus.astral_destruction_rune": "Astral Destruction Rune",
       "item.elements_of_tantalus.astral_fire_rune": "Astral Fire Rune",
       "block.elements_of_tantalus.lesser_fire_rune_block": "Lesser Fire Rune",
-      "advancements.getting_started.title": "Walking in the dead kings footsteps.",
       "item.elements_of_tantalus.embossed_destruction_rune": "Gilded Distruction Rune",
       "item.elements_of_tantalus.astral_etcher": "Astral Etcher",
       "item.elements_of_tantalus.flimsy_etcher": "Flimsy Etcher",
       "block.elements_of_tantalus.astral_sacrifice_rune_block": "Astral Sacrifice Rune",
       "item.elements_of_tantalus.stone_tablet": "Stone Tablet",
       "item.elements_of_tantalus.effigy_of_tantalus": "Effigy Of Tantalus",
-      "advancements.astral_runes.descr": "Learn the language of the gods.",
       "block.elements_of_tantalus.earth_rune_block": "Earth Rune",
       "itemGroup.tabelements_of_tantalus": "Tantalus Core",
       "item.elements_of_tantalus.etcher": "Etcher",
@@ -2023,14 +2044,12 @@
       "item.elements_of_tantalus.tantalus_heart_2": "Tantalus Heart - Actualized",
       "item.elements_of_tantalus.lesser_tantalus_heart_2": "Lesser Tantalus Heart - Actualized",
       "block.elements_of_tantalus.embossed_inscription_table": "Gilded Inscription Table",
-      "advancements.use_the_knife.descr": "Bind the fallen king in a contract of blood.",
       "block.elements_of_tantalus.air_rune_block": "Air Rune",
       "item.elements_of_tantalus.life_spark": "Life Spark",
       "item.elements_of_tantalus.embossed_tablet": "Gilded Tablet",
       "item.elements_of_tantalus.fire_rune": "Fire Rune",
       "item.elements_of_tantalus.astral_creation_rune": "Astral Creation Rune",
       "item.elements_of_tantalus.lesser_water_rune": "Lesser Water Rune",
-      "advancements.kill_lesser.descr": "Can greed truly die?",
       "item.elements_of_tantalus.sky_spark": "Sky Spark",
       "item.elements_of_tantalus.astral_heart": "Astral Heart - Unactualized",
       "item.elements_of_tantalus.effigy_3": "Effigy Of Tantalus Tier III",
@@ -2051,18 +2070,14 @@
       "item.elements_of_tantalus.knife_of_sacrifice": "Knife Of Sacrifice",
       "item.elements_of_tantalus.effigy_1": "Effigy Of Tantalus Tier I",
       "item.elements_of_tantalus.lesser_earth_rune": "Lesser Earth Rune",
-      "advancements.gilded_runes.title": "Along the gilded path",
-      "advancements.getting_started.descr": "Scratch some runes of power into wood.",
       "item.elements_of_tantalus.testarmor_boots": "Testarmor Boots",
       "item.elements_of_tantalus.embossed_air_rune": "Gilded Air Rune",
-      "advancements.mediocre_runes.descr": "The path to power is paved with stone and steel.",
       "item.elements_of_tantalus.embossed_fire_rune": "Gilded Fire Rune",
       "block.elements_of_tantalus.gilded_water_rune_block": "Gilded Water Rune",
       "item.elements_of_tantalus.embossed_sacrifice_rune": "Gilded Sacrifice Rune",
       "block.elements_of_tantalus.astral_earth_rune_block": "Astral Earth Rune",
       "block.elements_of_tantalus.astral_binding_rune_block": "Astral Binding Rune",
       "item.elements_of_tantalus.embossed_tantalus_heart": "Gilded Tantalus Heart - Unactualized",
-      "advancements.kill_lesser.title": "Shade Slayer.",
       "item.elements_of_tantalus.lesser_shade_of_tantalus_spawn_egg": "Lesser Shade Of Tantalus Spawn Egg",
       "item.elements_of_tantalus.earth_rune": "Earth Rune",
       "block.elements_of_tantalus.lesser_binding_rune_block": "Lesser Binding Rune",
