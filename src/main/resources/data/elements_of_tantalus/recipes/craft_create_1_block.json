@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    },
+    "1": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    },
+    "3": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    },
+    "4": {
+      "item": "elements_of_tantalus:dream_spark"
+    },
+    "5": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    },
+    "7": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    },
+    "8": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:lesser_creation_rune_block",
+    "count": 1
+  }
+}

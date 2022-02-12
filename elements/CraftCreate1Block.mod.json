@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      },
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      },
+      {
+        "value": "CUSTOM:DreamSpark"
+      },
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      },
+      {
+        "value": "CUSTOM:LesserCreationRune"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LesserCreationRuneBlock"
+    },
+    "name": "craft_create_1_block",
+    "namespace": "mod"
+  }
+}

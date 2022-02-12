@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "elements_of_tantalus:lesser_creation_rune"
+    },
+    "1": {
+      "item": "elements_of_tantalus:lesser_air_rune"
+    },
+    "2": {
+      "item": "elements_of_tantalus:flimsy_etcher"
+    },
+    "3": {
+      "item": "elements_of_tantalus:lesser_fire_rune"
+    },
+    "4": {
+      "item": "elements_of_tantalus:lesser_sacrifice_rune"
+    },
+    "5": {
+      "item": "elements_of_tantalus:lesser_water_rune"
+    },
+    "6": {
+      "item": "elements_of_tantalus:bottle_of_blood"
+    },
+    "7": {
+      "item": "elements_of_tantalus:lesser_earth_rune"
+    },
+    "8": {
+      "item": "elements_of_tantalus:lesser_destruction_rune"
+    }
+  },
+  "result": {
+    "item": "elements_of_tantalus:lesser_binding_rune_block",
+    "count": 1
+  }
+}

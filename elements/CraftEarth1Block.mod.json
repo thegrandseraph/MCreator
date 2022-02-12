@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      },
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      },
+      {
+        "value": "CUSTOM:DreamSpark"
+      },
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      },
+      {
+        "value": "CUSTOM:LesserEarthRune"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LesserEarthRuneBlock"
+    },
+    "name": "craft_earth_1_block",
+    "namespace": "mod"
+  }
+}
