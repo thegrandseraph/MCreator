@@ -1628,24 +1628,6 @@
       "path": "~/Tools/Runes/Teir4 Blocks"
     },
     {
-      "name": "GuidebookPg2",
-      "type": "gui",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guidebook_pg_2",
-      "path": "~/Book"
-    },
-    {
-      "name": "GuidebookPg3",
-      "type": "gui",
-      "sortid": 210,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guidebook_pg_3",
-      "path": "~/Book"
-    },
-    {
       "name": "CraftEffigy",
       "type": "recipe",
       "sortid": 214,
@@ -1706,15 +1688,6 @@
       "path": "~/Book"
     },
     {
-      "name": "GuidebookPg5",
-      "type": "gui",
-      "sortid": 212,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guidebook_pg_5",
-      "path": "~/Book"
-    },
-    {
       "name": "Effigy1",
       "type": "item",
       "sortid": 215,
@@ -1722,15 +1695,6 @@
       "locked_code": false,
       "registry_name": "effigy_1",
       "path": "~/Tools/Misc"
-    },
-    {
-      "name": "GuidbookPg4",
-      "type": "gui",
-      "sortid": 211,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guidbook_pg_4",
-      "path": "~/Book"
     },
     {
       "name": "CraftEffigy1",
@@ -1758,15 +1722,6 @@
       "locked_code": false,
       "registry_name": "craft_effigy_2",
       "path": "~/Tools/Misc"
-    },
-    {
-      "name": "Guidebook1Pg1",
-      "type": "gui",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guidebook_1_pg_1",
-      "path": "~/Book"
     },
     {
       "name": "CraftEffigy4",
