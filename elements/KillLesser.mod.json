@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Shade slayer",
-    "achievementDescription": "Kill a shade of your predecessor.",
+    "achievementName": "Shade Slayer.",
+    "achievementDescription": "Can greed truly die?",
     "achievementIcon": {
       "value": "CUSTOM:CorruptEffigy1"
     },
