@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "elements_of_tantalus:embossed_tantalus_heart"
+    },
+    "title": {
+      "translate": "advancements.gilded_runes.title"
+    },
+    "description": {
+      "translate": "advancements.gilded_runes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gilded_runes": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "elements_of_tantalus:mediocre_runes"
+}
