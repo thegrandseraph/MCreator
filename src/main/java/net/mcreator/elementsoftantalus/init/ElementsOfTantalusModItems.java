@@ -209,7 +209,7 @@ public class ElementsOfTantalusModItems {
 	public static final Item LESSER_BINDING_RUNE_BLOCK = register(ElementsOfTantalusModBlocks.LESSER_BINDING_RUNE_BLOCK,
 			ElementsOfTantalusModTabs.TAB_RUNES);
 	public static final Item LESSER_SHADE_OF_TANTALUS = register(new SpawnEggItem(ElementsOfTantalusModEntities.LESSER_SHADE_OF_TANTALUS, -16777216,
-			-1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)).setRegistryName("lesser_shade_of_tantalus_spawn_egg"));
+			-1, new Item.Properties().tab(ElementsOfTantalusModTabs.TAB_ELEMENTS_OF_TANTALUS)).setRegistryName("lesser_shade_of_tantalus_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
