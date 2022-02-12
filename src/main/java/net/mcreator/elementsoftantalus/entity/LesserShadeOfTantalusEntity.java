@@ -4,14 +4,9 @@ package net.mcreator.elementsoftantalus.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fmllegacy.network.NetworkHooks;
 import net.minecraftforge.fmllegacy.network.FMLPlayMessages;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -19,23 +14,18 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
@@ -47,17 +37,9 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModItems;
 import net.mcreator.elementsoftantalus.init.ElementsOfTantalusModEntities;
 
-import java.util.Random;
 import java.util.EnumSet;
 
-@Mod.EventBusSubscriber
 public class LesserShadeOfTantalusEntity extends Monster {
-	@SubscribeEvent
-	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER)
-				.add(new MobSpawnSettings.SpawnerData(ElementsOfTantalusModEntities.LESSER_SHADE_OF_TANTALUS, 20, 4, 4));
-	}
-
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.PURPLE,
 			ServerBossEvent.BossBarOverlay.PROGRESS);
 
@@ -69,6 +51,7 @@ public class LesserShadeOfTantalusEntity extends Monster {
 		super(type, world);
 		xpReward = 50;
 		setNoAi(false);
+		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
@@ -85,7 +68,8 @@ public class LesserShadeOfTantalusEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new Goal() {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 5, true));
+		this.goalSelector.addGoal(2, new Goal() {
 			{
 				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
 			}
@@ -108,7 +92,7 @@ public class LesserShadeOfTantalusEntity extends Monster {
 			public void start() {
 				LivingEntity livingentity = LesserShadeOfTantalusEntity.this.getTarget();
 				Vec3 vec3d = livingentity.getEyePosition(1);
-				LesserShadeOfTantalusEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+				LesserShadeOfTantalusEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 5);
 			}
 
 			@Override
@@ -120,30 +104,23 @@ public class LesserShadeOfTantalusEntity extends Monster {
 					double d0 = LesserShadeOfTantalusEntity.this.distanceToSqr(livingentity);
 					if (d0 < 16) {
 						Vec3 vec3d = livingentity.getEyePosition(1);
-						LesserShadeOfTantalusEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+						LesserShadeOfTantalusEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 5);
 					}
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8, 20) {
-			@Override
-			protected Vec3 getPosition() {
-				Random random = LesserShadeOfTantalusEntity.this.getRandom();
-				double dir_x = LesserShadeOfTantalusEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_y = LesserShadeOfTantalusEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_z = LesserShadeOfTantalusEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
-				return new Vec3(dir_x, dir_y, dir_z);
-			}
-		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, false));
 	}
 
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEAD;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
@@ -229,30 +206,28 @@ public class LesserShadeOfTantalusEntity extends Monster {
 		double z = this.getZ();
 		Entity entity = this;
 		Level world = this.level;
-		for (int l = 0; l < 20; ++l) {
+		for (int l = 0; l < 5; ++l) {
 			double x0 = x + random.nextFloat();
 			double y0 = y + random.nextFloat();
 			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 0.5D;
-			double dy = (random.nextFloat() - 0.5D) * 0.5D;
-			double dz = (random.nextFloat() - 0.5D) * 0.5D;
+			double dx = (random.nextFloat() - 0.5D) * 1.499999998509884D;
+			double dy = (random.nextFloat() - 0.5D) * 1.499999998509884D;
+			double dz = (random.nextFloat() - 0.5D) * 1.499999998509884D;
 			world.addParticle(ParticleTypes.SOUL, x0, y0, z0, dx, dy, dz);
 		}
 	}
 
 	public static void init() {
-		SpawnPlacements.register(ElementsOfTantalusModEntities.LESSER_SHADE_OF_TANTALUS, SpawnPlacements.Type.ON_GROUND,
-				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
-						&& Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
-		builder = builder.add(Attributes.ARMOR, 1);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
+		builder = builder.add(Attributes.MAX_HEALTH, 60);
+		builder = builder.add(Attributes.ARMOR, 2);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 6);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 20);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.5);
 		return builder;
 	}
 }
