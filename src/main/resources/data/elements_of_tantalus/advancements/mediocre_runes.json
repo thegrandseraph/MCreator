@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "elements_of_tantalus:tantalus_heart"
+    },
+    "title": {
+      "translate": "advancements.mediocre_runes.title"
+    },
+    "description": {
+      "translate": "advancements.mediocre_runes.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mediocre_runes": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "elements_of_tantalus:deleted_mod_element"
+}

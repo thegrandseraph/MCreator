@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "elements_of_tantalus:effigy_2"
+    },
+    "title": {
+      "translate": "advancements.use_the_knife.title"
+    },
+    "description": {
+      "translate": "advancements.use_the_knife.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use_the_knife": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "elements_of_tantalus:deleted_mod_element"
+}

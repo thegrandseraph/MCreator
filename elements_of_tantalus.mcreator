@@ -2141,6 +2141,51 @@
       "locked_code": false,
       "registry_name": "lesser_shade_of_tantalus",
       "path": "~/Bosses"
+    },
+    {
+      "name": "GettingStarted",
+      "type": "achievement",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "getting_started",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GildedRunes",
+      "type": "achievement",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_runes",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AstralRunes",
+      "type": "achievement",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_runes",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MediocreRunes",
+      "type": "achievement",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mediocre_runes",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "UseTheKnife",
+      "type": "achievement",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_the_knife",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -2391,6 +2436,10 @@
         "children": []
       },
       {
+        "name": "Bosses",
+        "children": []
+      },
+      {
         "name": "GUI",
         "children": []
       },
@@ -2439,10 +2488,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "Bosses",
-        "children": []
       }
     ]
   },

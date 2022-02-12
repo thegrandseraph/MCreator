@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "elements_of_tantalus:astral_heart"
+    },
+    "title": {
+      "translate": "advancements.astral_runes.title"
+    },
+    "description": {
+      "translate": "advancements.astral_runes.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "astral_runes": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "elements_of_tantalus:deleted_mod_element"
+}
